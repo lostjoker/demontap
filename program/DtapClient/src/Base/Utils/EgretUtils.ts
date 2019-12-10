@@ -132,27 +132,61 @@ function egretTimer(option: {
     }
 }
 
-function byLanguage(key: string = null): PropertyDecorator {
+function byLanguage(key: string = null, prop: string = null): PropertyDecorator {
     return (target: any, propertyKey: string) => {
         const _childrenCreated: () => void = target.childrenCreated
         target.childrenCreated = function() {
             _childrenCreated.call(this)
-            const label = this[propertyKey] as eui.Label | eui.Button
+            const label = this[propertyKey]
             const text = GameData.getText(`UI/${key || propertyKey}`)
-            if (is(label, 'eui.Label')) {
-                const control = label as eui.Label
-                control.text = text
-            } else if (is(label, 'eui.Button')) {
-                const control = label as eui.Button
 
-                if (control.labelDisplay) {
-                    control.labelDisplay.text = text
-                }
+            setTextToControl(prop, label, text, propertyKey)
+        }
+    }
+}
 
-                control.label = text
-            } else {
-                dtap.err(`not a valid label: ${propertyKey}`)
-            }
+function setTextToControl(
+    prop: string,
+    label: egret.DisplayObject,
+    text: string,
+    propertyKey: string,
+) {
+    if (prop && label[prop]) {
+        label[prop] = text
+    } else if (is(label, 'eui.EditableText')) {
+        const control = label as eui.EditableText
+        control.prompt = text
+
+        // dtap.verbose(`set prompt of ${propertyKey} to ${text}`)
+    } else if (is(label, 'eui.Label')) {
+        const control = label as eui.Label
+        control.text = text
+
+        // dtap.verbose(`set text of ${propertyKey} to ${text}`)
+    } else if (is(label, 'eui.Button')) {
+        const control = label as eui.Button
+
+        if (control.labelDisplay) {
+            control.labelDisplay.text = text
+        }
+
+        control.label = text
+
+        // dtap.verbose(`set label of ${propertyKey} to ${text}`)
+    } else {
+        dtap.err(`not a valid label: ${propertyKey}`)
+    }
+}
+
+function byLanguageByState(key: string = null, prop: string = null): PropertyDecorator {
+    return (target: any, propertyKey: string) => {
+        const _invalidateState: () => void = target.invalidateState
+        target.invalidateState = function() {
+            const thisArg = this as eui.Component
+            _invalidateState.call(thisArg)
+            const label = thisArg[propertyKey]
+            const text = GameData.getText(`UI/${key || propertyKey}.${thisArg.currentState}`)
+            setTextToControl(prop, label, text, propertyKey)
         }
     }
 }

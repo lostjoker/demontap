@@ -13,16 +13,23 @@ class GameTown extends eui.Component {
 
     // public pfc:PlayerFaceCard;
     // public cb_sex:eui.CheckBox;
+
+    @byLanguage()
     public et_name: eui.EditableText
+    @byLanguage()
     public et_pwd: eui.EditableText
     public et_phone: eui.EditableText
     public et_code: eui.EditableText
+    @byLanguage()
     public btn_readylogin: eui.Button
+    @byLanguage()
     public btn_readyreg: eui.Button
+    @byLanguage()
     public btn_return: eui.Button
     // public btn_loginwx: eui.Button;
     // public btn_loginqq: eui.Button;
     // public btn_regnormal: eui.Button;
+    @byLanguage()
     public btn_reg: eui.Button
     public btn_getcode: eui.Button
     public dialog_noticeboard: DialogNoticeBoard

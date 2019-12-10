@@ -4,6 +4,15 @@
  * 怪物扭蛋弹出框
  */
 class DialogMonsterGaCha extends eui.Component {
+    @byLanguage()
+    btn_gacha0
+    @byLanguage()
+    btn_gacha1
+    @byLanguage()
+    lblGachaTitle
+    @byLanguage()
+    lblGachaDesc
+
     public gameui: eui.Component
     bb: BlockBoard
     sc_monster: eui.Scroller
@@ -117,8 +126,11 @@ class DialogMonsterGaCha extends eui.Component {
 
 class MonsterGachaRenderer extends eui.ItemRenderer {
     img_monster: eui.Image
+
     gpb_count: GameProgressBar
-    btn_lvlup: eui.Button
+
+    @byLanguageByState()
+    btnActivate: eui.Button
     data: Monster
 
     public constructor() {
@@ -127,7 +139,7 @@ class MonsterGachaRenderer extends eui.ItemRenderer {
         this.skinName = 'monsterActivate'
     }
 
-    @tapListener('img_monster')
+    // @tapListener('img_monster')
     showDetail() {
         const dialogMonsterInfo = new DialogMonsterInfo(this.data)
         dialogMonsterInfo.verticalCenter = 0
@@ -135,7 +147,7 @@ class MonsterGachaRenderer extends eui.ItemRenderer {
         GameUI.Instance.addChild(dialogMonsterInfo)
     }
 
-    @tapListener('btn_lvlup')
+    @tapListener('btnActivate')
     async activate() {
         if (this.data.activated) return
 

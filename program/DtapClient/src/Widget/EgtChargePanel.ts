@@ -3,6 +3,25 @@
 class EgtChargePanel extends eui.Component implements eui.UIComponent {
     lblChargeAddr: eui.Label
 
+    @byLanguage()
+    lblCharge1
+    @byLanguage()
+    lblCharge2
+    @byLanguage()
+    btnCopy
+    @byLanguage()
+    btnCharge6
+    @byLanguage()
+    btnCharge12
+    @byLanguage()
+    btnCharge30
+    @byLanguage()
+    btnCharge192
+    @byLanguage()
+    btnCharge368
+    @byLanguage()
+    btnCharge648
+
     public constructor() {
         super()
         this.skinName = 'EgtChagePanel'

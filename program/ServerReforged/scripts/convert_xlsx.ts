@@ -17,6 +17,25 @@ interface XlsxFileConfig {
     }>
 }
 
+const sheetsOfLanguage = [
+    {
+        name: 'UI',
+        keyColumn: 'key',
+    },
+    {
+        name: 'MonsterName',
+        keyColumn: 'key',
+    },
+    {
+        name: 'HeroName',
+        keyColumn: 'key',
+    },
+    {
+        name: 'AreaName',
+        keyColumn: 'key',
+    },
+]
+
 const CONFIG = {
     // 来源目录
     src_dir: path.join(__dirname, '../../../design'),
@@ -160,12 +179,12 @@ const CONFIG = {
         {
             path: 'lang_CN.xlsx',
             name: 'lang_CN',
-            sheets: [
-                {
-                    name: 'UI',
-                    keyColumn: 'key',
-                },
-            ],
+            sheets: sheetsOfLanguage,
+        },
+        {
+            path: 'lang_EN.xlsx',
+            name: 'lang_EN',
+            sheets: sheetsOfLanguage,
         },
     ] as XlsxFileConfig[],
 }
@@ -201,10 +220,12 @@ for (const file of CONFIG.files) {
          */
         const columns = data[0]
 
-        for (let i = 1; i < data.length; i++) {
+        for (let i = 1; i < Math.min(data.length, 9999); i++) {
             const lineobj = {}
             const line = data[i]
             let linekey = i - 1
+
+            if (line.length <= 0) continue
 
             for (let j = 0; j < line.length; j++) {
                 const cell = line[j]

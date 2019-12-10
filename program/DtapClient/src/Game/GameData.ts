@@ -1,5 +1,5 @@
 namespace GameData {
-    const LANG = 'CN'
+    const LANG: string = 'EN'
 
     let _data = null
 
@@ -100,7 +100,7 @@ namespace GameData {
         return _monsters[id]
     }
 
-    let _lang_json: { [key: string]: { [key: string]: { original: string } } }
+    let _lang_json: { [key: string]: { [key: string]: { original: string; translation: string } } }
     export function getText(key: string, ...args: any[]) {
         const [group, id] = key.split('/')
 
@@ -113,7 +113,11 @@ namespace GameData {
             return '_MISSING_TEXT_'
         }
 
-        let text = _lang_json[group][id].original + '_A'
+        let text = _lang_json[group][id].translation
+        // @ts-ignore
+        if (LANG === 'CN') {
+            text = _lang_json[group][id].original
+        }
 
         text = text.replace('\\n', '\n')
         for (let i = 0; i < args.length; ++i) {

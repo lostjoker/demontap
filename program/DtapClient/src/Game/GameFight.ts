@@ -3,6 +3,9 @@
  */
 @disposable()
 class GameFight extends eui.Component {
+    @byLanguage()
+    btn_moreMonsters
+
     monsterlist: eui.ArrayCollection
 
     timer_tap: egret.Timer
@@ -197,7 +200,7 @@ class GameFight extends eui.Component {
      * 点点点！！
      */
     @tapListener()
-    tap(e: egret.TouchEvent): void {
+    tap(): void {
         if (this.isNotFighting()) {
             return
         }
@@ -256,13 +259,20 @@ class GameFight extends eui.Component {
 
         // 外部字体没生效
         this.lbl_enemyinfo.fontFamily = 'fangzhengxiangsu'
+        // this.lbl_enemyinfo.text =
+        //     this.currentEnemy.name + '   ' + Tools.C_Num(this.currentEnemy.hp) + ''
+
         this.lbl_enemyinfo.text =
-            this.currentEnemy.name + '   ' + Tools.C_Num(this.currentEnemy.hp) + ''
+            GameData.getText(`HeroName/${this.currentEnemy.id}`) +
+            '   ' +
+            Tools.C_Num(this.currentEnemy.hp) +
+            ''
     }
 
     /**
      * 刷新英雄资源贴图
      */
+
     refreshHeroSrc(): void {
         this.img_enemy.source = 'hero' + this.currentEnemy.res + '_png'
         this.img_enemy.visible = true
@@ -306,22 +316,23 @@ class GameFight extends eui.Component {
      */
     @eventListener(dtap.EVENT_PLAYER_UPDATED, '@gameui')
     updatePlayer(): void {
-        this.lbl_gold.text = '金币: ' + Tools.C_Num(Player.me.gold)
+        this.updateGoldDisplay()
 
-        this.lblDemonDmg.text = '魔王伤害：' + Tools.C_Num(Player.me.demon.level.atk)
-        this.lblMonsterDmg.text = '怪物伤害：' + Tools.C_Num(0)
-        this.lblTotalDmg.text = '总伤害：' + Tools.C_Num(Player.me.demon.level.atk)
-        this.lblMp.text = '法力值：10 / 10'
+        this.lblDemonDmg.text = GameData.getText(
+            'UI/lblDemonDmg',
+            Tools.C_Num(Player.me.demon.level.atk),
+        )
+        this.lblMonsterDmg.text = GameData.getText('UI/lblMonsterDmg', Tools.C_Num(0))
+        this.lblTotalDmg.text = GameData.getText(
+            'UI/lblTotalDmg',
+            Tools.C_Num(Player.me.demon.level.atk),
+        )
+        this.lblMp.text = GameData.getText('UI/lblMp', '10 / 10')
 
         this.currentArea.id = Player.me.area
         this.currentArea.stage = Player.me.stage
         // 刷新，同步数据
-        this.lbl_stage.text =
-            this.currentArea.name +
-            '  ' +
-            (this.currentArea.stage + 1) +
-            ' / ' +
-            this.currentArea.maxstage
+        this.updateStageLabel()
 
         this.updateGameDataAndView()
         this.updateCurrentData()
@@ -370,44 +381,7 @@ class GameFight extends eui.Component {
         this.monsterlist.replaceAll(Player.me.monsters.filter(it => it.activated))
     }
 
-    protected createChildren() {
-        super.createChildren()
-
-        this.setChildIndex(this.mainBtnGroup, Const.ZINDEX.MAIN_MENU)
-
-        this.scroller_monster.viewport = this.g_mscroller
-        this.monsterlist = new eui.ArrayCollection()
-
-        // const dataGroup: eui.DataGroup = new eui.DataGroup();
-        // dataGroup.dataProvider = this.monsterlist;
-        // dataGroup.percentWidth = 100;
-        // dataGroup.percentHeight = 100;
-        // dataGroup.itemRenderer = MonsterGachaRenderer;
-
-        // this.g_monster.addChild(dataGroup);
-        this.g_monster.dataProvider = this.monsterlist
-        this.g_monster.itemRenderer = MonsterThumbRenderer
-
-        this.currentArea = new Area(Player.me.area)
-        const herodata = {
-            area: this.currentArea.id,
-            stage: this.currentArea.stage,
-        }
-        this.currentEnemy = Hero.Factory(herodata)
-        this.gpb_hp.init(this.currentEnemy.hp)
-
-        // this.initDragonBones();
-
-        this.updatePlayer()
-        this.refreshHeroSrc()
-        this.setTapTimer()
-    }
-
-    private isNotFighting() {
-        return GameUI.Instance.currentState && GameUI.Instance.currentState !== GameUI.STATUE.FIGHT
-    }
-
-    private dealDamage(data = null) {
+    public dealDamage(data = null) {
         if (!this.currentEnemy) {
             return
         }
@@ -455,7 +429,7 @@ class GameFight extends eui.Component {
             const zoom = new ZoomInOut(this.img_gold)
             zoom.start()
             // Tools.Hint("获得金币: " + goldget, this);
-            this.lbl_gold.text = '金币: ' + Tools.C_Num(Player.me.gold)
+            this.updateGoldDisplay()
             const herodata = {
                 area: this.currentArea.id,
                 stage: this.currentArea.stage,
@@ -469,9 +443,7 @@ class GameFight extends eui.Component {
                 this.currentArea.toNew()
                 this.img_bg.source = this.currentArea.res
             }
-            this.lbl_stage.text = `${this.currentArea.name}  ${this.currentArea.stage + 1} / ${
-                this.currentArea.maxstage
-            }`
+            this.updateStageLabel()
         }
 
         const bl_dmg: eui.BitmapLabel = new eui.BitmapLabel()
@@ -489,6 +461,57 @@ class GameFight extends eui.Component {
                 this.removeChild(bl_dmg)
             })
         ;(this.tween_ingame.damage as egret.Tween).play()
+    }
+
+    protected createChildren() {
+        super.createChildren()
+
+        this.setChildIndex(this.mainBtnGroup, Const.ZINDEX.MAIN_MENU)
+
+        this.scroller_monster.viewport = this.g_mscroller
+        this.monsterlist = new eui.ArrayCollection()
+
+        // const dataGroup: eui.DataGroup = new eui.DataGroup();
+        // dataGroup.dataProvider = this.monsterlist;
+        // dataGroup.percentWidth = 100;
+        // dataGroup.percentHeight = 100;
+        // dataGroup.itemRenderer = MonsterGachaRenderer;
+
+        // this.g_monster.addChild(dataGroup);
+        this.g_monster.dataProvider = this.monsterlist
+        this.g_monster.itemRenderer = MonsterThumbRenderer
+
+        this.currentArea = new Area(Player.me.area)
+        const herodata = {
+            area: this.currentArea.id,
+            stage: this.currentArea.stage,
+        }
+        this.currentEnemy = Hero.Factory(herodata)
+        this.gpb_hp.init(this.currentEnemy.hp)
+
+        // this.initDragonBones();
+
+        this.updatePlayer()
+        this.refreshHeroSrc()
+        this.setTapTimer()
+    }
+
+    private updateStageLabel() {
+        this.lbl_stage.text =
+            GameData.getText(`AreaName/${this.currentArea.id}`) +
+            `   ${this.currentArea.stage + 1} / ${this.currentArea.maxstage}`
+
+        // this.lbl_stage.text = `${this.currentArea.name}  ${this.currentArea.stage + 1} / ${
+        //     this.currentArea.maxstage
+        // }`
+    }
+
+    private isNotFighting() {
+        return GameUI.Instance.currentState && GameUI.Instance.currentState !== GameUI.STATUE.FIGHT
+    }
+
+    private updateGoldDisplay() {
+        this.lbl_gold.text = GameData.getText('UI/lbl_gold', Tools.C_Num(Player.me.gold))
     }
 
     /**
@@ -529,7 +552,10 @@ class GameFight extends eui.Component {
 
 class MonsterThumbRenderer extends eui.ItemRenderer {
     img_monster: eui.Image
+
+    @byLanguage()
     btn_lvlup: eui.Button
+
     data: Monster
 
     constructor() {

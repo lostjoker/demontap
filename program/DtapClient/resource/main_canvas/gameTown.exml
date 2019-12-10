@@ -9,10 +9,10 @@
 
 	<e:Image id="img_name" top="600" width="65" height="62" top.reg="440" source="icon_account_png" left="33"/>
 	<e:Component skinName="gameBg9" width="70%" height="105" top="580" top.reg="420"  left="120"/>
-	<e:EditableText id="et_name" width="70%" height="105" top="580" textAlign="center" verticalAlign="middle" size="70" top.reg="420" textColor="0xFFFFFF" left="120" text="角色名" text.login="" text.reg="" text.regauth="魔王名" prompt.login="魔王名" promptColor.login="0xe5d0d0" prompt.reg="魔王名" promptColor.reg="0xffffff"/>
+	<e:EditableText id="et_name" width="70%" height="105" top="580" textAlign="center" verticalAlign="middle" size="70" top.reg="420" textColor="0xFFFFFF" left="120" text.login="" text.reg="" promptColor.login="0xe5d0d0" promptColor.reg="0xffffff"/>
 	<e:Image id="img_phone"  top="700" width="65" height="62" top.reg="700" includeIn="reg" source="icon_phone_png" left="33" visible="false"/>
 	<e:Component skinName="gameBg9" width="70%" height="105" horizontalCenter="0" top="730" top.reg="550" includeIn="login,reg"  horizontalCenter.reg="0"/>
-	<e:EditableText id="et_pwd" height="105" top="730" textAlign="center" width="70%" size="70" includeIn="login,reg" top.reg="550" displayAsPassword.reg="true" displayAsPassword="true" textColor="0xFFFFFF" verticalAlign="middle"  left="120" left.reg="120" text="密码" text.login="" prompt.login="密码" promptColor.login="0xe8d0d0" text.reg="" prompt.reg="密码" promptColor.reg="0xffffff"/>
+	<e:EditableText id="et_pwd" height="105" top="730" textAlign="center" width="70%" size="70" includeIn="login,reg" top.reg="550" displayAsPassword.reg="true" displayAsPassword="true" textColor="0xFFFFFF" verticalAlign="middle"  left="120" left.reg="120" text.login="" promptColor.login="0xe8d0d0" text.reg="" promptColor.reg="0xffffff"/>
 	<e:Image id="img_pwd"  top="755" width="65" height="62" top.reg="570" includeIn="login,reg" source="icon_pwd_png" left="33" left.reg="33"/>
 	<e:Component skinName="gameBg9" width="70%" height="105" top="680"  includeIn="reg" left="120" visible="false"/>
 	<e:EditableText id="et_phone" top="680" textAlign="center" includeIn="reg" width="70%" height="105" size="70" verticalAlign="middle" textColor="0xFFFFFF" left="120" maxChars="20" text="" prompt="手机号" promptColor="0xffffff" visible="false"/>

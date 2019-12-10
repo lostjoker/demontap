@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "preload_json,altar_data_json,area_data_json,item_data_json,monster_data_json,hero_data_json,demons_data_json,egt_png,lang_CN_json",
+			"keys": "preload_json,altar_data_json,area_data_json,item_data_json,monster_data_json,hero_data_json,demons_data_json,egt_png,lang_CN_json,lang_EN_json",
 			"name": "preload"
 		},
 		{
@@ -254,6 +254,11 @@
 			"url": "data/converted/lang_CN.json",
 			"type": "json",
 			"name": "lang_CN_json"
+		},
+		{
+			"name": "lang_EN_json",
+			"type": "json",
+			"url": "data/converted/lang_EN.json"
 		}
 	]
 }
