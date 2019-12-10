@@ -1,4359 +1,2619 @@
 {
   "UI": {
     "btn_lvlup": {
-      "key": "btn_lvlup",
-      "original": "升  级",
       "translation": "Upgrade"
     },
     "btn_tab_dungeon": {
-      "key": "btn_tab_dungeon",
-      "original": "地  城",
       "translation": "Dungeon"
     },
     "btn_tab_market": {
-      "key": "btn_tab_market",
-      "original": "市  场",
       "translation": "Market"
     },
     "btn_tab_treasure": {
-      "key": "btn_tab_treasure",
-      "original": "宝  藏",
       "translation": "Inventory"
     },
     "btn_tab2demon": {
-      "key": "btn_tab2demon",
-      "original": "魔  王",
       "translation": "Demon"
     },
     "btn_showattr": {
-      "key": "btn_showattr",
-      "original": "属  性",
       "translation": "Attributes"
     },
     "btn_showbreak": {
-      "key": "btn_showbreak",
-      "original": "突  变",
       "translation": "Break"
     },
     "btn_showevo": {
-      "key": "btn_showevo",
-      "original": "进  化",
       "translation": "Evo"
     },
     "lbl_stage": {
-      "key": "lbl_stage",
-      "original": "帅气的大魔王",
       "translation": "HandsomeDemon"
     },
     "btn_tab2fight": {
-      "key": "btn_tab2fight",
-      "original": "战  斗",
       "translation": "Fight"
     },
     "btn_showskills": {
-      "key": "btn_showskills",
-      "original": "技  能",
       "translation": "Skills"
     },
     "btn_showmonsters": {
-      "key": "btn_showmonsters",
-      "original": "怪  物",
       "translation": "Monsters"
     },
     "btn_robplayer": {
-      "key": "btn_robplayer",
-      "original": "掠  夺",
       "translation": "Rob"
     },
     "lbl_coin": {
-      "key": "lbl_coin",
-      "original": "金币: {0}",
       "translation": "Coin: {0}"
     },
     "btn_lvl": {
-      "key": "btn_lvl",
-      "original": "魔王等级: {0}",
       "translation": "DemonLv.{0}"
     },
     "btn_atk": {
-      "key": "btn_atk",
-      "original": "攻击等级: {0}攻击: {1} \\n 升级所需: {2}",
       "translation": "ATK lv.{0} ATK {1} \\n Upgrade cost: {2}"
     },
     "btn_cri": {
-      "key": "btn_cri",
-      "original": "暴击等级: {0}暴击: {1} \\n 升级所需: {2}",
       "translation": "CRI lv.{0} CRI {1} \\n Upgrade cost: {2}"
     },
     "btn_spd": {
-      "key": "btn_spd",
-      "original": "速度等级: {0}速度: {1} \\n 升级所需: {2}",
       "translation": "SPD lv.{0} SPD {1} \\n Upgrade cost: {2}"
     },
     "lbl_demon_desc": {
-      "key": "lbl_demon_desc",
-      "original": "勇者与魔王之间生生不息的仇恨，分享这个世界付出了足够多的代价，他们已经逐渐遗忘是什么让他们变的强大",
       "translation": "Demon is Very Strong"
     },
     "btn_reg": {
-      "key": "btn_reg",
-      "original": "注  册",
       "translation": "Reg"
     },
     "btn_readylogin": {
-      "key": "btn_readylogin",
-      "original": "登  录",
       "translation": "Login"
     },
     "btn_readyreg": {
-      "key": "btn_readyreg",
-      "original": "注  册",
       "translation": "Reg"
     },
     "btn_return": {
-      "key": "btn_return",
-      "original": "返  回",
       "translation": "Login"
     },
     "et_name": {
-      "key": "et_name",
-      "original": "魔王名",
       "translation": "Username"
     },
     "et_pwd": {
-      "key": "et_pwd",
-      "original": "密码",
       "translation": "Password"
     },
     "lbl_gold": {
-      "key": "lbl_gold",
-      "original": "金币: {0}",
       "translation": "Coin: {0}"
     },
     "lblDemonDmg": {
-      "key": "lblDemonDmg",
-      "original": "魔王伤害：{0}",
       "translation": "Demon Dmg: {0}"
     },
     "lblMonsterDmg": {
-      "key": "lblMonsterDmg",
-      "original": "怪物伤害：{0}",
       "translation": "Monster Dmg: {0}"
     },
     "lblTotalDmg": {
-      "key": "lblTotalDmg",
-      "original": "总伤害：{0}",
       "translation": "Total Dmg: {0}"
     },
     "lblMp": {
-      "key": "lblMp",
-      "original": "法力值：{0}",
       "translation": "MP: {0}"
     },
     "lblCharge1": {
-      "key": "lblCharge1",
-      "original": "你的充值地址为：",
       "translation": "Your charge addr is:"
     },
     "lblCharge2": {
-      "key": "lblCharge2",
-      "original": "将任意数值的以太主网EGT转入充值地址以充值（最小0.00001）或点击下方按钮调用Metamask充值",
       "translation": "transfer any amount of EGT to the addr OR press buttons below to charge with Metamask."
     },
     "btnCopy": {
-      "key": "btnCopy",
-      "original": "点击复制充值地址",
       "translation": "Click to copy"
     },
     "btnCharge6": {
-      "key": "btnCharge6",
-      "original": "充值6EGT",
       "translation": "Charge 6 EGT"
     },
     "btnCharge12": {
-      "key": "btnCharge12",
-      "original": "充值12EGT",
       "translation": "Charge 12 EGT"
     },
     "btnCharge30": {
-      "key": "btnCharge30",
-      "original": "充值30EGT",
       "translation": "Charge 30 EGT"
     },
     "btnCharge192": {
-      "key": "btnCharge192",
-      "original": "充值192EGT",
       "translation": "Charge 192 EGT"
     },
     "btnCharge368": {
-      "key": "btnCharge368",
-      "original": "充值368EGT",
       "translation": "Charge 368 EGT"
     },
     "btnCharge648": {
-      "key": "btnCharge648",
-      "original": "充值648EGT",
       "translation": "Charge 648 EGT"
     },
     "btn_moreMonsters": {
-      "key": "btn_moreMonsters",
-      "original": "打开扭蛋\\n获取怪物",
       "translation": "Open Gacha \\n Get Monster"
     },
     "btn_gacha0": {
-      "key": "btn_gacha0",
-      "original": "转个小的",
       "translation": "Roll a small one"
     },
     "btn_gacha1": {
-      "key": "btn_gacha1",
-      "original": "转个高级",
       "translation": "Roll a advanced one"
     },
     "lblGachaTitle": {
-      "key": "lblGachaTitle",
-      "original": "怪物扭蛋",
       "translation": "Monster Gacha"
     },
     "lblGachaDesc": {
-      "key": "lblGachaDesc",
-      "original": "少年，你掉的是金蛋还是银蛋",
       "translation": "What do you got huh"
     },
     "btn_ok": {
-      "key": "btn_ok",
-      "original": "好哒！",
       "translation": "Okey"
     },
     "btnActivate.normal": {
-      "key": "btnActivate.normal",
-      "original": "激  活",
       "translation": "Activate"
     },
     "btnActivate.gotten": {
-      "key": "btnActivate.gotten",
-      "original": "已激活",
       "translation": "Activated"
     }
   },
   "MonsterName": {
     "0": {
-      "key": 0,
-      "original": "怪物模型",
       "translation": "ARandomMonster0"
     },
     "1": {
-      "key": 1,
-      "original": "测试角色1",
       "translation": "ARandomMonster1"
     },
     "2": {
-      "key": 2,
-      "original": "测试角色2",
       "translation": "ARandomMonster2"
     },
     "3": {
-      "key": 3,
-      "original": "测试角色3",
       "translation": "ARandomMonster3"
     },
     "4": {
-      "key": 4,
-      "original": "测试角色4",
       "translation": "ARandomMonster4"
     },
     "5": {
-      "key": 5,
-      "original": "测试角色5",
       "translation": "ARandomMonster5"
     },
     "6": {
-      "key": 6,
-      "original": "测试角色6",
       "translation": "ARandomMonster6"
     },
     "1001": {
-      "key": 1001,
-      "original": "枯骨卫士",
       "translation": "ARandomMonster7"
     },
     "1002": {
-      "key": 1002,
-      "original": "小恶魔",
       "translation": "ARandomMonster8"
     },
     "1003": {
-      "key": 1003,
-      "original": "巨角恶鬼",
       "translation": "ARandomMonster9"
     },
     "1004": {
-      "key": 1004,
-      "original": "魅魔",
       "translation": "ARandomMonster10"
     },
     "1005": {
-      "key": 1005,
-      "original": "邪恶守卫",
       "translation": "ARandomMonster11"
     },
     "1006": {
-      "key": 1006,
-      "original": "地狱火",
       "translation": "ARandomMonster12"
     }
   },
   "HeroName": {
     "0": {
-      "key": 0,
-      "original": "角色模型",
       "translation": "ARandomHero0"
     },
     "1": {
-      "key": 1,
-      "original": "测试角色1",
       "translation": "ARandomHero1"
     },
     "2": {
-      "key": 2,
-      "original": "测试角色2",
       "translation": "ARandomHero2"
     },
     "3": {
-      "key": 3,
-      "original": "测试角色3",
       "translation": "ARandomHero3"
     },
     "4": {
-      "key": 4,
-      "original": "测试角色4",
       "translation": "ARandomHero4"
     },
     "5": {
-      "key": 5,
-      "original": "测试角色5",
       "translation": "ARandomHero5"
     },
     "6": {
-      "key": 6,
-      "original": "测试角色6",
       "translation": "ARandomHero6"
     },
     "1001": {
-      "key": 1001,
-      "original": "小精灵",
       "translation": "ARandomHero7"
     },
     "1002": {
-      "key": 1002,
-      "original": "鱼人宝宝",
       "translation": "ARandomHero8"
     },
     "1003": {
-      "key": 1003,
-      "original": "镜像",
       "translation": "ARandomHero9"
     },
     "1004": {
-      "key": 1004,
-      "original": "羊",
       "translation": "ARandomHero10"
     },
     "1005": {
-      "key": 1005,
-      "original": "青蛙",
       "translation": "ARandomHero11"
     },
     "1006": {
-      "key": 1006,
-      "original": "鱼人斥候",
       "translation": "ARandomHero12"
     },
     "1007": {
-      "key": 1007,
-      "original": "缚法者",
       "translation": "ARandomHero13"
     },
     "1008": {
-      "key": 1008,
-      "original": "毒蛇",
       "translation": "ARandomHero14"
     },
     "1009": {
-      "key": 1009,
-      "original": "空无之影",
       "translation": "ARandomHero15"
     },
     "1010": {
-      "key": 1010,
-      "original": "紫罗兰学徒",
       "translation": "ARandomHero16"
     },
     "1011": {
-      "key": 1011,
-      "original": "小精灵",
       "translation": "ARandomHero17"
     },
     "1012": {
-      "key": 1012,
-      "original": "活动假人",
       "translation": "ARandomHero18"
     },
     "1013": {
-      "key": 1013,
-      "original": "法力浮龙",
       "translation": "ARandomHero19"
     },
     "1014": {
-      "key": 1014,
-      "original": "尘魔",
       "translation": "ARandomHero20"
     },
     "1017": {
-      "key": 1017,
-      "original": "持盾卫士",
       "translation": "ARandomHero21"
     },
     "1018": {
-      "key": 1018,
-      "original": "叫嚣的中士",
       "translation": "ARandomHero22"
     },
     "1019": {
-      "key": 1019,
-      "original": "狼人渗透者",
       "translation": "ARandomHero23"
     },
     "1020": {
-      "key": 1020,
-      "original": "麻疯侏儒",
       "translation": "ARandomHero24"
     },
     "1021": {
-      "key": 1021,
-      "original": "南海船工",
       "translation": "ARandomHero25"
     },
     "1022": {
-      "key": 1022,
-      "original": "银色侍从",
       "translation": "ARandomHero26"
     },
     "1023": {
-      "key": 1023,
-      "original": "幼龙鹰",
       "translation": "ARandomHero27"
     },
     "1024": {
-      "key": 1024,
-      "original": "结网蛛",
       "translation": "ARandomHero28"
     },
     "1025": {
-      "key": 1025,
-      "original": "肉用僵尸",
       "translation": "ARandomHero29"
     },
     "1026": {
-      "key": 1026,
-      "original": "送葬者",
       "translation": "ARandomHero30"
     },
     "1027": {
-      "key": 1027,
-      "original": "战斗机器人",
       "translation": "ARandomHero31"
     },
     "1028": {
-      "key": 1028,
-      "original": "齿轮大师",
       "translation": "ARandomHero32"
     },
     "1029": {
-      "key": 1029,
-      "original": "发条侏儒",
       "translation": "ARandomHero33"
     },
     "1030": {
-      "key": 1030,
-      "original": "暮光雏龙",
       "translation": "ARandomHero34"
     },
     "1031": {
-      "key": 1031,
-      "original": "神勇弓箭手",
       "translation": "ARandomHero35"
     },
     "1032": {
-      "key": 1032,
-      "original": "锈水海盗",
       "translation": "ARandomHero36"
     },
     "1033": {
-      "key": 1033,
-      "original": "低阶侍从",
       "translation": "ARandomHero37"
     },
     "1034": {
-      "key": 1034,
-      "original": "加基森枪骑士",
       "translation": "ARandomHero38"
     },
     "1035": {
-      "key": 1035,
-      "original": "赛场观众",
       "translation": "ARandomHero39"
     },
     "1036": {
-      "key": 1036,
-      "original": "深渊巨蟒",
       "translation": "ARandomHero40"
     },
     "1037": {
-      "key": 1037,
-      "original": "坑道穴居人",
       "translation": "ARandomHero41"
     },
     "1038": {
-      "key": 1038,
-      "original": "遗物搜寻者",
       "translation": "ARandomHero42"
     },
     "1039": {
-      "key": 1039,
-      "original": "炽炎蝙蝠",
       "translation": "ARandomHero43"
     },
     "1040": {
-      "key": 1040,
-      "original": "执刃教徒",
       "translation": "ARandomHero44"
     },
     "1041": {
-      "key": 1041,
-      "original": "着魔的村民",
       "translation": "ARandomHero45"
     },
     "1042": {
-      "key": 1042,
-      "original": "恩佐斯的副官",
       "translation": "ARandomHero46"
     },
     "1043": {
-      "key": 1043,
-      "original": "恩佐斯的触须",
       "translation": "ARandomHero47"
     },
     "1044": {
-      "key": 1044,
-      "original": "狂热的新兵",
       "translation": "ARandomHero48"
     },
     "1045": {
-      "key": 1045,
-      "original": "魔法乌鸦",
       "translation": "ARandomHero49"
     },
     "1046": {
-      "key": 1046,
-      "original": "吹嘘海盗",
       "translation": "ARandomHero50"
     },
     "1047": {
-      "key": 1047,
-      "original": "玛克扎尔的小鬼",
       "translation": "ARandomHero51"
     },
     "1048": {
-      "key": 1048,
-      "original": "奥术畸体",
       "translation": "ARandomHero52"
     },
     "1049": {
-      "key": 1049,
-      "original": "符文之卵",
       "translation": "ARandomHero53"
     },
     "1050": {
-      "key": 1050,
-      "original": "暗金教侍从",
       "translation": "ARandomHero54"
     },
     "1051": {
-      "key": 1051,
-      "original": "雄斑虎",
       "translation": "ARandomHero55"
     },
     "1052": {
-      "key": 1052,
-      "original": "污鳞劫掠者",
       "translation": "ARandomHero56"
     },
     "1053": {
-      "key": 1053,
-      "original": "亡灵药剂师",
       "translation": "ARandomHero57"
     },
     "1054": {
-      "key": 1054,
-      "original": "森林狼",
       "translation": "ARandomHero58"
     },
     "1055": {
-      "key": 1055,
-      "original": "北郡牧师",
       "translation": "ARandomHero59"
     },
     "1056": {
-      "key": 1056,
-      "original": "虚空行者",
       "translation": "ARandomHero60"
     },
     "1057": {
-      "key": 1057,
-      "original": "暗鳞先知",
       "translation": "ARandomHero61"
     },
     "1058": {
-      "key": 1058,
-      "original": "精灵弓箭手",
       "translation": "ARandomHero62"
     },
     "1059": {
-      "key": 1059,
-      "original": "闪金镇步兵",
       "translation": "ARandomHero63"
     },
     "1060": {
-      "key": 1060,
-      "original": "石牙野猪",
       "translation": "ARandomHero64"
     },
     "1061": {
-      "key": 1061,
-      "original": "巫医",
       "translation": "ARandomHero65"
     },
     "1062": {
-      "key": 1062,
-      "original": "鱼人袭击者",
       "translation": "ARandomHero66"
     },
     "1063": {
-      "key": 1063,
-      "original": "变鸡器",
       "translation": "ARandomHero67"
     },
     "1064": {
-      "key": 1064,
-      "original": "导航小鸡",
       "translation": "ARandomHero68"
     },
     "1065": {
-      "key": 1065,
-      "original": "修理机器人",
       "translation": "ARandomHero69"
     },
     "1066": {
-      "key": 1066,
-      "original": "壮胆机器人3000型",
       "translation": "ARandomHero70"
     },
     "1067": {
-      "key": 1067,
-      "original": "空气之怒图腾",
       "translation": "ARandomHero71"
     },
     "1068": {
-      "key": 1068,
-      "original": "石爪图腾",
       "translation": "ARandomHero72"
     },
     "1069": {
-      "key": 1069,
-      "original": "治疗图腾",
       "translation": "ARandomHero73"
     },
     "1070": {
-      "key": 1070,
-      "original": "灼热图腾",
       "translation": "ARandomHero74"
     },
     "1071": {
-      "key": 1071,
-      "original": "白银之手新兵",
       "translation": "ARandomHero75"
     },
     "1072": {
-      "key": 1072,
-      "original": "机械幼龙",
       "translation": "ARandomHero76"
     },
     "1073": {
-      "key": 1073,
-      "original": "野猪",
       "translation": "ARandomHero77"
     },
     "1074": {
-      "key": 1074,
-      "original": "树人",
       "translation": "ARandomHero78"
     },
     "1075": {
-      "key": 1075,
-      "original": "树人",
       "translation": "ARandomHero79"
     },
     "1076": {
-      "key": 1076,
-      "original": "猎犬",
       "translation": "ARandomHero80"
     },
     "1077": {
-      "key": 1077,
-      "original": "迪菲亚海盗",
       "translation": "ARandomHero81"
     },
     "1078": {
-      "key": 1078,
-      "original": "守卫者",
       "translation": "ARandomHero82"
     },
     "1079": {
-      "key": 1079,
-      "original": "无价的小鬼",
       "translation": "ARandomHero83"
     },
     "1080": {
-      "key": 1080,
-      "original": "埃辛诺斯之焰",
       "translation": "ARandomHero84"
     },
     "1081": {
-      "key": 1081,
-      "original": "雏龙",
       "translation": "ARandomHero85"
     },
     "1082": {
-      "key": 1082,
-      "original": "侍从",
       "translation": "ARandomHero86"
     },
     "1083": {
-      "key": 1083,
-      "original": "松鼠",
       "translation": "ARandomHero87"
     },
     "1084": {
-      "key": 1084,
-      "original": "损坏的傀儡",
       "translation": "ARandomHero88"
     },
     "1085": {
-      "key": 1085,
-      "original": "小鬼",
       "translation": "ARandomHero89"
     },
     "1086": {
-      "key": 1086,
-      "original": "鬼灵蜘蛛",
       "translation": "ARandomHero90"
     },
     "1087": {
-      "key": 1087,
-      "original": "泥浆怪",
       "translation": "ARandomHero91"
     },
     "1088": {
-      "key": 1088,
-      "original": "砰砰机器人",
       "translation": "ARandomHero92"
     },
     "1089": {
-      "key": 1089,
-      "original": "小鸡",
       "translation": "ARandomHero93"
     },
     "1090": {
-      "key": 1090,
-      "original": "雏龙",
       "translation": "ARandomHero94"
     },
     "1091": {
-      "key": 1091,
-      "original": "树苗",
       "translation": "ARandomHero95"
     },
     "1092": {
-      "key": 1092,
-      "original": "圣甲虫",
       "translation": "ARandomHero96"
     },
     "1093": {
-      "key": 1093,
-      "original": "獒犬",
       "translation": "ARandomHero97"
     },
     "1094": {
-      "key": 1094,
-      "original": "蜘蛛",
       "translation": "ARandomHero98"
     },
     "1095": {
-      "key": 1095,
-      "original": "白银之手鱼人",
       "translation": "ARandomHero99"
     },
     "1096": {
-      "key": 1096,
-      "original": "暗影兽",
       "translation": "ARandomHero100"
     },
     "1097": {
-      "key": 1097,
-      "original": "黏糊糊的触须",
       "translation": "ARandomHero101"
     },
     "1098": {
-      "key": 1098,
-      "original": "泥浆怪",
       "translation": "ARandomHero102"
     },
     "1099": {
-      "key": 1099,
-      "original": "软泥怪",
       "translation": "ARandomHero103"
     },
     "1100": {
-      "key": 1100,
-      "original": "幼龙",
       "translation": "ARandomHero104"
     },
     "1101": {
-      "key": 1101,
-      "original": "蜡烛",
       "translation": "ARandomHero105"
     },
     "1102": {
-      "key": 1102,
-      "original": "禁卫",
       "translation": "ARandomHero106"
     },
     "1103": {
-      "key": 1103,
-      "original": "家仆",
       "translation": "ARandomHero107"
     },
     "1104": {
-      "key": 1104,
-      "original": "绵羊",
       "translation": "ARandomHero108"
     },
     "1105": {
-      "key": 1105,
-      "original": "雌斑虎",
       "translation": "ARandomHero109"
     },
     "1106": {
-      "key": 1106,
-      "original": "狂鼠",
       "translation": "ARandomHero110"
     },
     "1107": {
-      "key": 1107,
-      "original": "食人鱼",
       "translation": "ARandomHero111"
     },
     "1108": {
-      "key": 1108,
-      "original": "剃鳃鱼人",
       "translation": "ARandomHero112"
     },
     "1109": {
-      "key": 1109,
-      "original": "奥秘守护者",
       "translation": "ARandomHero113"
     },
     "1110": {
-      "key": 1110,
-      "original": "愤怒的小鸡",
       "translation": "ARandomHero114"
     },
     "1111": {
-      "key": 1111,
-      "original": "年轻的女祭司",
       "translation": "ARandomHero115"
     },
     "1112": {
-      "key": 1112,
-      "original": "圣光护卫者",
       "translation": "ARandomHero116"
     },
     "1113": {
-      "key": 1113,
-      "original": "血帆海盗",
       "translation": "ARandomHero117"
     },
     "1114": {
-      "key": 1114,
-      "original": "鱼人招潮者",
       "translation": "ARandomHero118"
     },
     "1115": {
-      "key": 1115,
-      "original": "龙卵",
       "translation": "ARandomHero119"
     },
     "1116": {
-      "key": 1116,
-      "original": "受伤的克瓦迪尔",
       "translation": "ARandomHero120"
     },
     "1117": {
-      "key": 1117,
-      "original": "无私的英雄",
       "translation": "ARandomHero121"
     },
     "1118": {
-      "key": 1118,
-      "original": "呓语魔典",
       "translation": "ARandomHero122"
     },
     "1119": {
-      "key": 1119,
-      "original": "蹩脚海盗",
       "translation": "ARandomHero123"
     },
     "1120": {
-      "key": 1120,
-      "original": "鱼人杀手蟹",
       "translation": "ARandomHero124"
     },
     "1121": {
-      "key": 1121,
-      "original": "暗影投弹手",
       "translation": "ARandomHero125"
     },
     "1122": {
-      "key": 1122,
-      "original": "禁忌古树",
       "translation": "ARandomHero126"
     },
     "1123": {
-      "key": 1123,
-      "original": "邪鳍审判者",
       "translation": "ARandomHero127"
     },
     "1124": {
-      "key": 1124,
-      "original": "海象人警长",
       "translation": "ARandomHero128"
     },
     "1125": {
-      "key": 1125,
-      "original": "鼬鼠挖掘工",
       "translation": "ARandomHero129"
     },
     "1126": {
-      "key": 1126,
-      "original": "芬利·莫格顿爵士",
       "translation": "ARandomHero130"
     },
     "1128": {
-      "key": 1128,
-      "original": "海盗帕奇斯",
       "translation": "ARandomHero131"
     },
     "1129": {
-      "key": 1129,
-      "original": "巫师学徒",
       "translation": "ARandomHero132"
     },
     "1130": {
-      "key": 1130,
-      "original": "食腐土狼",
       "translation": "ARandomHero133"
     },
     "1131": {
-      "key": 1131,
-      "original": "迪菲亚头目",
       "translation": "ARandomHero134"
     },
     "1132": {
-      "key": 1132,
-      "original": "银色保卫者",
       "translation": "ARandomHero135"
     },
     "1133": {
-      "key": 1133,
-      "original": "严酷的监工",
       "translation": "ARandomHero136"
     },
     "1134": {
-      "key": 1134,
-      "original": "阿曼尼狂战士",
       "translation": "ARandomHero137"
     },
     "1135": {
-      "key": 1135,
-      "original": "疯狂投弹者",
       "translation": "ARandomHero138"
     },
     "1136": {
-      "key": 1136,
-      "original": "精灵龙",
       "translation": "ARandomHero139"
     },
     "1137": {
-      "key": 1137,
-      "original": "恐狼前锋",
       "translation": "ARandomHero140"
     },
     "1138": {
-      "key": 1138,
-      "original": "年轻的酒仙",
       "translation": "ARandomHero141"
     },
     "1139": {
-      "key": 1139,
-      "original": "血帆袭击者",
       "translation": "ARandomHero142"
     },
     "1140": {
-      "key": 1140,
-      "original": "战利品贮藏者",
       "translation": "ARandomHero143"
     },
     "1141": {
-      "key": 1141,
-      "original": "疯狂的科学家",
       "translation": "ARandomHero144"
     },
     "1142": {
-      "key": 1142,
-      "original": "鬼灵爬行者",
       "translation": "ARandomHero145"
     },
     "1143": {
-      "key": 1143,
-      "original": "尼鲁巴蛛网领主",
       "translation": "ARandomHero146"
     },
     "1144": {
-      "key": 1144,
-      "original": "蹒跚的食尸鬼",
       "translation": "ARandomHero147"
     },
     "1145": {
-      "key": 1145,
-      "original": "电镀机械熊仔",
       "translation": "ARandomHero148"
     },
     "1146": {
-      "key": 1146,
-      "original": "碎雪机器人",
       "translation": "ARandomHero149"
     },
     "1147": {
-      "key": 1147,
-      "original": "缩小射线工程师",
       "translation": "ARandomHero150"
     },
     "1148": {
-      "key": 1148,
-      "original": "地精自动理发装置",
       "translation": "ARandomHero151"
     },
     "1149": {
-      "key": 1149,
-      "original": "自动漩涡打击装置",
       "translation": "ARandomHero152"
     },
     "1150": {
-      "key": 1150,
-      "original": "护盾机器人",
       "translation": "ARandomHero153"
     },
     "1151": {
-      "key": 1151,
-      "original": "吵吵机器人",
       "translation": "ARandomHero154"
     },
     "1152": {
-      "key": 1152,
-      "original": "船载火炮",
       "translation": "ARandomHero155"
     },
     "1153": {
-      "key": 1153,
-      "original": "海地精猎手",
       "translation": "ARandomHero156"
     },
     "1154": {
-      "key": 1154,
-      "original": "机械跃迁者",
       "translation": "ARandomHero157"
     },
     "1155": {
-      "key": 1155,
-      "original": "碎石穴居人",
       "translation": "ARandomHero158"
     },
     "1156": {
-      "key": 1156,
-      "original": "微型战斗机甲",
       "translation": "ARandomHero159"
     },
     "1157": {
-      "key": 1157,
-      "original": "淤泥践踏者",
       "translation": "ARandomHero160"
     },
     "1158": {
-      "key": 1158,
-      "original": "自爆绵羊",
       "translation": "ARandomHero161"
     },
     "1159": {
-      "key": 1159,
-      "original": "刃牙德鲁伊",
       "translation": "ARandomHero162"
     },
     "1160": {
-      "key": 1160,
-      "original": "皇家雷象",
       "translation": "ARandomHero163"
     },
     "1161": {
-      "key": 1161,
-      "original": "幽暗城勇士",
       "translation": "ARandomHero164"
     },
     "1162": {
-      "key": 1162,
-      "original": "图腾魔像",
       "translation": "ARandomHero165"
     },
     "1163": {
-      "key": 1163,
-      "original": "愤怒卫士",
       "translation": "ARandomHero166"
     },
     "1164": {
-      "key": 1164,
-      "original": "白骨卫士军官",
       "translation": "ARandomHero167"
     },
     "1165": {
-      "key": 1165,
-      "original": "持枪侍从",
       "translation": "ARandomHero168"
     },
     "1166": {
-      "key": 1166,
-      "original": "火焰杂耍者",
       "translation": "ARandomHero169"
     },
     "1167": {
-      "key": 1167,
-      "original": "博物馆馆长",
       "translation": "ARandomHero170"
     },
     "1168": {
-      "key": 1168,
-      "original": "黑市摊贩",
       "translation": "ARandomHero171"
     },
     "1169": {
-      "key": 1169,
-      "original": "宝石甲虫",
       "translation": "ARandomHero172"
     },
     "1170": {
-      "key": 1170,
-      "original": "巨型蟾蜍",
       "translation": "ARandomHero173"
     },
     "1171": {
-      "key": 1171,
-      "original": "暮光地卜师",
       "translation": "ARandomHero174"
     },
     "1172": {
-      "key": 1172,
-      "original": "暮色野猪",
       "translation": "ARandomHero175"
     },
     "1173": {
-      "key": 1173,
-      "original": "扭曲的狼人",
       "translation": "ARandomHero176"
     },
     "1174": {
-      "key": 1174,
-      "original": "脓疮猎潮者",
       "translation": "ARandomHero177"
     },
     "1175": {
-      "key": 1175,
-      "original": "邪灵召唤师",
       "translation": "ARandomHero178"
     },
     "1176": {
-      "key": 1176,
-      "original": "麦迪文的男仆",
       "translation": "ARandomHero179"
     },
     "1177": {
-      "key": 1177,
-      "original": "慈祥的外婆",
       "translation": "ARandomHero180"
     },
     "1178": {
-      "key": 1178,
-      "original": "虚空幽龙史学家",
       "translation": "ARandomHero181"
     },
     "1179": {
-      "key": 1179,
-      "original": "自负的演员",
       "translation": "ARandomHero182"
     },
     "1180": {
-      "key": 1180,
-      "original": "青玉游荡者",
       "translation": "ARandomHero183"
     },
     "1181": {
-      "key": 1181,
-      "original": "污手街供货商",
       "translation": "ARandomHero184"
     },
     "1182": {
-      "key": 1182,
-      "original": "公辩律师",
       "translation": "ARandomHero185"
     },
     "1183": {
-      "key": 1183,
-      "original": "热心的酒保",
       "translation": "ARandomHero186"
     },
     "1184": {
-      "key": 1184,
-      "original": "加基森名媛",
       "translation": "ARandomHero187"
     },
     "1185": {
-      "key": 1185,
-      "original": "吹箭鱼人",
       "translation": "ARandomHero188"
     },
     "1186": {
-      "key": 1186,
-      "original": "火舌图腾",
       "translation": "ARandomHero189"
     },
     "1188": {
-      "key": 1188,
-      "original": "淡水鳄",
       "translation": "ARandomHero190"
     },
     "1189": {
-      "key": 1189,
-      "original": "工程师学徒",
       "translation": "ARandomHero191"
     },
     "1190": {
-      "key": 1190,
-      "original": "狗头人地卜师",
       "translation": "ARandomHero192"
     },
     "1191": {
-      "key": 1191,
-      "original": "蓝腮战士",
       "translation": "ARandomHero193"
     },
     "1192": {
-      "key": 1192,
-      "original": "霜狼步兵",
       "translation": "ARandomHero194"
     },
     "1193": {
-      "key": 1193,
-      "original": "酸性沼泽软泥怪",
       "translation": "ARandomHero195"
     },
     "1194": {
-      "key": 1194,
-      "original": "血沼迅猛龙",
       "translation": "ARandomHero196"
     },
     "1195": {
-      "key": 1195,
-      "original": "鱼人猎潮者",
       "translation": "ARandomHero197"
     },
     "1196": {
-      "key": 1196,
-      "original": "猎豹",
       "translation": "ARandomHero198"
     },
     "1197": {
-      "key": 1197,
-      "original": "土狼",
       "translation": "ARandomHero199"
     },
     "1198": {
-      "key": 1198,
-      "original": "幽灵狼",
       "translation": "ARandomHero200"
     },
     "1199": {
-      "key": 1199,
-      "original": "豺狼人",
       "translation": "ARandomHero201"
     },
     "1200": {
-      "key": 1200,
-      "original": "刃牙德鲁伊",
       "translation": "ARandomHero202"
     },
     "1201": {
-      "key": 1201,
-      "original": "刃牙德鲁伊",
       "translation": "ARandomHero203"
     },
     "1202": {
-      "key": 1202,
-      "original": "俾格米斥候",
       "translation": "ARandomHero204"
     },
     "1203": {
-      "key": 1203,
-      "original": "俾格米刺客",
       "translation": "ARandomHero205"
     },
     "1204": {
-      "key": 1204,
-      "original": "俾格米蛮兵",
       "translation": "ARandomHero206"
     },
     "1205": {
-      "key": 1205,
-      "original": "刃牙德鲁伊",
       "translation": "ARandomHero207"
     },
     "1206": {
-      "key": 1206,
-      "original": "豺狼人",
       "translation": "ARandomHero208"
     },
     "1207": {
-      "key": 1207,
-      "original": "大灰狼",
       "translation": "ARandomHero209"
     },
     "1208": {
-      "key": 1208,
-      "original": "扫帚",
       "translation": "ARandomHero210"
     },
     "1209": {
-      "key": 1209,
-      "original": "复活的盾牌",
       "translation": "ARandomHero211"
     },
     "1210": {
-      "key": 1210,
-      "original": "暗金教恶魔",
       "translation": "ARandomHero212"
     },
     "1211": {
-      "key": 1211,
-      "original": "水晶",
       "translation": "ARandomHero213"
     },
     "1212": {
-      "key": 1212,
-      "original": "光明之泉",
       "translation": "ARandomHero214"
     },
     "1213": {
-      "key": 1213,
-      "original": "铸甲师",
       "translation": "ARandomHero215"
     },
     "1214": {
-      "key": 1214,
-      "original": "法力怨魂",
       "translation": "ARandomHero216"
     },
     "1215": {
-      "key": 1215,
-      "original": "飞刀杂耍者",
       "translation": "ARandomHero217"
     },
     "1216": {
-      "key": 1216,
-      "original": "疯狂的炼金师",
       "translation": "ARandomHero218"
     },
     "1217": {
-      "key": 1217,
-      "original": "狂野炎术师",
       "translation": "ARandomHero219"
     },
     "1218": {
-      "key": 1218,
-      "original": "魔瘾者",
       "translation": "ARandomHero220"
     },
     "1219": {
-      "key": 1219,
-      "original": "日怒保卫者",
       "translation": "ARandomHero221"
     },
     "1220": {
-      "key": 1220,
-      "original": "上古看守者",
       "translation": "ARandomHero222"
     },
     "1221": {
-      "key": 1221,
-      "original": "小个子召唤师",
       "translation": "ARandomHero223"
     },
     "1222": {
-      "key": 1222,
-      "original": "铸剑师",
       "translation": "ARandomHero224"
     },
     "1223": {
-      "key": 1223,
-      "original": "蛛魔之卵",
       "translation": "ARandomHero225"
     },
     "1224": {
-      "key": 1224,
-      "original": "暗影打击装甲",
       "translation": "ARandomHero226"
     },
     "1225": {
-      "key": 1225,
-      "original": "独眼欺诈者",
       "translation": "ARandomHero227"
     },
     "1226": {
-      "key": 1226,
-      "original": "活力图腾",
       "translation": "ARandomHero228"
     },
     "1228": {
-      "key": 1228,
-      "original": "达纳苏斯豹骑士",
       "translation": "ARandomHero229"
     },
     "1229": {
-      "key": 1229,
-      "original": "英雄之魂",
       "translation": "ARandomHero230"
     },
     "1230": {
-      "key": 1230,
-      "original": "龙眠教官",
       "translation": "ARandomHero231"
     },
     "1231": {
-      "key": 1231,
-      "original": "窃贼",
       "translation": "ARandomHero232"
     },
     "1232": {
-      "key": 1232,
-      "original": "小鬼骑士",
       "translation": "ARandomHero233"
     },
     "1233": {
-      "key": 1233,
-      "original": "阿莱克丝塔萨的勇士",
       "translation": "ARandomHero234"
     },
     "1234": {
-      "key": 1234,
-      "original": "格斗陪练师",
       "translation": "ARandomHero235"
     },
     "1235": {
-      "key": 1235,
-      "original": "银色警卫",
       "translation": "ARandomHero236"
     },
     "1236": {
-      "key": 1236,
-      "original": "邪教女巫",
       "translation": "ARandomHero237"
     },
     "1237": {
-      "key": 1237,
-      "original": "幽暗城商贩",
       "translation": "ARandomHero238"
     },
     "1238": {
-      "key": 1238,
-      "original": "夜色镇图书管理员",
       "translation": "ARandomHero239"
     },
     "1239": {
-      "key": 1239,
-      "original": "穴居人驯兽师",
       "translation": "ARandomHero240"
     },
     "1240": {
-      "key": 1240,
-      "original": "加基森摆渡人",
       "translation": "ARandomHero241"
     },
     "1241": {
-      "key": 1241,
-      "original": "污手街情报员",
       "translation": "ARandomHero242"
     },
     "1242": {
-      "key": 1242,
-      "original": "船长的鹦鹉",
       "translation": "ARandomHero243"
     },
     "1243": {
-      "key": 1243,
-      "original": "耐心的刺客",
       "translation": "ARandomHero244"
     },
     "1244": {
-      "key": 1244,
-      "original": "末日预言者",
       "translation": "ARandomHero245"
     },
     "1245": {
-      "key": 1245,
-      "original": "分裂软泥怪",
       "translation": "ARandomHero246"
     },
     "1246": {
-      "key": 1246,
-      "original": "热砂港狙击手",
       "translation": "ARandomHero247"
     },
     "1247": {
-      "key": 1247,
-      "original": "侏儒变形师",
       "translation": "ARandomHero248"
     },
     "1248": {
-      "key": 1248,
-      "original": "要塞指挥官",
       "translation": "ARandomHero249"
     },
     "1249": {
-      "key": 1249,
-      "original": "永恒哨卫",
       "translation": "ARandomHero250"
     },
     "1250": {
-      "key": 1250,
-      "original": "法力晶簇",
       "translation": "ARandomHero251"
     },
     "1251": {
-      "key": 1251,
-      "original": "卑劣的脏鼠",
       "translation": "ARandomHero252"
     },
     "1252": {
-      "key": 1252,
-      "original": "芬克·恩霍尔",
       "translation": "ARandomHero253"
     },
     "1253": {
-      "key": 1253,
-      "original": "米尔豪斯·法力风暴",
       "translation": "ARandomHero254"
     },
     "1254": {
-      "key": 1254,
-      "original": "纳特·帕格",
       "translation": "ARandomHero255"
     },
     "1255": {
-      "key": 1255,
-      "original": "血法师萨尔诺斯",
       "translation": "ARandomHero256"
     },
     "1256": {
-      "key": 1256,
-      "original": "游学者周卓",
       "translation": "ARandomHero257"
     },
     "1258": {
-      "key": 1258,
-      "original": "霍巴特·钩锤",
       "translation": "ARandomHero258"
     },
     "1259": {
-      "key": 1259,
-      "original": "无羁元素",
       "translation": "ARandomHero259"
     },
     "1260": {
-      "key": 1260,
-      "original": "暴怒的狼人",
       "translation": "ARandomHero260"
     },
     "1261": {
-      "key": 1261,
-      "original": "丛林猎豹",
       "translation": "ARandomHero261"
     },
     "1262": {
-      "key": 1262,
-      "original": "大地之环先知",
       "translation": "ARandomHero262"
     },
     "1263": {
-      "key": 1263,
-      "original": "腐肉食尸鬼",
       "translation": "ARandomHero263"
     },
     "1264": {
-      "key": 1264,
-      "original": "苦痛侍僧",
       "translation": "ARandomHero264"
     },
     "1265": {
-      "key": 1265,
-      "original": "麦田傀儡",
       "translation": "ARandomHero265"
     },
     "1266": {
-      "key": 1266,
-      "original": "牛头人战士",
       "translation": "ARandomHero266"
     },
     "1267": {
-      "key": 1267,
-      "original": "萨尔玛先知",
       "translation": "ARandomHero267"
     },
     "1268": {
-      "key": 1268,
-      "original": "铁喙猫头鹰",
       "translation": "ARandomHero268"
     },
     "1269": {
-      "key": 1269,
-      "original": "血色十字军战士",
       "translation": "ARandomHero269"
     },
     "1270": {
-      "key": 1270,
-      "original": "黑暗教徒",
       "translation": "ARandomHero270"
     },
     "1271": {
-      "key": 1271,
-      "original": "舞动之刃",
       "translation": "ARandomHero271"
     },
     "1272": {
-      "key": 1272,
-      "original": "岩肤石像鬼",
       "translation": "ARandomHero272"
     },
     "1273": {
-      "key": 1273,
-      "original": "飞行器",
       "translation": "ARandomHero273"
     },
     "1274": {
-      "key": 1274,
-      "original": "工匠镇技师",
       "translation": "ARandomHero274"
     },
     "1275": {
-      "key": 1275,
-      "original": "诺莫瑞根步兵",
       "translation": "ARandomHero275"
     },
     "1276": {
-      "key": 1276,
-      "original": "食人魔步兵",
       "translation": "ARandomHero276"
     },
     "1277": {
-      "key": 1277,
-      "original": "蜘蛛坦克",
       "translation": "ARandomHero277"
     },
     "1278": {
-      "key": 1278,
-      "original": "烈焰德鲁伊",
       "translation": "ARandomHero278"
     },
     "1279": {
-      "key": 1279,
-      "original": "小鬼首领",
       "translation": "ARandomHero279"
     },
     "1280": {
-      "key": 1280,
-      "original": "黑翼技师",
       "translation": "ARandomHero280"
     },
     "1281": {
-      "key": 1281,
-      "original": "嗜法者",
       "translation": "ARandomHero281"
     },
     "1282": {
-      "key": 1282,
-      "original": "海象人图腾师",
       "translation": "ARandomHero282"
     },
     "1283": {
-      "key": 1283,
-      "original": "战马训练师",
       "translation": "ARandomHero283"
     },
     "1284": {
-      "key": 1284,
-      "original": "奥格瑞玛狼骑士",
       "translation": "ARandomHero284"
     },
     "1285": {
-      "key": 1285,
-      "original": "白银之手教官",
       "translation": "ARandomHero285"
     },
     "1286": {
-      "key": 1286,
-      "original": "沉默的骑士",
       "translation": "ARandomHero286"
     },
     "1287": {
-      "key": 1287,
-      "original": "寒冰暴怒者",
       "translation": "ARandomHero287"
     },
     "1288": {
-      "key": 1288,
-      "original": "龙鹰骑士",
       "translation": "ARandomHero288"
     },
     "1289": {
-      "key": 1289,
-      "original": "银色骑士",
       "translation": "ARandomHero289"
     },
     "1290": {
-      "key": 1290,
-      "original": "骑乘迅猛龙",
       "translation": "ARandomHero290"
     },
     "1291": {
-      "key": 1291,
-      "original": "大漠沙驼",
       "translation": "ARandomHero291"
     },
     "1292": {
-      "key": 1292,
-      "original": "凶暴猿猴",
       "translation": "ARandomHero292"
     },
     "1293": {
-      "key": 1293,
-      "original": "暮光烈焰召唤者",
       "translation": "ARandomHero293"
     },
     "1294": {
-      "key": 1294,
-      "original": "腐肉虫",
       "translation": "ARandomHero294"
     },
     "1295": {
-      "key": 1295,
-      "original": "夜色镇议员",
       "translation": "ARandomHero295"
     },
     "1296": {
-      "key": 1296,
-      "original": "肆虐食尸鬼",
       "translation": "ARandomHero296"
     },
     "1297": {
-      "key": 1297,
-      "original": "恩佐斯的子嗣",
       "translation": "ARandomHero297"
     },
     "1298": {
-      "key": 1298,
-      "original": "裂地触须",
       "translation": "ARandomHero298"
     },
     "1299": {
-      "key": 1299,
-      "original": "暮光尊者",
       "translation": "ARandomHero299"
     },
     "1300": {
-      "key": 1300,
-      "original": "怨影狂怒者",
       "translation": "ARandomHero300"
     },
     "1301": {
-      "key": 1301,
-      "original": "神秘女猎手",
       "translation": "ARandomHero301"
     },
     "1302": {
-      "key": 1302,
-      "original": "致命餐叉",
       "translation": "ARandomHero302"
     },
     "1303": {
-      "key": 1303,
-      "original": "夜魇骑士",
       "translation": "ARandomHero303"
     },
     "1304": {
-      "key": 1304,
-      "original": "橱柜蜘蛛",
       "translation": "ARandomHero304"
     },
     "1305": {
-      "key": 1305,
-      "original": "机械动物管理员",
       "translation": "ARandomHero305"
     },
     "1306": {
-      "key": 1306,
-      "original": "紫罗兰法师",
       "translation": "ARandomHero306"
     },
     "1307": {
-      "key": 1307,
-      "original": "豺狼人土枪手",
       "translation": "ARandomHero307"
     },
     "1308": {
-      "key": 1308,
-      "original": "暗金教鸦人祭司",
       "translation": "ARandomHero308"
     },
     "1309": {
-      "key": 1309,
-      "original": "暗影狂怒者",
       "translation": "ARandomHero309"
     },
     "1310": {
-      "key": 1310,
-      "original": "污手街走私者",
       "translation": "ARandomHero310"
     },
     "1312": {
-      "key": 1312,
-      "original": "重装佣兵",
       "translation": "ARandomHero311"
     },
     "1313": {
-      "key": 1313,
-      "original": "毒性污水软泥怪",
       "translation": "ARandomHero312"
     },
     "1314": {
-      "key": 1314,
-      "original": "后街男巫",
       "translation": "ARandomHero313"
     },
     "1315": {
-      "key": 1315,
-      "original": "战歌指挥官",
       "translation": "ARandomHero314"
     },
     "1316": {
-      "key": 1316,
-      "original": "达拉然法师",
       "translation": "ARandomHero315"
     },
     "1317": {
-      "key": 1317,
-      "original": "狼骑兵",
       "translation": "ARandomHero316"
     },
     "1318": {
-      "key": 1318,
-      "original": "破碎残阳祭司",
       "translation": "ARandomHero317"
     },
     "1319": {
-      "key": 1319,
-      "original": "剃刀猎手",
       "translation": "ARandomHero318"
     },
     "1320": {
-      "key": 1320,
-      "original": "铁炉堡火枪手",
       "translation": "ARandomHero319"
     },
     "1321": {
-      "key": 1321,
-      "original": "铁鬃灰熊",
       "translation": "ARandomHero320"
     },
     "1322": {
-      "key": 1322,
-      "original": "团队领袖",
       "translation": "ARandomHero321"
     },
     "1323": {
-      "key": 1323,
-      "original": "岩浆暴怒者",
       "translation": "ARandomHero322"
     },
     "1324": {
-      "key": 1324,
-      "original": "银背族长",
       "translation": "ARandomHero323"
     },
     "1325": {
-      "key": 1325,
-      "original": "霍弗",
       "translation": "ARandomHero324"
     },
     "1326": {
-      "key": 1326,
-      "original": "雷欧可",
       "translation": "ARandomHero325"
     },
     "1327": {
-      "key": 1327,
-      "original": "米莎",
       "translation": "ARandomHero326"
     },
     "1328": {
-      "key": 1328,
-      "original": "欢笑的姐妹",
       "translation": "ARandomHero327"
     },
     "1330": {
-      "key": 1330,
-      "original": "烈焰德鲁伊",
       "translation": "ARandomHero328"
     },
     "1332": {
-      "key": 1332,
-      "original": "木乃伊僵尸",
       "translation": "ARandomHero329"
     },
     "1333": {
-      "key": 1333,
-      "original": "烈焰德鲁伊",
       "translation": "ARandomHero330"
     },
     "1334": {
-      "key": 1334,
-      "original": "暮光元素",
       "translation": "ARandomHero331"
     },
     "1335": {
-      "key": 1335,
-      "original": "绅士豹",
       "translation": "ARandomHero332"
     },
     "1336": {
-      "key": 1336,
-      "original": "茶壶",
       "translation": "ARandomHero333"
     },
     "1337": {
-      "key": 1337,
-      "original": "酒窖蜘蛛",
       "translation": "ARandomHero334"
     },
     "1338": {
-      "key": 1338,
-      "original": "肯瑞托法师",
       "translation": "ARandomHero335"
     },
     "1339": {
-      "key": 1339,
-      "original": "军情七处特工",
       "translation": "ARandomHero336"
     },
     "1340": {
-      "key": 1340,
-      "original": "法力之潮图腾",
       "translation": "ARandomHero337"
     },
     "1341": {
-      "key": 1341,
-      "original": "奥尔多卫士",
       "translation": "ARandomHero338"
     },
     "1344": {
-      "key": 1344,
-      "original": "暴乱狂战士",
       "translation": "ARandomHero339"
     },
     "1345": {
-      "key": 1345,
-      "original": "奥术傀儡",
       "translation": "ARandomHero340"
     },
     "1346": {
-      "key": 1346,
-      "original": "报警机器人",
       "translation": "ARandomHero341"
     },
     "1347": {
-      "key": 1347,
-      "original": "帝王眼镜蛇",
       "translation": "ARandomHero342"
     },
     "1348": {
-      "key": 1348,
-      "original": "负伤剑圣",
       "translation": "ARandomHero343"
     },
     "1349": {
-      "key": 1349,
-      "original": "攻城车",
       "translation": "ARandomHero344"
     },
     "1350": {
-      "key": 1350,
-      "original": "寒光先知",
       "translation": "ARandomHero345"
     },
     "1351": {
-      "key": 1351,
-      "original": "寒光智者",
       "translation": "ARandomHero346"
     },
     "1352": {
-      "key": 1352,
-      "original": "精神控制技师",
       "translation": "ARandomHero347"
     },
     "1353": {
-      "key": 1353,
-      "original": "任务达人",
       "translation": "ARandomHero348"
     },
     "1354": {
-      "key": 1354,
-      "original": "小鬼召唤师",
       "translation": "ARandomHero349"
     },
     "1355": {
-      "key": 1355,
-      "original": "死亡领主",
       "translation": "ARandomHero350"
     },
     "1356": {
-      "key": 1356,
-      "original": "林地树妖",
       "translation": "ARandomHero351"
     },
     "1357": {
-      "key": 1357,
-      "original": "煤烟喷吐装置",
       "translation": "ARandomHero352"
     },
     "1358": {
-      "key": 1358,
-      "original": "金刚刃牙兽",
       "translation": "ARandomHero353"
     },
     "1359": {
-      "key": 1359,
-      "original": "钢铁武道家",
       "translation": "ARandomHero354"
     },
     "1360": {
-      "key": 1360,
-      "original": "血色净化者",
       "translation": "ARandomHero355"
     },
     "1361": {
-      "key": 1361,
-      "original": "地精工兵",
       "translation": "ARandomHero356"
     },
     "1362": {
-      "key": 1362,
-      "original": "明光祭司",
       "translation": "ARandomHero357"
     },
     "1363": {
-      "key": 1363,
-      "original": "小个子驱魔者",
       "translation": "ARandomHero358"
     },
     "1364": {
-      "key": 1364,
-      "original": "侏儒实验技师",
       "translation": "ARandomHero359"
     },
     "1365": {
-      "key": 1365,
-      "original": "火妖",
       "translation": "ARandomHero360"
     },
     "1366": {
-      "key": 1366,
-      "original": "走私商贩",
       "translation": "ARandomHero361"
     },
     "1367": {
-      "key": 1367,
-      "original": "击剑教头",
       "translation": "ARandomHero362"
     },
     "1368": {
-      "key": 1368,
-      "original": "角斗场主管",
       "translation": "ARandomHero363"
     },
     "1369": {
-      "key": 1369,
-      "original": "破坏者",
       "translation": "ARandomHero364"
     },
     "1370": {
-      "key": 1370,
-      "original": "圣光勇士",
       "translation": "ARandomHero365"
     },
     "1371": {
-      "key": 1371,
-      "original": "石化迅猛龙",
       "translation": "ARandomHero366"
     },
     "1372": {
-      "key": 1372,
-      "original": "腐化灰熊",
       "translation": "ARandomHero367"
     },
     "1373": {
-      "key": 1373,
-      "original": "狼人追猎者",
       "translation": "ARandomHero368"
     },
     "1374": {
-      "key": 1374,
-      "original": "夜色镇执法官",
       "translation": "ARandomHero369"
     },
     "1375": {
-      "key": 1375,
-      "original": "血帆教徒",
       "translation": "ARandomHero370"
     },
     "1376": {
-      "key": 1376,
-      "original": "克苏恩的信徒",
       "translation": "ARandomHero371"
     },
     "1377": {
-      "key": 1377,
-      "original": "异种群居蝎",
       "translation": "ARandomHero372"
     },
     "1378": {
-      "key": 1378,
-      "original": "镀银魔像",
       "translation": "ARandomHero373"
     },
     "1379": {
-      "key": 1379,
-      "original": "暗金教信使",
       "translation": "ARandomHero374"
     },
     "1380": {
-      "key": 1380,
-      "original": "天神唤梦者",
       "translation": "ARandomHero375"
     },
     "1381": {
-      "key": 1381,
-      "original": "污手街典当师",
       "translation": "ARandomHero376"
     },
     "1382": {
-      "key": 1382,
-      "original": "南海船长",
       "translation": "ARandomHero377"
     },
     "1383": {
-      "key": 1383,
-      "original": "血骑士",
       "translation": "ARandomHero378"
     },
     "1384": {
-      "key": 1384,
-      "original": "鱼人领军",
       "translation": "ARandomHero379"
     },
     "1385": {
-      "key": 1385,
-      "original": "纳克萨玛斯之影",
       "translation": "ARandomHero380"
     },
     "1386": {
-      "key": 1386,
-      "original": "大胖",
       "translation": "ARandomHero381"
     },
     "1387": {
-      "key": 1387,
-      "original": "兽栏大师",
       "translation": "ARandomHero382"
     },
     "1388": {
-      "key": 1388,
-      "original": "暗影魔",
       "translation": "ARandomHero383"
     },
     "1389": {
-      "key": 1389,
-      "original": "庆典司仪",
       "translation": "ARandomHero384"
     },
     "1390": {
-      "key": 1390,
-      "original": "狂热铸魂者",
       "translation": "ARandomHero385"
     },
     "1391": {
-      "key": 1391,
-      "original": "瘟疫鼠群",
       "translation": "ARandomHero386"
     },
     "1392": {
-      "key": 1392,
-      "original": "无证药剂师",
       "translation": "ARandomHero387"
     },
     "1393": {
-      "key": 1393,
-      "original": "邪兽人噬魂魔",
       "translation": "ARandomHero388"
     },
     "1394": {
-      "key": 1394,
-      "original": "黑金大亨",
       "translation": "ARandomHero389"
     },
     "1395": {
-      "key": 1395,
-      "original": "艾德温·范克里夫",
       "translation": "ARandomHero390"
     },
     "1396": {
-      "key": 1396,
-      "original": "工匠大师欧沃斯巴克",
       "translation": "ARandomHero391"
     },
     "1397": {
-      "key": 1397,
-      "original": "穆克拉",
       "translation": "ARandomHero392"
     },
     "1398": {
-      "key": 1398,
-      "original": "恐鳞",
       "translation": "ARandomHero393"
     },
     "1399": {
-      "key": 1399,
-      "original": "光明邪神菲奥拉",
       "translation": "ARandomHero394"
     },
     "1400": {
-      "key": 1400,
-      "original": "黑暗邪神艾蒂丝",
       "translation": "ARandomHero395"
     },
     "1401": {
-      "key": 1401,
-      "original": "布莱恩·铜须",
       "translation": "ARandomHero396"
     },
     "1402": {
-      "key": 1402,
-      "original": "莫罗斯",
       "translation": "ARandomHero397"
     },
     "1403": {
-      "key": 1403,
-      "original": "收集者沙库尔",
       "translation": "ARandomHero398"
     },
     "1404": {
-      "key": 1404,
-      "original": "燃鬃·自走炮",
       "translation": "ARandomHero399"
     },
     "1405": {
-      "key": 1405,
-      "original": "大富翁比尔杜",
       "translation": "ARandomHero400"
     },
     "1406": {
-      "key": 1406,
-      "original": "女警萨莉",
       "translation": "ARandomHero401"
     },
     "1407": {
-      "key": 1407,
-      "original": "光耀之子",
       "translation": "ARandomHero402"
     },
     "1408": {
-      "key": 1408,
-      "original": "召唤传送门",
       "translation": "ARandomHero403"
     },
     "1409": {
-      "key": 1409,
-      "original": "阿拉希武器匠",
       "translation": "ARandomHero404"
     },
     "1410": {
-      "key": 1410,
-      "original": "黑铁矮人",
       "translation": "ARandomHero405"
     },
     "1411": {
-      "key": 1411,
-      "original": "恐怖海盗",
       "translation": "ARandomHero406"
     },
     "1412": {
-      "key": 1412,
-      "original": "魔古山守望者",
       "translation": "ARandomHero407"
     },
     "1413": {
-      "key": 1413,
-      "original": "年迈的酒仙",
       "translation": "ARandomHero408"
     },
     "1414": {
-      "key": 1414,
-      "original": "破法者",
       "translation": "ARandomHero409"
     },
     "1415": {
-      "key": 1415,
-      "original": "银月城卫兵",
       "translation": "ARandomHero410"
     },
     "1416": {
-      "key": 1416,
-      "original": "诅咒教派领袖",
       "translation": "ARandomHero411"
     },
     "1417": {
-      "key": 1417,
-      "original": "阿努巴尔伏击者",
       "translation": "ARandomHero412"
     },
     "1418": {
-      "key": 1418,
-      "original": "空灵召唤者",
       "translation": "ARandomHero413"
     },
     "1419": {
-      "key": 1419,
-      "original": "机械雪人",
       "translation": "ARandomHero414"
     },
     "1420": {
-      "key": 1420,
-      "original": "迷失的陆行鸟",
       "translation": "ARandomHero415"
     },
     "1421": {
-      "key": 1421,
-      "original": "石腭穴居人",
       "translation": "ARandomHero416"
     },
     "1422": {
-      "key": 1422,
-      "original": "载人收割机",
       "translation": "ARandomHero417"
     },
     "1423": {
-      "key": 1423,
-      "original": "火焰驱逐者",
       "translation": "ARandomHero418"
     },
     "1424": {
-      "key": 1424,
-      "original": "掷斧者",
       "translation": "ARandomHero419"
     },
     "1425": {
-      "key": 1425,
-      "original": "饥饿的巨龙",
       "translation": "ARandomHero420"
     },
     "1426": {
-      "key": 1426,
-      "original": "龙人巫师",
       "translation": "ARandomHero421"
     },
     "1427": {
-      "key": 1427,
-      "original": "荒野行者",
       "translation": "ARandomHero422"
     },
     "1428": {
-      "key": 1428,
-      "original": "达拉然铁骑士",
       "translation": "ARandomHero423"
     },
     "1429": {
-      "key": 1429,
-      "original": "神圣勇士",
       "translation": "ARandomHero424"
     },
     "1430": {
-      "key": 1430,
-      "original": "鱼人骑士",
       "translation": "ARandomHero425"
     },
     "1431": {
-      "key": 1431,
-      "original": "湖之仙女",
       "translation": "ARandomHero426"
     },
     "1432": {
-      "key": 1432,
-      "original": "零食商贩",
       "translation": "ARandomHero427"
     },
     "1433": {
-      "key": 1433,
-      "original": "赛场医生",
       "translation": "ARandomHero428"
     },
     "1434": {
-      "key": 1434,
-      "original": "邪灵拷问者",
       "translation": "ARandomHero429"
     },
     "1435": {
-      "key": 1435,
-      "original": "雪地狗头人",
       "translation": "ARandomHero430"
     },
     "1436": {
-      "key": 1436,
-      "original": "盗墓匪贼",
       "translation": "ARandomHero431"
     },
     "1437": {
-      "key": 1437,
-      "original": "顽石元素",
       "translation": "ARandomHero432"
     },
     "1438": {
-      "key": 1438,
-      "original": "奥达曼守护者",
       "translation": "ARandomHero433"
     },
     "1439": {
-      "key": 1439,
-      "original": "A3型机械金刚",
       "translation": "ARandomHero434"
     },
     "1440": {
-      "key": 1440,
-      "original": "墓穴蜘蛛",
       "translation": "ARandomHero435"
     },
     "1441": {
-      "key": 1441,
-      "original": "兜帽侍僧",
       "translation": "ARandomHero436"
     },
     "1442": {
-      "key": 1442,
-      "original": "南海畸变船长",
       "translation": "ARandomHero437"
     },
     "1443": {
-      "key": 1443,
-      "original": "投火无面者",
       "translation": "ARandomHero438"
     },
     "1444": {
-      "key": 1444,
-      "original": "血蹄勇士",
       "translation": "ARandomHero439"
     },
     "1445": {
-      "key": 1445,
-      "original": "被感染的牛头人",
       "translation": "ARandomHero440"
     },
     "1446": {
-      "key": 1446,
-      "original": "被感染的贮藏者",
       "translation": "ARandomHero441"
     },
     "1447": {
-      "key": 1447,
-      "original": "畸变狂战士",
       "translation": "ARandomHero442"
     },
     "1448": {
-      "key": 1448,
-      "original": "进化的狗头人",
       "translation": "ARandomHero443"
     },
     "1449": {
-      "key": 1449,
-      "original": "克苏恩的侍从",
       "translation": "ARandomHero444"
     },
     "1450": {
-      "key": 1450,
-      "original": "宴会牧师",
       "translation": "ARandomHero445"
     },
     "1451": {
-      "key": 1451,
-      "original": "邪恶的巫医",
       "translation": "ARandomHero446"
     },
     "1452": {
-      "key": 1452,
-      "original": "奥术铁匠",
       "translation": "ARandomHero447"
     },
     "1453": {
-      "key": 1453,
-      "original": "暗金教炼金师",
       "translation": "ARandomHero448"
     },
     "1454": {
-      "key": 1454,
-      "original": "魔瘾结晶者",
       "translation": "ARandomHero449"
     },
     "1455": {
-      "key": 1455,
-      "original": "青玉之灵",
       "translation": "ARandomHero450"
     },
     "1456": {
-      "key": 1456,
-      "original": "污手玩具商",
       "translation": "ARandomHero451"
     },
     "1457": {
-      "key": 1457,
-      "original": "娜迦海盗",
       "translation": "ARandomHero452"
     },
     "1458": {
-      "key": 1458,
-      "original": "化学怪人",
       "translation": "ARandomHero453"
     },
     "1459": {
-      "key": 1459,
-      "original": "狼人欺诈者",
       "translation": "ARandomHero454"
     },
     "1460": {
-      "key": 1460,
-      "original": "野猪骑士塔纳利",
       "translation": "ARandomHero455"
     },
     "1461": {
-      "key": 1461,
-      "original": "猢狲医者",
       "translation": "ARandomHero456"
     },
     "1462": {
-      "key": 1462,
-      "original": "勇敢的记者",
       "translation": "ARandomHero457"
     },
     "1463": {
-      "key": 1463,
-      "original": "水元素",
       "translation": "ARandomHero458"
     },
     "1464": {
-      "key": 1464,
-      "original": "驯兽师",
       "translation": "ARandomHero459"
     },
     "1465": {
-      "key": 1465,
-      "original": "风语者",
       "translation": "ARandomHero460"
     },
     "1466": {
-      "key": 1466,
-      "original": "库卡隆精英卫士",
       "translation": "ARandomHero461"
     },
     "1467": {
-      "key": 1467,
-      "original": "暴风城骑士",
       "translation": "ARandomHero462"
     },
     "1468": {
-      "key": 1468,
-      "original": "冰风雪人",
       "translation": "ARandomHero463"
     },
     "1469": {
-      "key": 1469,
-      "original": "机械幼龙技工",
       "translation": "ARandomHero464"
     },
     "1470": {
-      "key": 1470,
-      "original": "绿洲钳嘴龟",
       "translation": "ARandomHero465"
     },
     "1471": {
-      "key": 1471,
-      "original": "森金持盾卫士",
       "translation": "ARandomHero466"
     },
     "1472": {
-      "key": 1472,
-      "original": "食人魔法师",
       "translation": "ARandomHero467"
     },
     "1473": {
-      "key": 1473,
-      "original": "侏儒发明家",
       "translation": "ARandomHero468"
     },
     "1474": {
-      "key": 1474,
-      "original": "翡翠幼龙",
       "translation": "ARandomHero469"
     },
     "1475": {
-      "key": 1475,
-      "original": "黄金猿",
       "translation": "ARandomHero470"
     },
     "1476": {
-      "key": 1476,
-      "original": "无面破坏者",
       "translation": "ARandomHero471"
     },
     "1477": {
-      "key": 1477,
-      "original": "丛林守护者",
       "translation": "ARandomHero472"
     },
     "1478": {
-      "key": 1478,
-      "original": "虚灵奥术师",
       "translation": "ARandomHero473"
     },
     "1479": {
-      "key": 1479,
-      "original": "奥金尼灵魂祭司",
       "translation": "ARandomHero474"
     },
     "1480": {
-      "key": 1480,
-      "original": "伪装大师",
       "translation": "ARandomHero475"
     },
     "1481": {
-      "key": 1481,
-      "original": "阿古斯防御者",
       "translation": "ARandomHero476"
     },
     "1482": {
-      "key": 1482,
-      "original": "暮光幼龙",
       "translation": "ARandomHero477"
     },
     "1483": {
-      "key": 1483,
-      "original": "年迈的法师",
       "translation": "ARandomHero478"
     },
     "1484": {
-      "key": 1484,
-      "original": "紫罗兰教师",
       "translation": "ARandomHero479"
     },
     "1485": {
-      "key": 1485,
-      "original": "哀嚎的灵魂",
       "translation": "ARandomHero480"
     },
     "1486": {
-      "key": 1486,
-      "original": "地精炎术士",
       "translation": "ARandomHero481"
     },
     "1487": {
-      "key": 1487,
-      "original": "砂槌萨满祭司",
       "translation": "ARandomHero482"
     },
     "1488": {
-      "key": 1488,
-      "original": "邪能火炮",
       "translation": "ARandomHero483"
     },
     "1489": {
-      "key": 1489,
-      "original": "废旧螺栓机甲",
       "translation": "ARandomHero484"
     },
     "1490": {
-      "key": 1490,
-      "original": "基维斯",
       "translation": "ARandomHero485"
     },
     "1491": {
-      "key": 1491,
-      "original": "科赞秘术师",
       "translation": "ARandomHero486"
     },
     "1492": {
-      "key": 1492,
-      "original": "施法者克星X-21",
       "translation": "ARandomHero487"
     },
     "1493": {
-      "key": 1493,
-      "original": "熔火怒犬",
       "translation": "ARandomHero488"
     },
     "1494": {
-      "key": 1494,
-      "original": "狂野争斗者",
       "translation": "ARandomHero489"
     },
     "1496": {
-      "key": 1496,
-      "original": "德莱尼图腾师",
       "translation": "ARandomHero490"
     },
     "1497": {
-      "key": 1497,
-      "original": "重甲战马",
       "translation": "ARandomHero491"
     },
     "1498": {
-      "key": 1498,
-      "original": "丛林枭兽",
       "translation": "ARandomHero492"
     },
     "1499": {
-      "key": 1499,
-      "original": "复活的铠甲",
       "translation": "ARandomHero493"
     },
     "1500": {
-      "key": 1500,
-      "original": "诡异的雕像",
       "translation": "ARandomHero494"
     },
     "1502": {
-      "key": 1502,
-      "original": "卡拉克西织珀者",
       "translation": "ARandomHero495"
     },
     "1503": {
-      "key": 1503,
-      "original": "沼泽守护者",
       "translation": "ARandomHero496"
     },
     "1504": {
-      "key": 1504,
-      "original": "疯狂的冰法师",
       "translation": "ARandomHero497"
     },
     "1505": {
-      "key": 1505,
-      "original": "寄生恶狼",
       "translation": "ARandomHero498"
     },
     "1506": {
-      "key": 1506,
-      "original": "变幻之影",
       "translation": "ARandomHero499"
     },
     "1507": {
-      "key": 1507,
-      "original": "进化大师",
       "translation": "ARandomHero500"
     },
     "1508": {
-      "key": 1508,
-      "original": "奥秘吞噬者",
       "translation": "ARandomHero501"
     },
     "1509": {
-      "key": 1509,
-      "original": "黑水海盗",
       "translation": "ARandomHero502"
     },
     "1510": {
-      "key": 1510,
-      "original": "午夜噩龙",
       "translation": "ARandomHero503"
     },
     "1511": {
-      "key": 1511,
-      "original": "驮运科多兽",
       "translation": "ARandomHero504"
     },
     "1512": {
-      "key": 1512,
-      "original": "暗影大师",
       "translation": "ARandomHero505"
     },
     "1513": {
-      "key": 1513,
-      "original": "锦鱼人水语者",
       "translation": "ARandomHero506"
     },
     "1514": {
-      "key": 1514,
-      "original": "海魔钉刺者",
       "translation": "ARandomHero507"
     },
     "1515": {
-      "key": 1515,
-      "original": "后院保镖",
       "translation": "ARandomHero508"
     },
     "1517": {
-      "key": 1517,
-      "original": "小个子扰咒师",
       "translation": "ARandomHero509"
     },
     "1518": {
-      "key": 1518,
-      "original": "沙鳞灵魂行者",
       "translation": "ARandomHero510"
     },
     "1519": {
-      "key": 1519,
-      "original": "强化机器人",
       "translation": "ARandomHero511"
     },
     "1520": {
-      "key": 1520,
-      "original": "小个子法师",
       "translation": "ARandomHero512"
     },
     "1521": {
-      "key": 1521,
-      "original": "恐惧战马",
       "translation": "ARandomHero513"
     },
     "1522": {
-      "key": 1522,
-      "original": "猛犸人头领",
       "translation": "ARandomHero514"
     },
     "1523": {
-      "key": 1523,
-      "original": "暮光守护者",
       "translation": "ARandomHero515"
     },
     "1524": {
-      "key": 1524,
-      "original": "人气选手",
       "translation": "ARandomHero516"
     },
     "1525": {
-      "key": 1525,
-      "original": "巨型独眼怪",
       "translation": "ARandomHero517"
     },
     "1526": {
-      "key": 1526,
-      "original": "暮光召唤师",
       "translation": "ARandomHero518"
     },
     "1527": {
-      "key": 1527,
-      "original": "无面蹒跚者",
       "translation": "ARandomHero519"
     },
     "1528": {
-      "key": 1528,
-      "original": "玉莲帮法师",
       "translation": "ARandomHero520"
     },
     "1529": {
-      "key": 1529,
-      "original": "老瞎眼",
       "translation": "ARandomHero521"
     },
     "1530": {
-      "key": 1530,
-      "original": "贝恩·血蹄",
       "translation": "ARandomHero522"
     },
     "1532": {
-      "key": 1532,
-      "original": "穿刺者戈莫克",
       "translation": "ARandomHero523"
     },
     "1533": {
-      "key": 1533,
-      "original": "伊莉斯·逐星",
       "translation": "ARandomHero524"
     },
     "1534": {
-      "key": 1534,
-      "original": "范达尔·鹿盔",
       "translation": "ARandomHero525"
     },
     "1536": {
-      "key": 1536,
-      "original": "巴内斯",
       "translation": "ARandomHero526"
     },
     "1537": {
-      "key": 1537,
-      "original": "卡扎库斯",
       "translation": "ARandomHero527"
     },
     "1538": {
-      "key": 1538,
-      "original": "“鲨鱼”加佐",
       "translation": "ARandomHero528"
     },
     "1539": {
-      "key": 1539,
-      "original": "利爪德鲁伊",
       "translation": "ARandomHero529"
     },
     "1540": {
-      "key": 1540,
-      "original": "白银之手骑士",
       "translation": "ARandomHero530"
     },
     "1541": {
-      "key": 1541,
-      "original": "恶毒铁匠",
       "translation": "ARandomHero531"
     },
     "1542": {
-      "key": 1542,
-      "original": "风险投资公司雇佣兵",
       "translation": "ARandomHero532"
     },
     "1543": {
-      "key": 1543,
-      "original": "荆棘谷猛虎",
       "translation": "ARandomHero533"
     },
     "1544": {
-      "key": 1544,
-      "original": "沼泽爬行者",
       "translation": "ARandomHero534"
     },
     "1545": {
-      "key": 1545,
-      "original": "鬼灵骑士",
       "translation": "ARandomHero535"
     },
     "1546": {
-      "key": 1546,
-      "original": "尖牙德鲁伊",
       "translation": "ARandomHero536"
     },
     "1547": {
-      "key": 1547,
-      "original": "漂浮观察者",
       "translation": "ARandomHero537"
     },
     "1548": {
-      "key": 1548,
-      "original": "老式治疗机器人",
       "translation": "ARandomHero538"
     },
     "1549": {
-      "key": 1549,
-      "original": "熟练的水手",
       "translation": "ARandomHero539"
     },
     "1550": {
-      "key": 1550,
-      "original": "黑翼腐蚀者",
       "translation": "ARandomHero540"
     },
     "1551": {
-      "key": 1551,
-      "original": "影踪骁骑兵",
       "translation": "ARandomHero541"
     },
     "1552": {
-      "key": 1552,
-      "original": "发条骑士",
       "translation": "ARandomHero542"
     },
     "1553": {
-      "key": 1553,
-      "original": "格斗士",
       "translation": "ARandomHero543"
     },
     "1554": {
-      "key": 1554,
-      "original": "克瓦迪尔劫掠者",
       "translation": "ARandomHero544"
     },
     "1555": {
-      "key": 1555,
-      "original": "穆克拉的勇士",
       "translation": "ARandomHero545"
     },
     "1556": {
-      "key": 1556,
-      "original": "虚灵巫师",
       "translation": "ARandomHero546"
     },
     "1557": {
-      "key": 1557,
-      "original": "阿努比萨斯哨兵",
       "translation": "ARandomHero547"
     },
     "1558": {
-      "key": 1558,
-      "original": "夜色镇炼金师",
       "translation": "ARandomHero548"
     },
     "1559": {
-      "key": 1559,
-      "original": "渡魂者",
       "translation": "ARandomHero549"
     },
     "1560": {
-      "key": 1560,
-      "original": "闹闹机器人",
       "translation": "ARandomHero550"
     },
     "1561": {
-      "key": 1561,
-      "original": "邪教药剂师",
       "translation": "ARandomHero551"
     },
     "1562": {
-      "key": 1562,
-      "original": "展览馆法师",
       "translation": "ARandomHero552"
     },
     "1563": {
-      "key": 1563,
-      "original": "凛风巫师",
       "translation": "ARandomHero553"
     },
     "1564": {
-      "key": 1564,
-      "original": "暗金教窃歌者",
       "translation": "ARandomHero554"
     },
     "1565": {
-      "key": 1565,
-      "original": "功夫大师",
       "translation": "ARandomHero555"
     },
     "1566": {
-      "key": 1566,
-      "original": "街头调查员",
       "translation": "ARandomHero556"
     },
     "1567": {
-      "key": 1567,
-      "original": "猩红法力浮龙",
       "translation": "ARandomHero557"
     },
     "1568": {
-      "key": 1568,
-      "original": "饥饿的秃鹫",
       "translation": "ARandomHero558"
     },
     "1569": {
-      "key": 1569,
-      "original": "苔原犀牛",
       "translation": "ARandomHero559"
     },
     "1570": {
-      "key": 1570,
-      "original": "暗鳞治愈者",
       "translation": "ARandomHero560"
     },
     "1571": {
-      "key": 1571,
-      "original": "藏宝海湾保镖",
       "translation": "ARandomHero561"
     },
     "1572": {
-      "key": 1572,
-      "original": "古拉巴什狂暴者",
       "translation": "ARandomHero562"
     },
     "1573": {
-      "key": 1573,
-      "original": "雷矛特种兵",
       "translation": "ARandomHero563"
     },
     "1574": {
-      "key": 1574,
-      "original": "霜狼督军",
       "translation": "ARandomHero564"
     },
     "1575": {
-      "key": 1575,
-      "original": "夜刃刺客",
       "translation": "ARandomHero565"
     },
     "1576": {
-      "key": 1576,
-      "original": "利爪德鲁伊",
       "translation": "ARandomHero566"
     },
     "1577": {
-      "key": 1577,
-      "original": "利爪德鲁伊",
       "translation": "ARandomHero567"
     },
     "1578": {
-      "key": 1578,
-      "original": "魔暴龙",
       "translation": "ARandomHero568"
     },
     "1579": {
-      "key": 1579,
-      "original": "尖牙德鲁伊",
       "translation": "ARandomHero569"
     },
     "1580": {
-      "key": 1580,
-      "original": "作战科多兽",
       "translation": "ARandomHero570"
     },
     "1581": {
-      "key": 1581,
-      "original": "利爪德鲁伊",
       "translation": "ARandomHero571"
     },
     "1582": {
-      "key": 1582,
-      "original": "暗金教恶魔",
       "translation": "ARandomHero572"
     },
     "1583": {
-      "key": 1583,
-      "original": "风暴守护者",
       "translation": "ARandomHero573"
     },
     "1584": {
-      "key": 1584,
-      "original": "魅影歹徒",
       "translation": "ARandomHero574"
     },
     "1585": {
-      "key": 1585,
-      "original": "末日守卫",
       "translation": "ARandomHero575"
     },
     "1586": {
-      "key": 1586,
-      "original": "碧蓝幼龙",
       "translation": "ARandomHero576"
     },
     "1587": {
-      "key": 1587,
-      "original": "狂奔科多兽",
       "translation": "ARandomHero577"
     },
     "1588": {
-      "key": 1588,
-      "original": "憎恶",
       "translation": "ARandomHero578"
     },
     "1589": {
-      "key": 1589,
-      "original": "淤泥喷射者",
       "translation": "ARandomHero579"
     },
     "1590": {
-      "key": 1590,
-      "original": "百兽之王",
       "translation": "ARandomHero580"
     },
     "1591": {
-      "key": 1591,
-      "original": "高级修理机器人",
       "translation": "ARandomHero581"
     },
     "1592": {
-      "key": 1592,
-      "original": "食人魔忍者",
       "translation": "ARandomHero582"
     },
     "1593": {
-      "key": 1593,
-      "original": "钴制卫士",
       "translation": "ARandomHero583"
     },
     "1594": {
-      "key": 1594,
-      "original": "重型攻城战车",
       "translation": "ARandomHero584"
     },
     "1595": {
-      "key": 1595,
-      "original": "疯狂爆破者",
       "translation": "ARandomHero585"
     },
     "1596": {
-      "key": 1596,
-      "original": "榴弹投手",
       "translation": "ARandomHero586"
     },
     "1597": {
-      "key": 1597,
-      "original": "黑铁潜藏者",
       "translation": "ARandomHero587"
     },
     "1598": {
-      "key": 1598,
-      "original": "龙王配偶",
       "translation": "ARandomHero588"
     },
     "1599": {
-      "key": 1599,
-      "original": "恐怖的奴隶主",
       "translation": "ARandomHero589"
     },
     "1600": {
-      "key": 1600,
-      "original": "暴躁的牧羊人",
       "translation": "ARandomHero590"
     },
     "1601": {
-      "key": 1601,
-      "original": "雷霆崖勇士",
       "translation": "ARandomHero591"
     },
     "1602": {
-      "key": 1602,
-      "original": "海象人龟骑士",
       "translation": "ARandomHero592"
     },
     "1603": {
-      "key": 1603,
-      "original": "集合石",
       "translation": "ARandomHero593"
     },
     "1604": {
-      "key": 1604,
-      "original": "尤格—萨隆的仆从",
       "translation": "ARandomHero594"
     },
     "1605": {
-      "key": 1605,
-      "original": "暮光治愈者",
       "translation": "ARandomHero595"
     },
     "1606": {
-      "key": 1606,
-      "original": "腐化治疗机器人",
       "translation": "ARandomHero596"
     },
     "1607": {
-      "key": 1607,
-      "original": "玛瑙主教",
       "translation": "ARandomHero597"
     },
     "1608": {
-      "key": 1608,
-      "original": "虚灵商人",
       "translation": "ARandomHero598"
     },
     "1609": {
-      "key": 1609,
-      "original": "鸟禽守护者",
       "translation": "ARandomHero599"
     },
     "1610": {
-      "key": 1610,
-      "original": "兔妖教头",
       "translation": "ARandomHero600"
     },
     "1611": {
-      "key": 1611,
-      "original": "龙人侦测者",
       "translation": "ARandomHero601"
     },
     "1612": {
-      "key": 1612,
-      "original": "污手街惩罚者",
       "translation": "ARandomHero602"
     },
     "1613": {
-      "key": 1613,
-      "original": "玉莲帮密探",
       "translation": "ARandomHero603"
     },
     "1614": {
-      "key": 1614,
-      "original": "兽人铸甲师",
       "translation": "ARandomHero604"
     },
     "1615": {
-      "key": 1615,
-      "original": "二流打手",
       "translation": "ARandomHero605"
     },
     "1616": {
-      "key": 1616,
-      "original": "魅影歹徒",
       "translation": "ARandomHero606"
     },
     "1617": {
-      "key": 1617,
-      "original": "野猪骑士斯派克",
       "translation": "ARandomHero607"
     },
     "1618": {
-      "key": 1618,
-      "original": "爆破小队",
       "translation": "ARandomHero608"
     },
     "1619": {
-      "key": 1619,
-      "original": "土元素",
       "translation": "ARandomHero609"
     },
     "1620": {
-      "key": 1620,
-      "original": "王牌猎人",
       "translation": "ARandomHero610"
     },
     "1622": {
-      "key": 1622,
-      "original": "军需官",
       "translation": "ARandomHero611"
     },
     "1623": {
-      "key": 1623,
-      "original": "回收机器人",
       "translation": "ARandomHero612"
     },
     "1624": {
-      "key": 1624,
-      "original": "魔能机甲",
       "translation": "ARandomHero613"
     },
     "1625": {
-      "key": 1625,
-      "original": "征募官",
       "translation": "ARandomHero614"
     },
     "1626": {
-      "key": 1626,
-      "original": "纳迦海巫",
       "translation": "ARandomHero615"
     },
     "1627": {
-      "key": 1627,
-      "original": "西风灯神",
       "translation": "ARandomHero616"
     },
     "1628": {
-      "key": 1628,
-      "original": "暗影施法者",
       "translation": "ARandomHero617"
     },
     "1629": {
-      "key": 1629,
-      "original": "疯狂信徒",
       "translation": "ARandomHero618"
     },
     "1630": {
-      "key": 1630,
-      "original": "黑暗低语者",
       "translation": "ARandomHero619"
     },
     "1631": {
-      "key": 1631,
-      "original": "末日践行者",
       "translation": "ARandomHero620"
     },
     "1632": {
-      "key": 1632,
-      "original": "玉莲帮刺客",
       "translation": "ARandomHero621"
     },
     "1633": {
-      "key": 1633,
-      "original": "穴居人强盗",
       "translation": "ARandomHero622"
     },
     "1634": {
-      "key": 1634,
-      "original": "精英牛头人酋长",
       "translation": "ARandomHero623"
     },
     "1635": {
-      "key": 1635,
-      "original": "哈里森·琼斯",
       "translation": "ARandomHero624"
     },
     "1636": {
-      "key": 1636,
-      "original": "火车王里诺艾",
       "translation": "ARandomHero625"
     },
     "1637": {
-      "key": 1637,
-      "original": "绿皮船长",
       "translation": "ARandomHero626"
     },
     "1638": {
-      "key": 1638,
-      "original": "费尔根",
       "translation": "ARandomHero627"
     },
     "1639": {
-      "key": 1639,
-      "original": "洛欧塞布",
       "translation": "ARandomHero628"
     },
     "1640": {
-      "key": 1640,
-      "original": "斯塔拉格",
       "translation": "ARandomHero629"
     },
     "1641": {
-      "key": 1641,
-      "original": "沃金",
       "translation": "ARandomHero630"
     },
     "1642": {
-      "key": 1642,
-      "original": "伯瓦尔·弗塔根",
       "translation": "ARandomHero631"
     },
     "1643": {
-      "key": 1643,
-      "original": "布林顿3000型",
       "translation": "ARandomHero632"
     },
     "1644": {
-      "key": 1644,
-      "original": "赫米特·奈辛瓦里",
       "translation": "ARandomHero633"
     },
     "1645": {
-      "key": 1645,
-      "original": "米米尔隆的头部",
       "translation": "ARandomHero634"
     },
     "1646": {
-      "key": 1646,
-      "original": "虚灵勇士萨兰德",
       "translation": "ARandomHero635"
     },
     "1647": {
-      "key": 1647,
-      "original": "哈霍兰公主",
       "translation": "ARandomHero636"
     },
     "1648": {
-      "key": 1648,
-      "original": "升腾者海纳泽尔",
       "translation": "ARandomHero637"
     },
     "1649": {
-      "key": 1649,
-      "original": "玛克扎尔王子",
       "translation": "ARandomHero638"
     },
     "1650": {
-      "key": 1650,
-      "original": "金手指卡努克",
       "translation": "ARandomHero639"
     },
     "1651": {
-      "key": 1651,
-      "original": "缚链者拉兹",
       "translation": "ARandomHero640"
     },
     "1652": {
-      "key": 1652,
-      "original": "白眼大侠",
       "translation": "ARandomHero641"
     },
     "1653": {
-      "key": 1653,
-      "original": "飞火流星·芬杰",
       "translation": "ARandomHero642"
     },
     "1654": {
-      "key": 1654,
-      "original": "圣殿执行者",
       "translation": "ARandomHero643"
     },
     "1655": {
-      "key": 1655,
-      "original": "艾露恩的女祭司",
       "translation": "ARandomHero644"
     },
     "1656": {
-      "key": 1656,
-      "original": "冰霜元素",
       "translation": "ARandomHero645"
     },
     "1657": {
-      "key": 1657,
-      "original": "风怒鹰身人",
       "translation": "ARandomHero646"
     },
     "1658": {
-      "key": 1658,
-      "original": "火山幼龙",
       "translation": "ARandomHero647"
     },
     "1659": {
-      "key": 1659,
-      "original": "龙人打击者",
       "translation": "ARandomHero648"
     },
     "1660": {
-      "key": 1660,
-      "original": "黑暗鸦人",
       "translation": "ARandomHero649"
     },
     "1661": {
-      "key": 1661,
-      "original": "无面召唤师",
       "translation": "ARandomHero650"
     },
     "1662": {
-      "key": 1662,
-      "original": "蛛魔先知",
       "translation": "ARandomHero651"
     },
     "1663": {
-      "key": 1663,
-      "original": "展览馆守卫",
       "translation": "ARandomHero652"
     },
     "1664": {
-      "key": 1664,
-      "original": "青玉巨兽",
       "translation": "ARandomHero653"
     },
     "1665": {
-      "key": 1665,
-      "original": "犯罪高手",
       "translation": "ARandomHero654"
     },
     "1666": {
-      "key": 1666,
-      "original": "远古之树",
       "translation": "ARandomHero655"
     },
     "1667": {
-      "key": 1667,
-      "original": "火元素",
       "translation": "ARandomHero656"
     },
     "1668": {
-      "key": 1668,
-      "original": "恐惧地狱火",
       "translation": "ARandomHero657"
     },
     "1669": {
-      "key": 1669,
-      "original": "大法师",
       "translation": "ARandomHero658"
     },
     "1670": {
-      "key": 1670,
-      "original": "竞技场主宰",
       "translation": "ARandomHero659"
     },
     "1671": {
-      "key": 1671,
-      "original": "鲁莽火箭兵",
       "translation": "ARandomHero660"
     },
     "1672": {
-      "key": 1672,
-      "original": "石拳食人魔",
       "translation": "ARandomHero661"
     },
     "1673": {
-      "key": 1673,
-      "original": "地狱火！",
       "translation": "ARandomHero662"
     },
     "1674": {
-      "key": 1674,
-      "original": "“小伙伴”",
       "translation": "ARandomHero663"
     },
     "1675": {
-      "key": 1675,
-      "original": "长鬃草原狮",
       "translation": "ARandomHero664"
     },
     "1676": {
-      "key": 1676,
-      "original": "加基森拍卖师",
       "translation": "ARandomHero665"
     },
     "1677": {
-      "key": 1677,
-      "original": "烈日行者",
       "translation": "ARandomHero666"
     },
     "1678": {
-      "key": 1678,
-      "original": "银色指挥官",
       "translation": "ARandomHero667"
     },
     "1679": {
-      "key": 1679,
-      "original": "机械野兽",
       "translation": "ARandomHero668"
     },
     "1680": {
-      "key": 1680,
-      "original": "盾甲侍女",
       "translation": "ARandomHero669"
     },
     "1681": {
-      "key": 1681,
-      "original": "虚空碾压者",
       "translation": "ARandomHero670"
     },
     "1682": {
-      "key": 1682,
-      "original": "大师级枪骑士",
       "translation": "ARandomHero671"
     },
     "1683": {
-      "key": 1683,
-      "original": "穆戈尔的勇士",
       "translation": "ARandomHero672"
     },
     "1684": {
-      "key": 1684,
-      "original": "摇摆的俾格米",
       "translation": "ARandomHero673"
     },
     "1685": {
-      "key": 1685,
-      "original": "深渊之物",
       "translation": "ARandomHero674"
     },
     "1686": {
-      "key": 1686,
-      "original": "腐化先知",
       "translation": "ARandomHero675"
     },
     "1687": {
-      "key": 1687,
-      "original": "斯克拉姆狂热者",
       "translation": "ARandomHero676"
     },
     "1688": {
-      "key": 1688,
-      "original": "象牙骑士",
       "translation": "ARandomHero677"
     },
     "1689": {
-      "key": 1689,
-      "original": "沟渠潜伏者",
       "translation": "ARandomHero678"
     },
     "1690": {
-      "key": 1690,
-      "original": "书卷之龙",
       "translation": "ARandomHero679"
     },
     "1691": {
-      "key": 1691,
-      "original": "暗金教水晶侍女",
       "translation": "ARandomHero680"
     },
     "1692": {
-      "key": 1692,
-      "original": "秘教暗影祭司",
       "translation": "ARandomHero681"
     },
     "1693": {
-      "key": 1693,
-      "original": "劫持者",
       "translation": "ARandomHero682"
     },
     "1694": {
-      "key": 1694,
-      "original": "心能魔像",
       "translation": "ARandomHero683"
     },
     "1695": {
-      "key": 1695,
-      "original": "载人飞天魔像",
       "translation": "ARandomHero684"
     },
     "1696": {
-      "key": 1696,
-      "original": "考达拉幼龙",
       "translation": "ARandomHero685"
     },
     "1697": {
-      "key": 1697,
-      "original": "神秘挑战者",
       "translation": "ARandomHero686"
     },
     "1698": {
-      "key": 1698,
-      "original": "破海者",
       "translation": "ARandomHero687"
     },
     "1699": {
-      "key": 1699,
-      "original": "科多兽骑士",
       "translation": "ARandomHero688"
     },
     "1700": {
-      "key": 1700,
-      "original": "十字军统领",
       "translation": "ARandomHero689"
     },
     "1701": {
-      "key": 1701,
-      "original": "杂耍吞法者",
       "translation": "ARandomHero690"
     },
     "1703": {
-      "key": 1703,
-      "original": "上古之神先驱",
       "translation": "ARandomHero691"
     },
     "1704": {
-      "key": 1704,
-      "original": "土地精海盗",
       "translation": "ARandomHero692"
     },
     "1705": {
-      "key": 1705,
-      "original": "暗金教恶魔商贩",
       "translation": "ARandomHero693"
     },
     "1706": {
-      "key": 1706,
-      "original": "发条强盗机器人",
       "translation": "ARandomHero694"
     },
     "1707": {
-      "key": 1707,
-      "original": "野猪骑士蕾瑟兰",
       "translation": "ARandomHero695"
     },
     "1708": {
-      "key": 1708,
-      "original": "竞技推广员",
       "translation": "ARandomHero696"
     },
     "1709": {
-      "key": 1709,
-      "original": "迪菲亚清道夫",
       "translation": "ARandomHero697"
     },
     "1710": {
-      "key": 1710,
-      "original": "格尔宾·梅卡托克",
       "translation": "ARandomHero698"
     },
     "1712": {
-      "key": 1712,
-      "original": "黑骑士",
       "translation": "ARandomHero699"
     },
     "1713": {
-      "key": 1713,
-      "original": "霍格",
       "translation": "ARandomHero700"
     },
     "1714": {
-      "key": 1714,
-      "original": "凯恩·血蹄",
       "translation": "ARandomHero701"
     },
     "1715": {
-      "key": 1715,
-      "original": "希尔瓦娜斯·风行者",
       "translation": "ARandomHero702"
     },
     "1716": {
-      "key": 1716,
-      "original": "伊利丹·怒风",
       "translation": "ARandomHero703"
     },
     "1717": {
-      "key": 1717,
-      "original": "迈克斯纳",
       "translation": "ARandomHero704"
     },
     "1718": {
-      "key": 1718,
-      "original": "加里维克斯",
       "translation": "ARandomHero705"
     },
     "1719": {
-      "key": 1719,
-      "original": "钢铁战蝎",
       "translation": "ARandomHero706"
     },
     "1720": {
-      "key": 1720,
-      "original": "加兹鲁维",
       "translation": "ARandomHero707"
     },
     "1721": {
-      "key": 1721,
-      "original": "食人魔勇士穆戈尔",
       "translation": "ARandomHero708"
     },
     "1722": {
-      "key": 1722,
-      "original": "托什雷",
       "translation": "ARandomHero709"
     },
     "1723": {
-      "key": 1723,
-      "original": "索瑞森大帝",
       "translation": "ARandomHero710"
     },
     "1724": {
-      "key": 1724,
-      "original": "唤雾者伊戈瓦尔",
       "translation": "ARandomHero711"
     },
     "1725": {
-      "key": 1725,
-      "original": "威尔弗雷德·菲兹班",
       "translation": "ARandomHero712"
     },
     "1726": {
-      "key": 1726,
-      "original": "博尔夫·碎盾",
       "translation": "ARandomHero713"
     },
     "1727": {
-      "key": 1727,
-      "original": "裁决者图哈特",
       "translation": "ARandomHero714"
     },
     "1728": {
-      "key": 1728,
-      "original": "骷髅骑士",
       "translation": "ARandomHero715"
     },
     "1729": {
-      "key": 1729,
-      "original": "雷诺·杰克逊",
       "translation": "ARandomHero716"
     },
     "1730": {
-      "key": 1730,
-      "original": "传令官沃拉兹",
       "translation": "ARandomHero717"
     },
     "1731": {
-      "key": 1731,
-      "original": "山谷之王穆克拉",
       "translation": "ARandomHero718"
     },
     "1732": {
-      "key": 1732,
-      "original": "艾雅·黑掌",
       "translation": "ARandomHero719"
     },
     "1733": {
-      "key": 1733,
-      "original": "郭雅夫人",
       "translation": "ARandomHero720"
     },
     "1734": {
-      "key": 1734,
-      "original": "拉希奥",
       "translation": "ARandomHero721"
     },
     "1735": {
-      "key": 1735,
-      "original": "恐怖末日守卫",
       "translation": "ARandomHero722"
     },
     "1736": {
-      "key": 1736,
-      "original": "俘获的冰虫",
       "translation": "ARandomHero723"
     },
     "1737": {
-      "key": 1737,
-      "original": "黑曜石毁灭者",
       "translation": "ARandomHero724"
     },
     "1738": {
-      "key": 1738,
-      "original": "毒沼爬行者",
       "translation": "ARandomHero725"
     },
     "1739": {
-      "key": 1739,
-      "original": "畸变的龙鹰",
       "translation": "ARandomHero726"
     },
     "1740": {
-      "key": 1740,
-      "original": "青玉酋长",
       "translation": "ARandomHero727"
     },
     "1741": {
-      "key": 1741,
-      "original": "渊狱惩击者",
       "translation": "ARandomHero728"
     },
     "1742": {
-      "key": 1742,
-      "original": "列王守卫",
       "translation": "ARandomHero729"
     },
     "1743": {
-      "key": 1743,
-      "original": "暴风城勇士",
       "translation": "ARandomHero730"
     },
     "1744": {
-      "key": 1744,
-      "original": "熔火恶犬",
       "translation": "ARandomHero731"
     },
     "1745": {
-      "key": 1745,
-      "original": "作战傀儡",
       "translation": "ARandomHero732"
     },
     "1746": {
-      "key": 1746,
-      "original": "维克尼拉斯大帝",
       "translation": "ARandomHero733"
     },
     "1747": {
-      "key": 1747,
-      "original": "拉文霍德刺客",
       "translation": "ARandomHero734"
     },
     "1748": {
-      "key": 1748,
-      "original": "荒野骑士",
       "translation": "ARandomHero735"
     },
     "1749": {
-      "key": 1749,
-      "original": "上古之神护卫",
       "translation": "ARandomHero736"
     },
     "1750": {
-      "key": 1750,
-      "original": "污手街守护者",
       "translation": "ARandomHero737"
     },
     "1751": {
-      "key": 1751,
-      "original": "战争古树",
       "translation": "ARandomHero738"
     },
     "1752": {
-      "key": 1752,
-      "original": "知识古树",
       "translation": "ARandomHero739"
     },
     "1753": {
-      "key": 1753,
-      "original": "大法师安东尼达斯",
       "translation": "ARandomHero740"
     },
     "1754": {
-      "key": 1754,
-      "original": "先知维纶",
       "translation": "ARandomHero741"
     },
     "1756": {
-      "key": 1756,
-      "original": "玛洛恩",
       "translation": "ARandomHero742"
     },
     "1758": {
-      "key": 1758,
-      "original": "加兹瑞拉",
       "translation": "ARandomHero743"
     },
     "1759": {
-      "key": 1759,
-      "original": "耐普图隆",
       "translation": "ARandomHero744"
     },
     "1760": {
-      "key": 1760,
-      "original": "颤地者特洛格佐尔",
       "translation": "ARandomHero745"
     },
     "1761": {
-      "key": 1761,
-      "original": "砰砰博士",
       "translation": "ARandomHero746"
     },
     "1762": {
-      "key": 1762,
-      "original": "雷德·黑手",
       "translation": "ARandomHero747"
     },
     "1763": {
-      "key": 1763,
-      "original": "酸喉",
       "translation": "ARandomHero748"
     },
     "1764": {
-      "key": 1764,
-      "original": "银色神官帕尔崔丝",
       "translation": "ARandomHero749"
     },
     "1765": {
-      "key": 1765,
-      "original": "纯洁者耶德瑞克",
       "translation": "ARandomHero750"
     },
     "1767": {
-      "key": 1767,
-      "original": "天空上尉库拉格",
       "translation": "ARandomHero751"
     },
     "1769": {
-      "key": 1769,
-      "original": "马尔考罗克",
       "translation": "ARandomHero752"
     },
     "1770": {
-      "key": 1770,
-      "original": "艾尔文灾星霍格",
       "translation": "ARandomHero753"
     },
     "1773": {
-      "key": 1773,
-      "original": "墨水大师索莉娅",
       "translation": "ARandomHero754"
     },
     "1774": {
-      "key": 1774,
-      "original": "唐·汉古",
       "translation": "ARandomHero755"
     },
     "1775": {
-      "key": 1775,
-      "original": "强袭坦克",
       "translation": "ARandomHero756"
     },
     "1776": {
-      "key": 1776,
-      "original": "石化魔暴龙",
       "translation": "ARandomHero757"
     },
     "1777": {
-      "key": 1777,
-      "original": "惊骇恐魔",
       "translation": "ARandomHero758"
     },
     "1778": {
-      "key": 1778,
-      "original": "埃隆巴克保护者",
       "translation": "ARandomHero759"
     },
     "1779": {
-      "key": 1779,
-      "original": "暗金教恶魔",
       "translation": "ARandomHero760"
     },
     "1780": {
-      "key": 1780,
-      "original": "厄运召唤者",
       "translation": "ARandomHero761"
     },
     "1781": {
-      "key": 1781,
-      "original": "巨型沙虫",
       "translation": "ARandomHero762"
     },
     "1782": {
-      "key": 1782,
-      "original": "风领主奥拉基尔",
       "translation": "ARandomHero763"
     },
     "1783": {
-      "key": 1783,
-      "original": "提里奥·弗丁",
       "translation": "ARandomHero764"
     },
     "1784": {
-      "key": 1784,
-      "original": "格罗玛什·地狱咆哮",
       "translation": "ARandomHero765"
     },
     "1785": {
-      "key": 1785,
-      "original": "格鲁尔",
       "translation": "ARandomHero766"
     },
     "1788": {
-      "key": 1788,
-      "original": "V-07-TR-0N",
       "translation": "ARandomHero767"
     },
     "1789": {
-      "key": 1789,
-      "original": "斯尼德的伐木机",
       "translation": "ARandomHero768"
     },
     "1790": {
-      "key": 1790,
-      "original": "死神4000型",
       "translation": "ARandomHero769"
     },
     "1792": {
-      "key": 1792,
-      "original": "罗宁",
       "translation": "ARandomHero770"
     },
     "1793": {
-      "key": 1793,
-      "original": "阿诺玛鲁斯",
       "translation": "ARandomHero771"
     },
     "1796": {
-      "key": 1796,
-      "original": "麦迪文",
       "translation": "ARandomHero772"
     },
     "1799": {
-      "key": 1799,
-      "original": "火山邪木",
       "translation": "ARandomHero773"
     },
     "1802": {
-      "key": 1802,
-      "original": "塞纳留斯",
       "translation": "ARandomHero774"
     },
     "1803": {
-      "key": 1803,
-      "original": "暴龙王克鲁什",
       "translation": "ARandomHero775"
     },
     "1805": {
-      "key": 1805,
-      "original": "阿莱克丝塔萨",
       "translation": "ARandomHero776"
     },
     "1809": {
-      "key": 1809,
-      "original": "伊瑟拉",
       "translation": "ARandomHero777"
     },
     "1811": {
-      "key": 1811,
-      "original": "瑟玛普拉格",
       "translation": "ARandomHero778"
     },
     "1814": {
-      "key": 1814,
-      "original": "艾维娜",
       "translation": "ARandomHero779"
     },
     "1816": {
-      "key": 1816,
-      "original": "冰吼",
       "translation": "ARandomHero780"
     },
     "1817": {
-      "key": 1817,
-      "original": "虚灵大盗拉法姆",
       "translation": "ARandomHero781"
     },
     "1820": {
-      "key": 1820,
-      "original": "诺格弗格市长",
       "translation": "ARandomHero782"
     },
     "1822": {
-      "key": 1822,
-      "original": "海巨人",
       "translation": "ARandomHero783"
     },
     "1823": {
-      "key": 1823,
-      "original": "冰霜巨人",
       "translation": "ARandomHero784"
     },
     "1826": {
-      "key": 1826,
-      "original": "瓦里安·乌瑞恩",
       "translation": "ARandomHero785"
     },
     "1833": {
-      "key": 1833,
-      "original": "山岭巨人",
       "translation": "ARandomHero786"
     },
     "1834": {
-      "key": 1834,
-      "original": "发条巨人",
       "translation": "ARandomHero787"
     },
     "1835": {
-      "key": 1835,
-      "original": "奥术巨人",
       "translation": "ARandomHero788"
     },
     "1837": {
-      "key": 1837,
-      "original": "青玉魔像",
       "translation": "ARandomHero789"
     }
   },
   "AreaName": {
     "0": {
-      "key": 0,
-      "original": "区域模型",
       "translation": "ABeautifulArea0"
     },
     "1": {
-      "key": 1,
-      "original": "区域1",
       "translation": "ABeautifulArea1"
     },
     "2": {
-      "key": 2,
-      "original": "区域2",
       "translation": "ABeautifulArea2"
     },
     "3": {
-      "key": 3,
-      "original": "区域3",
       "translation": "ABeautifulArea3"
     },
     "4": {
-      "key": 4,
-      "original": "区域4",
       "translation": "ABeautifulArea4"
     },
     "5": {
-      "key": 5,
-      "original": "区域5",
       "translation": "ABeautifulArea5"
     },
     "100": {
-      "key": 100,
-      "original": "小村落",
       "translation": "ABeautifulArea6"
     },
     "101": {
-      "key": 101,
-      "original": "村落郊外I",
       "translation": "ABeautifulArea7"
     },
     "102": {
-      "key": 102,
-      "original": "村落郊外II",
       "translation": "ABeautifulArea8"
     },
     "103": {
-      "key": 103,
-      "original": "小城镇I",
       "translation": "ABeautifulArea9"
     },
     "104": {
-      "key": 104,
-      "original": "小城镇II",
       "translation": "ABeautifulArea10"
     },
     "105": {
-      "key": 105,
-      "original": "郊外大草原I",
       "translation": "ABeautifulArea11"
     },
     "106": {
-      "key": 106,
-      "original": "郊外大草原II",
       "translation": "ABeautifulArea12"
     },
     "107": {
-      "key": 107,
-      "original": "郊外大草原III",
       "translation": "ABeautifulArea13"
     },
     "108": {
-      "key": 108,
-      "original": "宁静森林I",
       "translation": "ABeautifulArea14"
     },
     "109": {
-      "key": 109,
-      "original": "宁静森林II",
       "translation": "ABeautifulArea15"
     },
     "110": {
-      "key": 110,
-      "original": "宁静森林III",
       "translation": "ABeautifulArea16"
     },
     "111": {
-      "key": 111,
-      "original": "城邦小路I",
       "translation": "ABeautifulArea17"
     },
     "112": {
-      "key": 112,
-      "original": "城邦小路II",
       "translation": "ABeautifulArea18"
     },
     "113": {
-      "key": 113,
-      "original": "城邦小路III",
       "translation": "ABeautifulArea19"
     }
   }

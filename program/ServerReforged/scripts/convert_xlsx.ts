@@ -14,6 +14,10 @@ interface XlsxFileConfig {
     sheets: Array<{
         name: string
         keyColumn?: string
+        /**
+         * 如果设置了此项，则排除掉不在include里面的列。
+         */
+        include?: string[]
     }>
 }
 
@@ -21,18 +25,22 @@ const sheetsOfLanguage = [
     {
         name: 'UI',
         keyColumn: 'key',
+        include: ['translation'],
     },
     {
         name: 'MonsterName',
         keyColumn: 'key',
+        include: ['translation'],
     },
     {
         name: 'HeroName',
         keyColumn: 'key',
+        include: ['translation'],
     },
     {
         name: 'AreaName',
         keyColumn: 'key',
+        include: ['translation'],
     },
 ]
 
@@ -201,6 +209,7 @@ for (const file of CONFIG.files) {
     for (const sheet of file.sheets) {
         const sheetName = sheet.name
         const keyColumn = sheet.keyColumn
+        const include = sheet.include
 
         const xlsxSheet = getByName(workSheets, sheetName)
         if (!xlsxSheet) {
@@ -231,11 +240,15 @@ for (const file of CONFIG.files) {
                 const cell = line[j]
                 const column = columns[j]
 
-                lineobj[column] = cell
-
                 if (column === keyColumn) {
                     linekey = cell
                 }
+
+                if (include && !include.includes(column)) {
+                    continue
+                }
+
+                lineobj[column] = cell
             }
 
             sheetObj[linekey] = lineobj
