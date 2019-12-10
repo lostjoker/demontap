@@ -1,0 +1,48 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+POST http://localhost:8452/user/login
+Content-Type: application/json
+
+{
+  "username": "墙墙",
+  "password": "zxcv"
+}
+
+###
+
+
+GET http://localhost:8452/user/data?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiIwMWRlZWZkYmRjIiwiaWF0IjoxNTQ5MDI4NzkwLCJleHAiOjE1NDkyMDE1OTB9.XkOEScYjep89TjtoGia3tG1EURdKTMqzlfql9_QWz6U
+Accept: application/json
+
+###
+#HTTP/1.1 200 OK
+#X-Powered-By: Express
+#Access-Control-Allow-Origin: *
+#Content-Type: application/json; charset=utf-8
+#Content-Length: 326
+#ETag: W/"146-I17q22IswPjUcfPW6ip+8IxhIoo"
+#Date: Fri, 01 Feb 2019 13:47:39 GMT
+#Connection: keep-alive
+#
+#{
+#  "ok": true,
+#  "code": 0,
+#  "body": {
+#    "createdAt": "2015-03-29 19:30:47",
+#    "email": "myna12548 at vip.qq.com",
+#    "emailVerified": true,
+#    "id": "01deefdbdc",
+#    "mobilePhoneNumber": "18017054075",
+#    "mobilePhoneNumberVerified": true,
+#    "nickName": "墙墙",
+#    "objectId": "01deefdbdc",
+#    "saveObjectID": "009d5c9e01",
+#    "updatedAt": "2019-01-22 18:32:29",
+#    "username": "墙墙"
+#  }
+#}
+###

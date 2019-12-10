@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="dialogRewardUs" width="600" height="550" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="web,android,ios" >
+	<e:Component width="100%" height="100%"  skinName="gameBg8"/>
+	<e:CheckBox id="cb_rewardlevel1" width="280" label="   鸡翅(￥6)" height="60" top="115" selected="true" horizontalCenter="0" skinName="cbRewardUs"/>
+	<e:CheckBox id="cb_rewardlevel2" width="280" label="   大盘鸡(￥30)" height="60" top="190" horizontalCenter="0" skinName="cbRewardUs"/>
+	<e:CheckBox id="cb_rewardlevel3" width="280" label="   鸡桶(￥68)" height="60" top="265" horizontalCenter="0" skinName="cbRewardUs"/>
+	<e:CheckBox id="cb_rewardlevel4" width="280" label="   豪华鸡套餐(￥198)" height="60" top="340" horizontalCenter="0" skinName="cbRewardUs"/>
+	<e:Button width="80" height="80" id="btn_close" top="-10" right="-10" skinName="btnClose"/>
+	<e:Button id="btn_payali" label="支持一下" horizontalCenter="0" width="250" height="75" x="10" bottom="-35" skinName="btnPayAli" includeIn="web,android" horizontalCenter.web="0" bottom.web="30" skinName.web="btnBlueBig" label.web="支 持 一 下"/>
+	<e:Button id="btn_paywx" horizontalCenter="0" x="20" bottom="55" width="250" label="支持一下" height="75" y="10" skinName="btnPayWx" includeIn="android,ios" bottom.ios="30" label.ios="支 持 一 下" skinName.ios="btnGreenBig"/>
+	<e:Label text="请作者吃鸡" width="80%" horizontalCenter="1" lineSpacing="5" top="20" textColor="0xFFFFFF" bold="true" size="40" textAlign="center"/>
+	<e:Label width="90%" y="75" text="（打赏作者，这是一份纯情怀投入，但你的支持会被铭记)" size="20" lineSpacing="5" textColor="0xFFFFFF" textAlign="center" horizontalCenter="0"/>
+	<e:Image source="npc1_png" bottom="-2" touchEnabled="false" x="-63" width="198" height="226"/>
+	<e:Image source="icon_rewardus_cb1_png" top="20" horizontalCenter="135"/>
+</e:Skin>

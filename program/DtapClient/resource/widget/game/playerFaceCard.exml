@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="playerFaceCard" width="170" height="180" currentState="normal" xmlns:e="http://ns.egret.com/eui" states="reg,normal" >
+	<e:Image id="img_facebg" source="bg_face_png" horizontalCenter="0" width="100%" height="100%"/>
+	<e:Image id="img_player"  verticalCenter="-10" horizontalCenter="0" width="100%" height="100%" source="icon_qq_png"/>
+	<e:Image source="bg_color13_png" right="0" top="0" includeIn="normal"/>
+	<e:Image id="img_sex" source="icon_male_png" top="10" right="12" includeIn="normal"/>
+</e:Skin>

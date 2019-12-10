@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="gameTreasure" width="800" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*"  >
+	<e:Image source="bg_color1_png" width="100%" height="100%" />
+	<e:Image source="bg_rolename_png" width="100%" height="80" scale9Grid="5,3,106,24"/>
+	<e:Image id="img_bg_fight" width="100%" height="800" top="80" source="bg13_png"/>
+	<e:Group width="100%" height="320" top="880">
+		<e:Rect fillColor="#333333" width="100%" height="100%" />
+		<e:Scroller width="100%" scrollPolicyH="auto" height="100%">
+			<e:Group id="g_monster">
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="g_invitenotice" height="50" scrollEnabled="true" width="500" bottom="150" horizontalCenter="0" visible="false"/>
+	<e:Label id="lbl_stage" size="40" bold="true" horizontalCenter="-20" top="15" height="45" textAlign="center" verticalAlign="middle" text="藏 宝 库（这个界面似乎多余，换其他功能）" />
+	<e:Image id="img_gold" source="icon_coin_png" width="40" height="40" verticalCenter="-525" horizontalCenter="-120" />
+	<e:Label id="lbl_gold" text="999.99e999" width="275" size="36" horizontalCenter="50.5" top="100" height="45" textAlign="center" verticalAlign="middle" stroke="1" bold="true" />
+	<ns1:MainBtnGroup skinName="mainBtnGroup" bottom="0" />
+	<e:Group id="g_servernotice" width="100%" height="60" visible="false">
+		<e:Rect width="100%" height="100%" fillColor="0x333333" alpha="0.7" />
+		<e:Label id="lbl_servernotice" height="100%" textColor="0xffffff"  verticalAlign="middle" x="0"/>
+	</e:Group>
+	<ns1:BlockBoard id="bb" skinName="blockBoard" width="100%" height="100%" visible="false" />
+</e:Skin>

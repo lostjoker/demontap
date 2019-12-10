@@ -1,0 +1,40 @@
+# 129.211.130.35
+version : '3.1'
+
+services:
+
+  db     :
+    image:       donilan/mysql-utf8mb4
+    command    : --default-authentication-plugin=mysql_native_password
+    restart    : always
+    ports      :
+    - 12580:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: lostjoker
+      MYSQL_DATABASE:      gmud
+    volumes:
+    - 'mysql_data:/var/lib/mysql'
+
+  redis  :
+    image      : 'bitnami/redis:latest'
+    restart    : always
+    environment:
+    - REDIS_PASSWORD=lostjoker
+    labels     :
+      kompose.service.type: nodeport
+    ports      :
+    - 12579:6379
+    volumes    :
+    - 'redis_data:/bitnami/redis'
+
+  adminer:
+    image  : adminer
+    restart: always
+    ports  :
+    - 12578:8080
+
+volumes :
+  redis_data:
+    driver: local
+  mysql_data:
+    driver: local

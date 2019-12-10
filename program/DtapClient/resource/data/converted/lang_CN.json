@@ -1,0 +1,76 @@
+{
+  "UI": {
+    "btn_lvlup": {
+      "key": "btn_lvlup",
+      "original": "升  级"
+    },
+    "btn_tab_dungeon": {
+      "key": "btn_tab_dungeon",
+      "original": "地  城"
+    },
+    "btn_tab_market": {
+      "key": "btn_tab_market",
+      "original": "市  场"
+    },
+    "btn_tab_treasure": {
+      "key": "btn_tab_treasure",
+      "original": "宝  藏"
+    },
+    "btn_tab2demon": {
+      "key": "btn_tab2demon",
+      "original": "魔  王"
+    },
+    "btn_showattr": {
+      "key": "btn_showattr",
+      "original": "属  性"
+    },
+    "btn_showbreak": {
+      "key": "btn_showbreak",
+      "original": "突  变"
+    },
+    "btn_showevo": {
+      "key": "btn_showevo",
+      "original": "进  化"
+    },
+    "lbl_stage": {
+      "key": "lbl_stage",
+      "original": "帅气的大魔王"
+    },
+    "btn_tab2fight": {
+      "key": "btn_tab2fight",
+      "original": "战  斗"
+    },
+    "btn_showskills": {
+      "key": "btn_showskills",
+      "original": "技  能"
+    },
+    "btn_showmonsters": {
+      "key": "btn_showmonsters",
+      "original": "怪  物"
+    },
+    "btn_robplayer": {
+      "key": "btn_robplayer",
+      "original": "掠  夺"
+    },
+    "lbl_coin": {
+      "key": "lbl_coin",
+      "original": "金币: {0}"
+    },
+    "btn_lvl": {
+      "key": "btn_lvl",
+      "original": "魔王等级: {0}"
+    },
+    "btn_atk": {
+      "key": "btn_atk",
+      "original": "攻击等级: {0}攻击: {1} \\n 升级所需: {2}"
+    },
+    "btn_cri": {
+      "key": "btn_cri",
+      "original": "暴击等级: {0}暴击: {1} \\n 升级所需: {2}"
+    },
+    "btn_spd": {
+      "key": "btn_spd",
+      "original": "速度等级: {0}速度: {1} \\n 升级所需: {2}"
+    }
+  }
+}

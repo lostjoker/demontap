@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="listItemFriend" width="475" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="100%" fillAlpha="1" strokeWeight="3" height="100%" strokeColor="0xB8BDD8" fillColor="0x8285A3"/>
+	<e:Label id="lbl_name" textAlign="center" verticalCenter="0" text="{data.name}" left="15"/>
+	<e:Button id="btn_invite" label="邀  请" skinName="btnGreen" verticalCenter="0" height="40" width="100" right="15"/>
+</e:Skin>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="rankPanel" width="800" height="1000" currentState="battle" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="battle,area,rich" >
+    <e:Group id="g_tab1" width="100%" height="100%" includeIn="battle">
+    </e:Group>
+	<e:Image source="bg_rolename_png" width="100%" height="80" scale9Grid="5,3,106,24"/>
+	<e:Label id="lbl_title" size="40" bold="true" horizontalCenter="-20" top="15" height="45" textAlign="center" verticalAlign="middle" text="排行榜" text.battle="竞技排行" text.area="最高区域" text.rich="土豪榜"/>
+
+    <e:Scroller id="sc_rank" width="100%" height="80%" top="150">
+        <e:DataGroup id="g_rank" width="100%">
+        </e:DataGroup>
+    </e:Scroller>
+	<e:Button id="btn_tab0" label="竞  技" width="200" height="70" skinName="btnBlackBig" top="80" left="0"/>
+	<e:Button id="btn_tab1" label="闯  关" width="200" height="70" skinName="btnBlackBig" top="80" left="200"/>
+	<e:Button id="btn_tab2" label="土  豪" width="200" height="70" skinName="btnBlackBig" top="80" left="400"/>
+	<e:Button id="btn_tab3" label="未  知" width="200" height="70" skinName="btnBlackBig" top="80" left="600"/>
+</e:Skin>

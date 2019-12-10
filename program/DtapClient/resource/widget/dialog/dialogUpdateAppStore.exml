@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="dialogUpdateAppStore" width="450" height="150" currentState="h" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Component width="100%" height="100%"  skinName="gameBg4"/>
+	<e:Button id="btn_close" width="250" height="80" horizontalCenter="0" label="前往更新" skinName="btnGreenBig" bottom="-10"/>
+	<e:Label id="lbl_title" text="有新的内容！" horizontalCenter="0" strokeColor="0x64648C" stroke="1" bold="true" size="40" top="20"/>
+
+</e:Skin>

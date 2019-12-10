@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="compodoc">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="compodoc" />
+              <option name="relativePathToSchema" value=".\node_modules\@compodoc\compodoc\src\config\schema.json" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value=".compodocrc.yaml" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>

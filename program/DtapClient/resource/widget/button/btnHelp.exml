@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="btnHelp" width="100" height="100" xmlns:e="http://ns.egret.com/eui" currentState="up" states="up,down,disabled" >
+	<e:Component verticalCenter="5" skinName="gameBg6" width="100%" includeIn="up,disabled" height="100%" horizontalCenter="5"/>
+	<e:Image height="100%" width="100%" x.disabled="0" x.up="0" y.disabled="0" y.up="0" alpha.disabled="0.5" width.down="98%" height.down="98%" horizontalCenter.down="0" verticalCenter.down="0" source="bg_normaltable_png" scale9Grid="13,12,274,66"/>
+	<e:Image verticalCenter="0" left="25" left.down="25" verticalCenter.down="0" source="icon_help_png" width.disabled="70" width.up="70" height.disabled="70" height.up="70" width.down="65" height.down="65" width="70" height="70"/>
+	<e:Label verticalCenter="-5" left="110" id="labelDisplay" fontFamily="微软雅黑" stroke="1" bold="true" size="40" strokeColor="0x000000" size.down="37"/>
+</e:Skin>

@@ -1,0 +1,36 @@
+### ignore all build result
+
+program/demontap/client/bin-debug/
+program/demontap/client/bin-release/
+program/demontap/client/.wing/
+program/demontap/client/client/src/Config.ts
+
+
+# server
+
+
+# other
+
+
+program/demontap/logs/
+program/demontap/ecosystem.config.json
+program/demontap/npm-debug.log
+program/demontap/node_modules/
+program/demontap/client/src/Config.ts
+program/demontap/.nyc_output/
+program/demontap/.idea/workspace.xml
+program/demontap/client/.idea/workspace.xml
+*.~lock.*
+program/demontap/client/resource/data/converted/
+program/demontap/data/converted/
+program/demontap/.idea/jsLibraryMappings.xml
+~$*
+program/server_new/data/converted/
+ecosystem.config.json
+config.ts
+program/dclient/
+program/demontap/
+program/server_new/
+*.env
+*.retry
+program/DtapClient/.wing/

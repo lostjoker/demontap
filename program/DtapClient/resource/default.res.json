@@ -1,0 +1,259 @@
+{
+	"groups": [
+		{
+			"keys": "preload_json,altar_data_json,area_data_json,item_data_json,monster_data_json,hero_data_json,demons_data_json,egt_png,lang_CN_json",
+			"name": "preload"
+		},
+		{
+			"keys": "",
+			"name": "card"
+		},
+		{
+			"keys": "voted_mp3,gameresumed_mp3,gamepaused_mp3",
+			"name": "sound"
+		},
+		{
+			"keys": "ui_json",
+			"name": "ui"
+		},
+		{
+			"keys": "hero_json",
+			"name": "hero"
+		},
+		{
+			"keys": "demon_json,monster_json",
+			"name": "demon"
+		},
+		{
+			"keys": "hero0_tex_png,hero0_tex_json,hero0_ske_json,hero1_tex_png,hero1_tex_json,hero1_ske_json",
+			"name": "bone"
+		},
+		{
+			"keys": "dmg_fnt,dmg_png,fangzhengxiangsu_TTF",
+			"name": "font"
+		},
+		{
+			"keys": "bg_json",
+			"name": "bg"
+		},
+		{
+			"keys": "effect_png,effect_json",
+			"name": "effect"
+		},
+		{
+			"keys": "skill_json,item_json,egt_png",
+			"name": "icon"
+		},
+		{
+			"keys": "monster_json",
+			"name": "monster"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/sound/voted.mp3",
+			"type": "sound",
+			"name": "voted_mp3"
+		},
+		{
+			"url": "assets/preload/preload.json",
+			"type": "sheet",
+			"name": "preload_json",
+			"subkeys": "border_png,button_down_png,button_up_png,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,handle_png,header_png,off_png,on_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,selected_png,thumb_pb_png,thumb_png,track_pb_png,track_png,track_sb_png,tracklight_png"
+		},
+		{
+			"url": "assets/ui/ui.json",
+			"type": "sheet",
+			"name": "ui_json",
+			"subkeys": "bg_color11_png,bg_color14_png,bg_color15_png,bg_color1_png,bg_color2_png,bg_color5_png,bg_color6_png,bg_color9_png,bg_dialog4_png,bg_normaltable_png,bg_rolename_png,bg_texttable_png,btn_black_png,btn_black_round_png,btn_blue_png,btn_blue_round_png,btn_green_png,btn_green_round_png,btn_lilac_round_png,btn_red_png,btn_red_round_png,btn_white_png,btn_white_round_png,friend_png,icon_account_png,icon_chest_png,icon_coin_png,icon_logout_png,icon_new_png,icon_phone_png,icon_pwd_png,icon_qq_png,icon_vaildcode_png,icon_wx_png,pay_ali_png,pay_wx_png"
+		},
+		{
+			"url": "assets/sound/gameresumed.mp3",
+			"type": "sound",
+			"name": "gameresumed_mp3"
+		},
+		{
+			"url": "assets/sound/gamepaused.mp3",
+			"type": "sound",
+			"name": "gamepaused_mp3"
+		},
+		{
+			"url": "assets/hero/hero.json",
+			"type": "sheet",
+			"name": "hero_json",
+			"subkeys": "hero10_png,hero11_png,hero12_png,hero13_png,hero14_png,hero15_png,hero16_png,hero17_png,hero18_png,hero19_png,hero1_png,hero20_png,hero21_png,hero22_png,hero23_png,hero24_png,hero25_png,hero26_png,hero27_png,hero28_png,hero29_png,hero2_png,hero30_png,hero31_png,hero32_png,hero33_png,hero34_png,hero35_png,hero36_png,hero37_png,hero38_png,hero39_png,hero3_png,hero40_png,hero41_png,hero42_png,hero43_png,hero44_png,hero45_png,hero46_png,hero47_png,hero48_png,hero49_png,hero4_png,hero50_png,hero51_png,hero52_png,hero53_png,hero54_png,hero55_png,hero56_png,hero57_png,hero58_png,hero59_png,hero5_png,hero60_png,hero61_png,hero62_png,hero63_png,hero64_png,hero65_png,hero66_png,hero67_png,hero68_png,hero69_png,hero6_png,hero70_png,hero71_png,hero72_png,hero73_png,hero74_png,hero75_png,hero76_png,hero77_png,hero78_png,hero79_png,hero7_png,hero80_png,hero81_png,hero82_png,hero83_png,hero84_png,hero85_png,hero86_png,hero87_png,hero88_png,hero89_png,hero8_png,hero9_png"
+		},
+		{
+			"url": "assets/demon/demon.json",
+			"type": "sheet",
+			"name": "demon_json",
+			"subkeys": "demon001_png,demon002_png,demon003_png,demon004_png,demon005_png,demon006_png,demon007_png,demon008_png,demon009_png,demon010_png,demon011_png,demon012_png"
+		},
+		{
+			"url": "assets/bone/hero0_ske.json",
+			"type": "json",
+			"name": "hero0_ske_json"
+		},
+		{
+			"url": "assets/bone/hero0_tex.json",
+			"type": "json",
+			"name": "hero0_tex_json"
+		},
+		{
+			"url": "assets/bone/hero0_tex.png",
+			"type": "image",
+			"name": "hero0_tex_png"
+		},
+		{
+			"url": "assets/bone/hero1_ske.json",
+			"type": "json",
+			"name": "hero1_ske_json"
+		},
+		{
+			"url": "assets/bone/hero1_tex.json",
+			"type": "json",
+			"name": "hero1_tex_json"
+		},
+		{
+			"url": "assets/bone/hero1_tex.png",
+			"type": "image",
+			"name": "hero1_tex_png"
+		},
+		{
+			"url": "assets/font/dmg.fnt",
+			"type": "font",
+			"name": "dmg_fnt"
+		},
+		{
+			"url": "assets/font/dmg.png",
+			"type": "image",
+			"name": "dmg_png"
+		},
+		{
+			"url": "assets/bg/bg.json",
+			"type": "sheet",
+			"name": "bg_json",
+			"subkeys": "bg10_png,bg11_png,bg12_png,bg13_png,bg14_png,bg15_png,bg16_png,bg17_png,bg18_png,bg19_png,bg1_png,bg20_png,bg2_png,bg3_png,bg4_png,bg5_png,bg6_png,bg7_png,bg8_png,bg9_png"
+		},
+		{
+			"url": "assets/effect/effect.json",
+			"type": "json",
+			"name": "effect_json"
+		},
+		{
+			"url": "assets/effect/effect.png",
+			"type": "image",
+			"name": "effect_png"
+		},
+		{
+			"url": "assets/monster/monster.json",
+			"type": "sheet",
+			"name": "monster_json",
+			"subkeys": "monster1_png,monster2_png,monster3_png"
+		},
+		{
+			"url": "assets/icon/item.json",
+			"type": "sheet",
+			"name": "item_json",
+			"subkeys": "item100_png,item101_png,item102_png,item103_png,item104_png,item105_png,item106_png,item107_png,item108_png,item109_png,item10_png,item110_png,item111_png,item112_png,item113_png,item114_png,item115_png,item116_png,item117_png,item118_png,item119_png,item11_png,item120_png,item121_png,item122_png,item123_png,item124_png,item125_png,item126_png,item127_png,item128_png,item129_png,item12_png,item130_png,item131_png,item132_png,item133_png,item134_png,item135_png,item136_png,item137_png,item138_png,item139_png,item13_png,item140_png,item141_png,item142_png,item143_png,item144_png,item145_png,item146_png,item147_png,item148_png,item149_png,item14_png,item150_png,item151_png,item152_png,item153_png,item154_png,item155_png,item156_png,item157_png,item158_png,item159_png,item15_png,item160_png,item161_png,item162_png,item163_png,item164_png,item165_png,item166_png,item167_png,item168_png,item169_png,item16_png,item170_png,item171_png,item172_png,item173_png,item174_png,item175_png,item176_png,item177_png,item178_png,item179_png,item17_png,item180_png,item181_png,item182_png,item183_png,item184_png,item185_png,item186_png,item187_png,item188_png,item189_png,item18_png,item190_png,item191_png,item192_png,item193_png,item194_png,item195_png,item196_png,item197_png,item198_png,item199_png,item19_png,item1_png,item200_png,item201_png,item202_png,item203_png,item204_png,item205_png,item206_png,item207_png,item208_png,item209_png,item20_png,item210_png,item211_png,item212_png,item213_png,item214_png,item215_png,item216_png,item217_png,item218_png,item219_png,item21_png,item220_png,item221_png,item222_png,item223_png,item224_png,item225_png,item226_png,item227_png,item228_png,item229_png,item22_png,item230_png,item231_png,item232_png,item233_png,item234_png,item235_png,item236_png,item237_png,item238_png,item239_png,item23_png,item240_png,item241_png,item242_png,item243_png,item244_png,item245_png,item246_png,item247_png,item248_png,item249_png,item24_png,item250_png,item251_png,item252_png,item253_png,item254_png,item255_png,item256_png,item257_png,item258_png,item259_png,item25_png,item260_png,item261_png,item262_png,item263_png,item264_png,item265_png,item266_png,item267_png,item268_png,item269_png,item26_png,item270_png,item271_png,item272_png,item273_png,item274_png,item275_png,item276_png,item277_png,item278_png,item279_png,item27_png,item280_png,item281_png,item282_png,item283_png,item284_png,item285_png,item286_png,item287_png,item288_png,item289_png,item28_png,item290_png,item291_png,item292_png,item293_png,item294_png,item295_png,item296_png,item297_png,item298_png,item299_png,item29_png,item2_png,item300_png,item30_png,item31_png,item32_png,item33_png,item34_png,item35_png,item36_png,item37_png,item38_png,item39_png,item3_png,item40_png,item41_png,item42_png,item43_png,item44_png,item45_png,item46_png,item47_png,item48_png,item49_png,item4_png,item50_png,item51_png,item52_png,item53_png,item54_png,item55_png,item56_png,item57_png,item58_png,item59_png,item5_png,item60_png,item61_png,item62_png,item63_png,item64_png,item65_png,item66_png,item67_png,item68_png,item69_png,item6_png,item70_png,item71_png,item72_png,item73_png,item74_png,item75_png,item76_png,item77_png,item78_png,item79_png,item7_png,item80_png,item81_png,item82_png,item83_png,item84_png,item85_png,item86_png,item87_png,item88_png,item89_png,item8_png,item90_png,item91_png,item92_png,item93_png,item94_png,item95_png,item96_png,item97_png,item98_png,item99_png,item9_png"
+		},
+		{
+			"url": "assets/icon/skill.json",
+			"type": "sheet",
+			"name": "skill_json",
+			"subkeys": "skill1_png,skill2_png,skill3_png,skill4_png,skill5_png,skill6_png"
+		},
+		{
+			"url": "data/converted/altar_data.json",
+			"type": "json",
+			"name": "altar_data_json"
+		},
+		{
+			"url": "data/converted/area_data.json",
+			"type": "json",
+			"name": "area_data_json"
+		},
+		{
+			"url": "data/converted/item_data.json",
+			"type": "json",
+			"name": "item_data_json"
+		},
+		{
+			"url": "data/converted/monster_data.json",
+			"type": "json",
+			"name": "monster_data_json"
+		},
+		{
+			"url": "data/converted/hero_data.json",
+			"type": "json",
+			"name": "hero_data_json"
+		},
+		{
+			"url": "data/converted/demons_data.json",
+			"type": "json",
+			"name": "demons_data_json"
+		},
+		{
+			"url": "data/converted/altar_data.json",
+			"type": "json",
+			"name": "altar_data2_json"
+		},
+		{
+			"url": "data/converted/area_data.json",
+			"type": "json",
+			"name": "area_data2_json"
+		},
+		{
+			"url": "data/converted/monster_data.json",
+			"type": "json",
+			"name": "monster_data2_json"
+		},
+		{
+			"url": "data/converted/item_data.json",
+			"type": "json",
+			"name": "item_data2_json"
+		},
+		{
+			"url": "data/converted/hero_data.json",
+			"type": "json",
+			"name": "hero_data2_json"
+		},
+		{
+			"url": "data/converted/demons_data.json",
+			"type": "json",
+			"name": "demons_data2_json"
+		},
+		{
+			"url": "assets/font/fangzhengxiangsu.TTF",
+			"type": "bin",
+			"name": "fangzhengxiangsu_TTF"
+		},
+		{
+			"url": "assets/icon/egt.png",
+			"type": "image",
+			"name": "egt_png"
+		},
+		{
+			"url": "assets/icon/egt.png",
+			"type": "image",
+			"name": "egt2_png"
+		},
+		{
+			"url": "assets/icon/item.json",
+			"type": "sheet",
+			"name": "item2_json",
+			"subkeys": "item100_png,item101_png,item102_png,item103_png,item104_png,item105_png,item106_png,item107_png,item108_png,item109_png,item10_png,item110_png,item111_png,item112_png,item113_png,item114_png,item115_png,item116_png,item117_png,item118_png,item119_png,item11_png,item120_png,item121_png,item122_png,item123_png,item124_png,item125_png,item126_png,item127_png,item128_png,item129_png,item12_png,item130_png,item131_png,item132_png,item133_png,item134_png,item135_png,item136_png,item137_png,item138_png,item139_png,item13_png,item140_png,item141_png,item142_png,item143_png,item144_png,item145_png,item146_png,item147_png,item148_png,item149_png,item14_png,item150_png,item151_png,item152_png,item153_png,item154_png,item155_png,item156_png,item157_png,item158_png,item159_png,item15_png,item160_png,item161_png,item162_png,item163_png,item164_png,item165_png,item166_png,item167_png,item168_png,item169_png,item16_png,item170_png,item171_png,item172_png,item173_png,item174_png,item175_png,item176_png,item177_png,item178_png,item179_png,item17_png,item180_png,item181_png,item182_png,item183_png,item184_png,item185_png,item186_png,item187_png,item188_png,item189_png,item18_png,item190_png,item191_png,item192_png,item193_png,item194_png,item195_png,item196_png,item197_png,item198_png,item199_png,item19_png,item1_png,item200_png,item201_png,item202_png,item203_png,item204_png,item205_png,item206_png,item207_png,item208_png,item209_png,item20_png,item210_png,item211_png,item212_png,item213_png,item214_png,item215_png,item216_png,item217_png,item218_png,item219_png,item21_png,item220_png,item221_png,item222_png,item223_png,item224_png,item225_png,item226_png,item227_png,item228_png,item229_png,item22_png,item230_png,item231_png,item232_png,item233_png,item234_png,item235_png,item236_png,item237_png,item238_png,item239_png,item23_png,item240_png,item241_png,item242_png,item243_png,item244_png,item245_png,item246_png,item247_png,item248_png,item249_png,item24_png,item250_png,item251_png,item252_png,item253_png,item254_png,item255_png,item256_png,item257_png,item258_png,item259_png,item25_png,item260_png,item261_png,item262_png,item263_png,item264_png,item265_png,item266_png,item267_png,item268_png,item269_png,item26_png,item270_png,item271_png,item272_png,item273_png,item274_png,item275_png,item276_png,item277_png,item278_png,item279_png,item27_png,item280_png,item281_png,item282_png,item283_png,item284_png,item285_png,item286_png,item287_png,item288_png,item289_png,item28_png,item290_png,item291_png,item292_png,item293_png,item294_png,item295_png,item296_png,item297_png,item298_png,item299_png,item29_png,item2_png,item300_png,item30_png,item31_png,item32_png,item33_png,item34_png,item35_png,item36_png,item37_png,item38_png,item39_png,item3_png,item40_png,item41_png,item42_png,item43_png,item44_png,item45_png,item46_png,item47_png,item48_png,item49_png,item4_png,item50_png,item51_png,item52_png,item53_png,item54_png,item55_png,item56_png,item57_png,item58_png,item59_png,item5_png,item60_png,item61_png,item62_png,item63_png,item64_png,item65_png,item66_png,item67_png,item68_png,item69_png,item6_png,item70_png,item71_png,item72_png,item73_png,item74_png,item75_png,item76_png,item77_png,item78_png,item79_png,item7_png,item80_png,item81_png,item82_png,item83_png,item84_png,item85_png,item86_png,item87_png,item88_png,item89_png,item8_png,item90_png,item91_png,item92_png,item93_png,item94_png,item95_png,item96_png,item97_png,item98_png,item99_png,item9_png"
+		},
+		{
+			"url": "assets/icon/skill.json",
+			"type": "sheet",
+			"name": "skill2_json",
+			"subkeys": "skill1_png,skill2_png,skill3_png,skill4_png,skill5_png,skill6_png"
+		},
+		{
+			"url": "data/converted/lang_CN.json",
+			"type": "json",
+			"name": "lang_CN_json"
+		}
+	]
+}

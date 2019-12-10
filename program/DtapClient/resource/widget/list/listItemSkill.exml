@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="listItemSkill" width="650" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="100%" fillAlpha="1" strokeWeight="3" height="100%" strokeColor="0xB8BDD8" fillColor="0x8285A3"/>
+	<e:Button id="btn_skill" label="" skinName="btnActiveSkill" left="10" width="100" height="100" top="10"/>
+	<e:Label id="lbl_name" textAlign="center" text="{data.name}" left="120" top="10"/>
+	<e:Label id="lbl_desc" left="120" top="50" text="{data.desc}" width="65%" height="60"/>
+	<e:Button id="btn_invite" label="+" verticalCenter="0" height="60" width="60" right="15" skinName="btnGreenBig"/>
+</e:Skin>

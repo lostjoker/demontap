@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="gameMsgPanel" width="520" height="360" currentState="player_ongame" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="player_ongame,watcher_ongame,watcher_onwatch,player_ongame_mini,watcher_ongame_mini,watcher_onwatch_mini" xmlns:ns1="*" height.player_ongame_mini="150" height.watcher_ongame_mini="150" height.watcher_onwatch_mini="150">
+	<e:Component skinName="gameBg7" width="100%" height="100%" />
+	<e:Scroller id="sc_gamemsg" width="460" includeIn="player_ongame,watcher_ongame,watcher_onwatch,player_ongame_mini,watcher_ongame_mini,watcher_onwatch_mini" visible.watcher_onwatch="false" left="15" top="10" height="345" visible.watcher_onwatch_mini="false" height.player_ongame_mini="130" height.watcher_ongame_mini="130">
+		<e:viewport>
+			<e:List id="list_gamemsg" height="100%">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:viewport>
+	</e:Scroller>
+	<e:Scroller id="sc_watchermsg" width="460" includeIn="watcher_ongame,watcher_onwatch,watcher_ongame_mini,watcher_onwatch_mini" visible.watcher_ongame="false" height="345" left="15" top="10" visible.watcher_ongame_mini="false" height.watcher_onwatch_mini="130">
+		<e:viewport>
+			<e:List id="list_watchermsg" height="100%">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:viewport>
+	</e:Scroller>
+	<e:Button id="btn_msgtab_1" label="1" skinName="playerNumSign"  width="35" right="-5" includeIn="player_ongame,watcher_ongame,watcher_onwatch" top.player_ongame="-10" height.player_ongame="35" top="-10" height="35"/>
+	<e:Button id="btn_msgtab_2" skinName="playerNumSign" label="2"  width="35" right="-5" includeIn="player_ongame,watcher_ongame,watcher_onwatch" top="27" height="35"/>
+	<e:Button id="btn_msgtab_3" label="3" skinName="playerNumSign"  width="35" right="-5" includeIn="player_ongame,watcher_ongame,watcher_onwatch" top="64" height="35"/>
+	<e:Button id="btn_msgtab_4" label="4" skinName="playerNumSign"  width="35" right="-5" includeIn="player_ongame,watcher_ongame,watcher_onwatch" top="101" height="35"/>
+	<e:Button id="btn_msgtab_5" skinName="playerNumSign" label="5"  width="35" right="-5" includeIn="player_ongame,watcher_ongame,watcher_onwatch" top="138" height="35"/>
+	<e:Button id="btn_msgtab_6" label="6" skinName="playerNumSign"  width="35" right="-5" includeIn="player_ongame,watcher_ongame,watcher_onwatch" top="175" height="35"/>
+	<e:Button id="btn_msgtab_7" label="7"  width="35" right="-5" skinName="playerNumSign" includeIn="player_ongame,watcher_ongame,watcher_onwatch" top="212" height="35"/>
+	<e:Button id="btn_msgtab_8" skinName="playerNumSign" label="8"  width="35" right="-5" includeIn="player_ongame,watcher_ongame,watcher_onwatch" top="250" height="35"/>
+	<e:Button id="btn_msgtab_9" label="9" skinName="playerNumSign"  width="35" right="-5" includeIn="player_ongame,watcher_ongame,watcher_onwatch" top="287" height="35"/>
+	<e:Button id="btn_msgtab_10" label="10" skinName="playerNumSign"  width="35" right="-5" includeIn="player_ongame,watcher_ongame,watcher_onwatch" top="325" height="35"/>
+	<e:Button id="btn_msgtab_all" label="全" skinName="playerNumSign" width="35"  right="40" top.player_ongame="-10" height.player_ongame="35" top="-10" height="35"/>
+	<e:Button id="btn_msgtab_watch" label="观" skinName="playerNumSign" width="35"  right="85" top.player_ongame="-10" height.player_ongame="35" top="-10" height="35"/>
+	<e:Button id="btn_msgtab_zoom" top="-10" right="130" width="35" label="-" height="35" skinName="playerNumSign" x="10" y="10" visible="false"/>
+</e:Skin>

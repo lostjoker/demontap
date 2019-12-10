@@ -1,0 +1,2890 @@
+{
+  "Monster": {
+    "0": {
+      "id": 0,
+      "name": "怪物模型",
+      "rank": 0,
+      "vaild": 0,
+      "res": 1,
+      "gold_gacha": 0,
+      "gold_gacha_min": 0,
+      "gold_gacha_max": 0,
+      "gold_gacha_whole": 0,
+      "gem_gacha": 0,
+      "gem_gacha_min": 0,
+      "gem_gacha_max": 0,
+      "gem_gacha_whole": 0,
+      "compose": 0,
+      "skill1": "1001",
+      "skill2": "1002",
+      "skill3": "1003",
+      "desc": "无"
+    },
+    "1": {
+      "id": 1,
+      "name": "测试角色1",
+      "rank": 0,
+      "vaild": 0,
+      "res": 1,
+      "gold_gacha": 0,
+      "gold_gacha_min": 0,
+      "gold_gacha_max": 0,
+      "gold_gacha_whole": 0,
+      "gem_gacha": 0,
+      "gem_gacha_min": 0,
+      "gem_gacha_max": 0,
+      "gem_gacha_whole": 0,
+      "compose": 0,
+      "skill1": "1001",
+      "skill2": "1002",
+      "skill3": "1003",
+      "desc": "无"
+    },
+    "2": {
+      "id": 2,
+      "name": "测试角色2",
+      "rank": 1,
+      "vaild": 0,
+      "res": 1,
+      "gold_gacha": 0,
+      "gold_gacha_min": 0,
+      "gold_gacha_max": 0,
+      "gold_gacha_whole": 0,
+      "gem_gacha": 0,
+      "gem_gacha_min": 0,
+      "gem_gacha_max": 0,
+      "gem_gacha_whole": 0,
+      "compose": 0,
+      "skill1": "1001",
+      "skill2": "1002",
+      "skill3": "1003",
+      "desc": "无"
+    },
+    "3": {
+      "id": 3,
+      "name": "测试角色3",
+      "rank": 2,
+      "vaild": 0,
+      "res": 1,
+      "gold_gacha": 0,
+      "gold_gacha_min": 0,
+      "gold_gacha_max": 0,
+      "gold_gacha_whole": 0,
+      "gem_gacha": 0,
+      "gem_gacha_min": 0,
+      "gem_gacha_max": 0,
+      "gem_gacha_whole": 0,
+      "compose": 0,
+      "skill1": "1001",
+      "skill2": "1002",
+      "skill3": "1003",
+      "desc": "无"
+    },
+    "4": {
+      "id": 4,
+      "name": "测试角色4",
+      "rank": 3,
+      "vaild": 0,
+      "res": 1,
+      "gold_gacha": 0,
+      "gold_gacha_min": 0,
+      "gold_gacha_max": 0,
+      "gold_gacha_whole": 0,
+      "gem_gacha": 0,
+      "gem_gacha_min": 0,
+      "gem_gacha_max": 0,
+      "gem_gacha_whole": 0,
+      "compose": 0,
+      "skill1": "1001",
+      "skill2": "1002",
+      "skill3": "1003",
+      "desc": "无"
+    },
+    "5": {
+      "id": 5,
+      "name": "测试角色5",
+      "rank": 4,
+      "vaild": 0,
+      "res": 1,
+      "gold_gacha": 0,
+      "gold_gacha_min": 0,
+      "gold_gacha_max": 0,
+      "gold_gacha_whole": 0,
+      "gem_gacha": 0,
+      "gem_gacha_min": 0,
+      "gem_gacha_max": 0,
+      "gem_gacha_whole": 0,
+      "compose": 0,
+      "skill1": "1001",
+      "skill2": "1002",
+      "skill3": "1003",
+      "desc": "无"
+    },
+    "6": {
+      "id": 6,
+      "name": "测试角色6",
+      "rank": 5,
+      "vaild": 0,
+      "res": 1,
+      "gold_gacha": 0,
+      "gold_gacha_min": 0,
+      "gold_gacha_max": 0,
+      "gold_gacha_whole": 0,
+      "gem_gacha": 0,
+      "gem_gacha_min": 0,
+      "gem_gacha_max": 0,
+      "gem_gacha_whole": 0,
+      "compose": 0,
+      "skill1": "1001",
+      "skill2": "1002",
+      "skill3": "1003",
+      "desc": "无"
+    },
+    "1001": {
+      "id": 1001,
+      "name": "枯骨卫士",
+      "rank": 1,
+      "vaild": 1,
+      "res": 1,
+      "gold_gacha": 1000,
+      "gold_gacha_min": 5,
+      "gold_gacha_max": 10,
+      "gold_gacha_whole": 20,
+      "gem_gacha": 0,
+      "gem_gacha_min": 5,
+      "gem_gacha_max": 10,
+      "gem_gacha_whole": 0,
+      "compose": 20,
+      "skill1": "1001",
+      "skill2": "1002",
+      "skill3": "1003",
+      "desc": "无"
+    },
+    "1002": {
+      "id": 1002,
+      "name": "小恶魔",
+      "rank": 2,
+      "vaild": 1,
+      "res": 2,
+      "gold_gacha": 800,
+      "gold_gacha_min": 5,
+      "gold_gacha_max": 10,
+      "gold_gacha_whole": 10,
+      "gem_gacha": 0,
+      "gem_gacha_min": 5,
+      "gem_gacha_max": 10,
+      "gem_gacha_whole": 0,
+      "compose": 30,
+      "skill1": "1001",
+      "skill2": "1002",
+      "skill3": "1003",
+      "desc": "无"
+    },
+    "1003": {
+      "id": 1003,
+      "name": "巨角恶鬼",
+      "rank": 2,
+      "vaild": 1,
+      "res": 3,
+      "gold_gacha": 600,
+      "gold_gacha_min": 5,
+      "gold_gacha_max": 10,
+      "gold_gacha_whole": 10,
+      "gem_gacha": 0,
+      "gem_gacha_min": 5,
+      "gem_gacha_max": 10,
+      "gem_gacha_whole": 0,
+      "compose": 30,
+      "skill1": "1001",
+      "skill2": "1002",
+      "skill3": "1003",
+      "desc": "无"
+    },
+    "1004": {
+      "id": 1004,
+      "name": "魅魔",
+      "rank": 3,
+      "vaild": 1,
+      "res": 4,
+      "gold_gacha": 200,
+      "gold_gacha_min": 5,
+      "gold_gacha_max": 10,
+      "gold_gacha_whole": 5,
+      "gem_gacha": 200,
+      "gem_gacha_min": 5,
+      "gem_gacha_max": 10,
+      "gem_gacha_whole": 20,
+      "compose": 40,
+      "skill1": "1001",
+      "skill2": "1002",
+      "skill3": "1003",
+      "desc": "无"
+    },
+    "1005": {
+      "id": 1005,
+      "name": "邪恶守卫",
+      "rank": 3,
+      "vaild": 1,
+      "res": 5,
+      "gold_gacha": 0,
+      "gold_gacha_min": 5,
+      "gold_gacha_max": 10,
+      "gold_gacha_whole": 5,
+      "gem_gacha": 400,
+      "gem_gacha_min": 5,
+      "gem_gacha_max": 10,
+      "gem_gacha_whole": 10,
+      "compose": 40,
+      "skill1": "1001",
+      "skill2": "1002",
+      "skill3": "1003",
+      "desc": "无"
+    },
+    "1006": {
+      "id": 1006,
+      "name": "地狱火",
+      "rank": 4,
+      "vaild": 1,
+      "res": 6,
+      "gold_gacha": 0,
+      "gold_gacha_min": 5,
+      "gold_gacha_max": 10,
+      "gold_gacha_whole": 2,
+      "gem_gacha": 600,
+      "gem_gacha_min": 5,
+      "gem_gacha_max": 10,
+      "gem_gacha_whole": 5,
+      "compose": 50,
+      "skill1": "1001",
+      "skill2": "1002",
+      "skill3": "1003",
+      "desc": "无"
+    }
+  },
+  "MonsterLevel": {
+    "1": {
+      "level": 1,
+      "gold_cost": 0,
+      "atk": 1,
+      "cri": 1,
+      "spd": 1
+    },
+    "2": {
+      "level": 2,
+      "gold_cost": 1000,
+      "atk": 2,
+      "cri": 2,
+      "spd": 2
+    },
+    "3": {
+      "level": 3,
+      "gold_cost": 2000,
+      "atk": 3,
+      "cri": 3,
+      "spd": 3
+    },
+    "4": {
+      "level": 4,
+      "gold_cost": 3000,
+      "atk": 4,
+      "cri": 4,
+      "spd": 4
+    },
+    "5": {
+      "level": 5,
+      "gold_cost": 4000,
+      "atk": 5,
+      "cri": 5,
+      "spd": 5
+    },
+    "6": {
+      "level": 6,
+      "gold_cost": 5000,
+      "atk": 6,
+      "cri": 6,
+      "spd": 6
+    },
+    "7": {
+      "level": 7,
+      "gold_cost": 6000,
+      "atk": 7,
+      "cri": 7,
+      "spd": 7
+    },
+    "8": {
+      "level": 8,
+      "gold_cost": 7000,
+      "atk": 8,
+      "cri": 8,
+      "spd": 8
+    },
+    "9": {
+      "level": 9,
+      "gold_cost": 8000,
+      "atk": 9,
+      "cri": 9,
+      "spd": 9
+    },
+    "10": {
+      "level": 10,
+      "gold_cost": 9000,
+      "atk": 10,
+      "cri": 10,
+      "spd": 10
+    },
+    "11": {
+      "level": 11,
+      "gold_cost": 10000,
+      "atk": 11,
+      "cri": 11,
+      "spd": 11
+    },
+    "12": {
+      "level": 12,
+      "gold_cost": 11000,
+      "atk": 12,
+      "cri": 12,
+      "spd": 12
+    },
+    "13": {
+      "level": 13,
+      "gold_cost": 12000,
+      "atk": 13,
+      "cri": 13,
+      "spd": 13
+    },
+    "14": {
+      "level": 14,
+      "gold_cost": 13000,
+      "atk": 14,
+      "cri": 14,
+      "spd": 14
+    },
+    "15": {
+      "level": 15,
+      "gold_cost": 14000,
+      "atk": 15,
+      "cri": 15,
+      "spd": 15
+    },
+    "16": {
+      "level": 16,
+      "gold_cost": 15000,
+      "atk": 16,
+      "cri": 16,
+      "spd": 16
+    },
+    "17": {
+      "level": 17,
+      "gold_cost": 16000,
+      "atk": 17,
+      "cri": 17,
+      "spd": 17
+    },
+    "18": {
+      "level": 18,
+      "gold_cost": 17000,
+      "atk": 18,
+      "cri": 18,
+      "spd": 18
+    },
+    "19": {
+      "level": 19,
+      "gold_cost": 18000,
+      "atk": 19,
+      "cri": 19,
+      "spd": 19
+    },
+    "20": {
+      "level": 20,
+      "gold_cost": 19000,
+      "atk": 20,
+      "cri": 20,
+      "spd": 20
+    },
+    "21": {
+      "level": 21,
+      "gold_cost": 20000,
+      "atk": 21,
+      "cri": 21,
+      "spd": 21
+    },
+    "22": {
+      "level": 22,
+      "gold_cost": 21000,
+      "atk": 22,
+      "cri": 22,
+      "spd": 22
+    },
+    "23": {
+      "level": 23,
+      "gold_cost": 22000,
+      "atk": 23,
+      "cri": 23,
+      "spd": 23
+    },
+    "24": {
+      "level": 24,
+      "gold_cost": 23000,
+      "atk": 24,
+      "cri": 24,
+      "spd": 24
+    },
+    "25": {
+      "level": 25,
+      "gold_cost": 24000,
+      "atk": 25,
+      "cri": 25,
+      "spd": 25
+    },
+    "26": {
+      "level": 26,
+      "gold_cost": 25000,
+      "atk": 26,
+      "cri": 26,
+      "spd": 26
+    },
+    "27": {
+      "level": 27,
+      "gold_cost": 26000,
+      "atk": 27,
+      "cri": 27,
+      "spd": 27
+    },
+    "28": {
+      "level": 28,
+      "gold_cost": 27000,
+      "atk": 28,
+      "cri": 28,
+      "spd": 28
+    },
+    "29": {
+      "level": 29,
+      "gold_cost": 28000,
+      "atk": 29,
+      "cri": 29,
+      "spd": 29
+    },
+    "30": {
+      "level": 30,
+      "gold_cost": 29000,
+      "atk": 30,
+      "cri": 30,
+      "spd": 30
+    },
+    "31": {
+      "level": 31,
+      "gold_cost": 30000,
+      "atk": 31,
+      "cri": 31,
+      "spd": 31
+    },
+    "32": {
+      "level": 32,
+      "gold_cost": 31000,
+      "atk": 32,
+      "cri": 32,
+      "spd": 32
+    },
+    "33": {
+      "level": 33,
+      "gold_cost": 32000,
+      "atk": 33,
+      "cri": 33,
+      "spd": 33
+    },
+    "34": {
+      "level": 34,
+      "gold_cost": 33000,
+      "atk": 34,
+      "cri": 34,
+      "spd": 34
+    },
+    "35": {
+      "level": 35,
+      "gold_cost": 34000,
+      "atk": 35,
+      "cri": 35,
+      "spd": 35
+    },
+    "36": {
+      "level": 36,
+      "gold_cost": 35000,
+      "atk": 36,
+      "cri": 36,
+      "spd": 36
+    },
+    "37": {
+      "level": 37,
+      "gold_cost": 36000,
+      "atk": 37,
+      "cri": 37,
+      "spd": 37
+    },
+    "38": {
+      "level": 38,
+      "gold_cost": 37000,
+      "atk": 38,
+      "cri": 38,
+      "spd": 38
+    },
+    "39": {
+      "level": 39,
+      "gold_cost": 38000,
+      "atk": 39,
+      "cri": 39,
+      "spd": 39
+    },
+    "40": {
+      "level": 40,
+      "gold_cost": 39000,
+      "atk": 40,
+      "cri": 40,
+      "spd": 40
+    },
+    "41": {
+      "level": 41,
+      "gold_cost": 40000,
+      "atk": 41,
+      "cri": 41,
+      "spd": 41
+    },
+    "42": {
+      "level": 42,
+      "gold_cost": 41000,
+      "atk": 42,
+      "cri": 42,
+      "spd": 42
+    },
+    "43": {
+      "level": 43,
+      "gold_cost": 42000,
+      "atk": 43,
+      "cri": 43,
+      "spd": 43
+    },
+    "44": {
+      "level": 44,
+      "gold_cost": 43000,
+      "atk": 44,
+      "cri": 44,
+      "spd": 44
+    },
+    "45": {
+      "level": 45,
+      "gold_cost": 44000,
+      "atk": 45,
+      "cri": 45,
+      "spd": 45
+    },
+    "46": {
+      "level": 46,
+      "gold_cost": 45000,
+      "atk": 46,
+      "cri": 46,
+      "spd": 46
+    },
+    "47": {
+      "level": 47,
+      "gold_cost": 46000,
+      "atk": 47,
+      "cri": 47,
+      "spd": 47
+    },
+    "48": {
+      "level": 48,
+      "gold_cost": 47000,
+      "atk": 48,
+      "cri": 48,
+      "spd": 48
+    },
+    "49": {
+      "level": 49,
+      "gold_cost": 48000,
+      "atk": 49,
+      "cri": 49,
+      "spd": 49
+    },
+    "50": {
+      "level": 50,
+      "gold_cost": 49000,
+      "atk": 50,
+      "cri": 50,
+      "spd": 50
+    },
+    "51": {
+      "level": 51,
+      "gold_cost": 50000,
+      "atk": 51,
+      "cri": 51,
+      "spd": 51
+    },
+    "52": {
+      "level": 52,
+      "gold_cost": 51000,
+      "atk": 52,
+      "cri": 52,
+      "spd": 52
+    },
+    "53": {
+      "level": 53,
+      "gold_cost": 52000,
+      "atk": 53,
+      "cri": 53,
+      "spd": 53
+    },
+    "54": {
+      "level": 54,
+      "gold_cost": 53000,
+      "atk": 54,
+      "cri": 54,
+      "spd": 54
+    },
+    "55": {
+      "level": 55,
+      "gold_cost": 54000,
+      "atk": 55,
+      "cri": 55,
+      "spd": 55
+    },
+    "56": {
+      "level": 56,
+      "gold_cost": 55000,
+      "atk": 56,
+      "cri": 56,
+      "spd": 56
+    },
+    "57": {
+      "level": 57,
+      "gold_cost": 56000,
+      "atk": 57,
+      "cri": 57,
+      "spd": 57
+    },
+    "58": {
+      "level": 58,
+      "gold_cost": 57000,
+      "atk": 58,
+      "cri": 58,
+      "spd": 58
+    },
+    "59": {
+      "level": 59,
+      "gold_cost": 58000,
+      "atk": 59,
+      "cri": 59,
+      "spd": 59
+    },
+    "60": {
+      "level": 60,
+      "gold_cost": 59000,
+      "atk": 60,
+      "cri": 60,
+      "spd": 60
+    },
+    "61": {
+      "level": 61,
+      "gold_cost": 60000,
+      "atk": 61,
+      "cri": 61,
+      "spd": 61
+    },
+    "62": {
+      "level": 62,
+      "gold_cost": 61000,
+      "atk": 62,
+      "cri": 62,
+      "spd": 62
+    },
+    "63": {
+      "level": 63,
+      "gold_cost": 62000,
+      "atk": 63,
+      "cri": 63,
+      "spd": 63
+    },
+    "64": {
+      "level": 64,
+      "gold_cost": 63000,
+      "atk": 64,
+      "cri": 64,
+      "spd": 64
+    },
+    "65": {
+      "level": 65,
+      "gold_cost": 64000,
+      "atk": 65,
+      "cri": 65,
+      "spd": 65
+    },
+    "66": {
+      "level": 66,
+      "gold_cost": 65000,
+      "atk": 66,
+      "cri": 66,
+      "spd": 66
+    },
+    "67": {
+      "level": 67,
+      "gold_cost": 66000,
+      "atk": 67,
+      "cri": 67,
+      "spd": 67
+    },
+    "68": {
+      "level": 68,
+      "gold_cost": 67000,
+      "atk": 68,
+      "cri": 68,
+      "spd": 68
+    },
+    "69": {
+      "level": 69,
+      "gold_cost": 68000,
+      "atk": 69,
+      "cri": 69,
+      "spd": 69
+    },
+    "70": {
+      "level": 70,
+      "gold_cost": 69000,
+      "atk": 70,
+      "cri": 70,
+      "spd": 70
+    },
+    "71": {
+      "level": 71,
+      "gold_cost": 70000,
+      "atk": 71,
+      "cri": 71,
+      "spd": 71
+    },
+    "72": {
+      "level": 72,
+      "gold_cost": 71000,
+      "atk": 72,
+      "cri": 72,
+      "spd": 72
+    },
+    "73": {
+      "level": 73,
+      "gold_cost": 72000,
+      "atk": 73,
+      "cri": 73,
+      "spd": 73
+    },
+    "74": {
+      "level": 74,
+      "gold_cost": 73000,
+      "atk": 74,
+      "cri": 74,
+      "spd": 74
+    },
+    "75": {
+      "level": 75,
+      "gold_cost": 74000,
+      "atk": 75,
+      "cri": 75,
+      "spd": 75
+    },
+    "76": {
+      "level": 76,
+      "gold_cost": 75000,
+      "atk": 76,
+      "cri": 76,
+      "spd": 76
+    },
+    "77": {
+      "level": 77,
+      "gold_cost": 76000,
+      "atk": 77,
+      "cri": 77,
+      "spd": 77
+    },
+    "78": {
+      "level": 78,
+      "gold_cost": 77000,
+      "atk": 78,
+      "cri": 78,
+      "spd": 78
+    },
+    "79": {
+      "level": 79,
+      "gold_cost": 78000,
+      "atk": 79,
+      "cri": 79,
+      "spd": 79
+    },
+    "80": {
+      "level": 80,
+      "gold_cost": 79000,
+      "atk": 80,
+      "cri": 80,
+      "spd": 80
+    },
+    "81": {
+      "level": 81,
+      "gold_cost": 80000,
+      "atk": 81,
+      "cri": 81,
+      "spd": 81
+    },
+    "82": {
+      "level": 82,
+      "gold_cost": 81000,
+      "atk": 82,
+      "cri": 82,
+      "spd": 82
+    },
+    "83": {
+      "level": 83,
+      "gold_cost": 82000,
+      "atk": 83,
+      "cri": 83,
+      "spd": 83
+    },
+    "84": {
+      "level": 84,
+      "gold_cost": 83000,
+      "atk": 84,
+      "cri": 84,
+      "spd": 84
+    },
+    "85": {
+      "level": 85,
+      "gold_cost": 84000,
+      "atk": 85,
+      "cri": 85,
+      "spd": 85
+    },
+    "86": {
+      "level": 86,
+      "gold_cost": 85000,
+      "atk": 86,
+      "cri": 86,
+      "spd": 86
+    },
+    "87": {
+      "level": 87,
+      "gold_cost": 86000,
+      "atk": 87,
+      "cri": 87,
+      "spd": 87
+    },
+    "88": {
+      "level": 88,
+      "gold_cost": 87000,
+      "atk": 88,
+      "cri": 88,
+      "spd": 88
+    },
+    "89": {
+      "level": 89,
+      "gold_cost": 88000,
+      "atk": 89,
+      "cri": 89,
+      "spd": 89
+    },
+    "90": {
+      "level": 90,
+      "gold_cost": 89000,
+      "atk": 90,
+      "cri": 90,
+      "spd": 90
+    },
+    "91": {
+      "level": 91,
+      "gold_cost": 90000,
+      "atk": 91,
+      "cri": 91,
+      "spd": 91
+    },
+    "92": {
+      "level": 92,
+      "gold_cost": 91000,
+      "atk": 92,
+      "cri": 92,
+      "spd": 92
+    },
+    "93": {
+      "level": 93,
+      "gold_cost": 92000,
+      "atk": 93,
+      "cri": 93,
+      "spd": 93
+    },
+    "94": {
+      "level": 94,
+      "gold_cost": 93000,
+      "atk": 94,
+      "cri": 94,
+      "spd": 94
+    },
+    "95": {
+      "level": 95,
+      "gold_cost": 94000,
+      "atk": 95,
+      "cri": 95,
+      "spd": 95
+    },
+    "96": {
+      "level": 96,
+      "gold_cost": 95000,
+      "atk": 96,
+      "cri": 96,
+      "spd": 96
+    },
+    "97": {
+      "level": 97,
+      "gold_cost": 96000,
+      "atk": 97,
+      "cri": 97,
+      "spd": 97
+    },
+    "98": {
+      "level": 98,
+      "gold_cost": 97000,
+      "atk": 98,
+      "cri": 98,
+      "spd": 98
+    },
+    "99": {
+      "level": 99,
+      "gold_cost": 98000,
+      "atk": 99,
+      "cri": 99,
+      "spd": 99
+    },
+    "100": {
+      "level": 100,
+      "gold_cost": 99000,
+      "atk": 100,
+      "cri": 100,
+      "spd": 100
+    },
+    "101": {
+      "level": 101,
+      "gold_cost": 100000,
+      "atk": 101,
+      "cri": 101,
+      "spd": 101
+    },
+    "102": {
+      "level": 102,
+      "gold_cost": 101000,
+      "atk": 102,
+      "cri": 102,
+      "spd": 102
+    },
+    "103": {
+      "level": 103,
+      "gold_cost": 102000,
+      "atk": 103,
+      "cri": 103,
+      "spd": 103
+    },
+    "104": {
+      "level": 104,
+      "gold_cost": 103000,
+      "atk": 104,
+      "cri": 104,
+      "spd": 104
+    },
+    "105": {
+      "level": 105,
+      "gold_cost": 104000,
+      "atk": 105,
+      "cri": 105,
+      "spd": 105
+    },
+    "106": {
+      "level": 106,
+      "gold_cost": 105000,
+      "atk": 106,
+      "cri": 106,
+      "spd": 106
+    },
+    "107": {
+      "level": 107,
+      "gold_cost": 106000,
+      "atk": 107,
+      "cri": 107,
+      "spd": 107
+    },
+    "108": {
+      "level": 108,
+      "gold_cost": 107000,
+      "atk": 108,
+      "cri": 108,
+      "spd": 108
+    },
+    "109": {
+      "level": 109,
+      "gold_cost": 108000,
+      "atk": 109,
+      "cri": 109,
+      "spd": 109
+    },
+    "110": {
+      "level": 110,
+      "gold_cost": 109000,
+      "atk": 110,
+      "cri": 110,
+      "spd": 110
+    },
+    "111": {
+      "level": 111,
+      "gold_cost": 110000,
+      "atk": 111,
+      "cri": 111,
+      "spd": 111
+    },
+    "112": {
+      "level": 112,
+      "gold_cost": 111000,
+      "atk": 112,
+      "cri": 112,
+      "spd": 112
+    },
+    "113": {
+      "level": 113,
+      "gold_cost": 112000,
+      "atk": 113,
+      "cri": 113,
+      "spd": 113
+    },
+    "114": {
+      "level": 114,
+      "gold_cost": 113000,
+      "atk": 114,
+      "cri": 114,
+      "spd": 114
+    },
+    "115": {
+      "level": 115,
+      "gold_cost": 114000,
+      "atk": 115,
+      "cri": 115,
+      "spd": 115
+    },
+    "116": {
+      "level": 116,
+      "gold_cost": 115000,
+      "atk": 116,
+      "cri": 116,
+      "spd": 116
+    },
+    "117": {
+      "level": 117,
+      "gold_cost": 116000,
+      "atk": 117,
+      "cri": 117,
+      "spd": 117
+    },
+    "118": {
+      "level": 118,
+      "gold_cost": 117000,
+      "atk": 118,
+      "cri": 118,
+      "spd": 118
+    },
+    "119": {
+      "level": 119,
+      "gold_cost": 118000,
+      "atk": 119,
+      "cri": 119,
+      "spd": 119
+    },
+    "120": {
+      "level": 120,
+      "gold_cost": 119000,
+      "atk": 120,
+      "cri": 120,
+      "spd": 120
+    },
+    "121": {
+      "level": 121,
+      "gold_cost": 120000,
+      "atk": 121,
+      "cri": 121,
+      "spd": 121
+    },
+    "122": {
+      "level": 122,
+      "gold_cost": 121000,
+      "atk": 122,
+      "cri": 122,
+      "spd": 122
+    },
+    "123": {
+      "level": 123,
+      "gold_cost": 122000,
+      "atk": 123,
+      "cri": 123,
+      "spd": 123
+    },
+    "124": {
+      "level": 124,
+      "gold_cost": 123000,
+      "atk": 124,
+      "cri": 124,
+      "spd": 124
+    },
+    "125": {
+      "level": 125,
+      "gold_cost": 124000,
+      "atk": 125,
+      "cri": 125,
+      "spd": 125
+    },
+    "126": {
+      "level": 126,
+      "gold_cost": 125000,
+      "atk": 126,
+      "cri": 126,
+      "spd": 126
+    },
+    "127": {
+      "level": 127,
+      "gold_cost": 126000,
+      "atk": 127,
+      "cri": 127,
+      "spd": 127
+    },
+    "128": {
+      "level": 128,
+      "gold_cost": 127000,
+      "atk": 128,
+      "cri": 128,
+      "spd": 128
+    },
+    "129": {
+      "level": 129,
+      "gold_cost": 128000,
+      "atk": 129,
+      "cri": 129,
+      "spd": 129
+    },
+    "130": {
+      "level": 130,
+      "gold_cost": 129000,
+      "atk": 130,
+      "cri": 130,
+      "spd": 130
+    },
+    "131": {
+      "level": 131,
+      "gold_cost": 130000,
+      "atk": 131,
+      "cri": 131,
+      "spd": 131
+    },
+    "132": {
+      "level": 132,
+      "gold_cost": 131000,
+      "atk": 132,
+      "cri": 132,
+      "spd": 132
+    },
+    "133": {
+      "level": 133,
+      "gold_cost": 132000,
+      "atk": 133,
+      "cri": 133,
+      "spd": 133
+    },
+    "134": {
+      "level": 134,
+      "gold_cost": 133000,
+      "atk": 134,
+      "cri": 134,
+      "spd": 134
+    },
+    "135": {
+      "level": 135,
+      "gold_cost": 134000,
+      "atk": 135,
+      "cri": 135,
+      "spd": 135
+    },
+    "136": {
+      "level": 136,
+      "gold_cost": 135000,
+      "atk": 136,
+      "cri": 136,
+      "spd": 136
+    },
+    "137": {
+      "level": 137,
+      "gold_cost": 136000,
+      "atk": 137,
+      "cri": 137,
+      "spd": 137
+    },
+    "138": {
+      "level": 138,
+      "gold_cost": 137000,
+      "atk": 138,
+      "cri": 138,
+      "spd": 138
+    },
+    "139": {
+      "level": 139,
+      "gold_cost": 138000,
+      "atk": 139,
+      "cri": 139,
+      "spd": 139
+    },
+    "140": {
+      "level": 140,
+      "gold_cost": 139000,
+      "atk": 140,
+      "cri": 140,
+      "spd": 140
+    },
+    "141": {
+      "level": 141,
+      "gold_cost": 140000,
+      "atk": 141,
+      "cri": 141,
+      "spd": 141
+    },
+    "142": {
+      "level": 142,
+      "gold_cost": 141000,
+      "atk": 142,
+      "cri": 142,
+      "spd": 142
+    },
+    "143": {
+      "level": 143,
+      "gold_cost": 142000,
+      "atk": 143,
+      "cri": 143,
+      "spd": 143
+    },
+    "144": {
+      "level": 144,
+      "gold_cost": 143000,
+      "atk": 144,
+      "cri": 144,
+      "spd": 144
+    },
+    "145": {
+      "level": 145,
+      "gold_cost": 144000,
+      "atk": 145,
+      "cri": 145,
+      "spd": 145
+    },
+    "146": {
+      "level": 146,
+      "gold_cost": 145000,
+      "atk": 146,
+      "cri": 146,
+      "spd": 146
+    },
+    "147": {
+      "level": 147,
+      "gold_cost": 146000,
+      "atk": 147,
+      "cri": 147,
+      "spd": 147
+    },
+    "148": {
+      "level": 148,
+      "gold_cost": 147000,
+      "atk": 148,
+      "cri": 148,
+      "spd": 148
+    },
+    "149": {
+      "level": 149,
+      "gold_cost": 148000,
+      "atk": 149,
+      "cri": 149,
+      "spd": 149
+    },
+    "150": {
+      "level": 150,
+      "gold_cost": 149000,
+      "atk": 150,
+      "cri": 150,
+      "spd": 150
+    },
+    "151": {
+      "level": 151,
+      "gold_cost": 150000,
+      "atk": 151,
+      "cri": 151,
+      "spd": 151
+    },
+    "152": {
+      "level": 152,
+      "gold_cost": 151000,
+      "atk": 152,
+      "cri": 152,
+      "spd": 152
+    },
+    "153": {
+      "level": 153,
+      "gold_cost": 152000,
+      "atk": 153,
+      "cri": 153,
+      "spd": 153
+    },
+    "154": {
+      "level": 154,
+      "gold_cost": 153000,
+      "atk": 154,
+      "cri": 154,
+      "spd": 154
+    },
+    "155": {
+      "level": 155,
+      "gold_cost": 154000,
+      "atk": 155,
+      "cri": 155,
+      "spd": 155
+    },
+    "156": {
+      "level": 156,
+      "gold_cost": 155000,
+      "atk": 156,
+      "cri": 156,
+      "spd": 156
+    },
+    "157": {
+      "level": 157,
+      "gold_cost": 156000,
+      "atk": 157,
+      "cri": 157,
+      "spd": 157
+    },
+    "158": {
+      "level": 158,
+      "gold_cost": 157000,
+      "atk": 158,
+      "cri": 158,
+      "spd": 158
+    },
+    "159": {
+      "level": 159,
+      "gold_cost": 158000,
+      "atk": 159,
+      "cri": 159,
+      "spd": 159
+    },
+    "160": {
+      "level": 160,
+      "gold_cost": 159000,
+      "atk": 160,
+      "cri": 160,
+      "spd": 160
+    },
+    "161": {
+      "level": 161,
+      "gold_cost": 160000,
+      "atk": 161,
+      "cri": 161,
+      "spd": 161
+    },
+    "162": {
+      "level": 162,
+      "gold_cost": 161000,
+      "atk": 162,
+      "cri": 162,
+      "spd": 162
+    },
+    "163": {
+      "level": 163,
+      "gold_cost": 162000,
+      "atk": 163,
+      "cri": 163,
+      "spd": 163
+    },
+    "164": {
+      "level": 164,
+      "gold_cost": 163000,
+      "atk": 164,
+      "cri": 164,
+      "spd": 164
+    },
+    "165": {
+      "level": 165,
+      "gold_cost": 164000,
+      "atk": 165,
+      "cri": 165,
+      "spd": 165
+    },
+    "166": {
+      "level": 166,
+      "gold_cost": 165000,
+      "atk": 166,
+      "cri": 166,
+      "spd": 166
+    },
+    "167": {
+      "level": 167,
+      "gold_cost": 166000,
+      "atk": 167,
+      "cri": 167,
+      "spd": 167
+    },
+    "168": {
+      "level": 168,
+      "gold_cost": 167000,
+      "atk": 168,
+      "cri": 168,
+      "spd": 168
+    },
+    "169": {
+      "level": 169,
+      "gold_cost": 168000,
+      "atk": 169,
+      "cri": 169,
+      "spd": 169
+    },
+    "170": {
+      "level": 170,
+      "gold_cost": 169000,
+      "atk": 170,
+      "cri": 170,
+      "spd": 170
+    },
+    "171": {
+      "level": 171,
+      "gold_cost": 170000,
+      "atk": 171,
+      "cri": 171,
+      "spd": 171
+    },
+    "172": {
+      "level": 172,
+      "gold_cost": 171000,
+      "atk": 172,
+      "cri": 172,
+      "spd": 172
+    },
+    "173": {
+      "level": 173,
+      "gold_cost": 172000,
+      "atk": 173,
+      "cri": 173,
+      "spd": 173
+    },
+    "174": {
+      "level": 174,
+      "gold_cost": 173000,
+      "atk": 174,
+      "cri": 174,
+      "spd": 174
+    },
+    "175": {
+      "level": 175,
+      "gold_cost": 174000,
+      "atk": 175,
+      "cri": 175,
+      "spd": 175
+    },
+    "176": {
+      "level": 176,
+      "gold_cost": 175000,
+      "atk": 176,
+      "cri": 176,
+      "spd": 176
+    },
+    "177": {
+      "level": 177,
+      "gold_cost": 176000,
+      "atk": 177,
+      "cri": 177,
+      "spd": 177
+    },
+    "178": {
+      "level": 178,
+      "gold_cost": 177000,
+      "atk": 178,
+      "cri": 178,
+      "spd": 178
+    },
+    "179": {
+      "level": 179,
+      "gold_cost": 178000,
+      "atk": 179,
+      "cri": 179,
+      "spd": 179
+    },
+    "180": {
+      "level": 180,
+      "gold_cost": 179000,
+      "atk": 180,
+      "cri": 180,
+      "spd": 180
+    },
+    "181": {
+      "level": 181,
+      "gold_cost": 180000,
+      "atk": 181,
+      "cri": 181,
+      "spd": 181
+    },
+    "182": {
+      "level": 182,
+      "gold_cost": 181000,
+      "atk": 182,
+      "cri": 182,
+      "spd": 182
+    },
+    "183": {
+      "level": 183,
+      "gold_cost": 182000,
+      "atk": 183,
+      "cri": 183,
+      "spd": 183
+    },
+    "184": {
+      "level": 184,
+      "gold_cost": 183000,
+      "atk": 184,
+      "cri": 184,
+      "spd": 184
+    },
+    "185": {
+      "level": 185,
+      "gold_cost": 184000,
+      "atk": 185,
+      "cri": 185,
+      "spd": 185
+    },
+    "186": {
+      "level": 186,
+      "gold_cost": 185000,
+      "atk": 186,
+      "cri": 186,
+      "spd": 186
+    },
+    "187": {
+      "level": 187,
+      "gold_cost": 186000,
+      "atk": 187,
+      "cri": 187,
+      "spd": 187
+    },
+    "188": {
+      "level": 188,
+      "gold_cost": 187000,
+      "atk": 188,
+      "cri": 188,
+      "spd": 188
+    },
+    "189": {
+      "level": 189,
+      "gold_cost": 188000,
+      "atk": 189,
+      "cri": 189,
+      "spd": 189
+    },
+    "190": {
+      "level": 190,
+      "gold_cost": 189000,
+      "atk": 190,
+      "cri": 190,
+      "spd": 190
+    },
+    "191": {
+      "level": 191,
+      "gold_cost": 190000,
+      "atk": 191,
+      "cri": 191,
+      "spd": 191
+    },
+    "192": {
+      "level": 192,
+      "gold_cost": 191000,
+      "atk": 192,
+      "cri": 192,
+      "spd": 192
+    },
+    "193": {
+      "level": 193,
+      "gold_cost": 192000,
+      "atk": 193,
+      "cri": 193,
+      "spd": 193
+    },
+    "194": {
+      "level": 194,
+      "gold_cost": 193000,
+      "atk": 194,
+      "cri": 194,
+      "spd": 194
+    },
+    "195": {
+      "level": 195,
+      "gold_cost": 194000,
+      "atk": 195,
+      "cri": 195,
+      "spd": 195
+    },
+    "196": {
+      "level": 196,
+      "gold_cost": 195000,
+      "atk": 196,
+      "cri": 196,
+      "spd": 196
+    },
+    "197": {
+      "level": 197,
+      "gold_cost": 196000,
+      "atk": 197,
+      "cri": 197,
+      "spd": 197
+    },
+    "198": {
+      "level": 198,
+      "gold_cost": 197000,
+      "atk": 198,
+      "cri": 198,
+      "spd": 198
+    },
+    "199": {
+      "level": 199,
+      "gold_cost": 198000,
+      "atk": 199,
+      "cri": 199,
+      "spd": 199
+    },
+    "200": {
+      "level": 200,
+      "gold_cost": 199000,
+      "atk": 200,
+      "cri": 200,
+      "spd": 200
+    }
+  },
+  "MonsterSkill": {
+    "1": {
+      "id": 1,
+      "name": "技能模型",
+      "技能品质": 0,
+      "res": 1,
+      "effect": 1,
+      "desc": "无",
+      "arg1": 0,
+      "arg1_up": 0,
+      "arg2": 0,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    },
+    "2": {
+      "id": 2,
+      "name": "直接伤害技能",
+      "技能品质": 0,
+      "res": 1,
+      "effect": 1,
+      "desc": "无",
+      "arg1": 0,
+      "arg1_up": 0,
+      "arg2": 0,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    },
+    "3": {
+      "id": 3,
+      "name": "直接治疗技能",
+      "技能品质": 0,
+      "res": 1,
+      "effect": 1,
+      "desc": "无",
+      "arg1": 0,
+      "arg1_up": 0,
+      "arg2": 0,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    },
+    "4": {
+      "id": 4,
+      "name": "持续伤害技能",
+      "技能品质": 0,
+      "技能描述": "额外附带100点护甲值",
+      "res": 1,
+      "effect": 1,
+      "desc": "无",
+      "arg1": 0,
+      "arg1_up": 0,
+      "arg2": 0,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    },
+    "5": {
+      "id": 5,
+      "name": "吸血技能",
+      "技能品质": 0,
+      "技能描述": "生命值提高20%",
+      "res": 1,
+      "effect": 1,
+      "desc": "无",
+      "arg1": 0,
+      "arg1_up": 0,
+      "arg2": 0,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    },
+    "6": {
+      "id": 6,
+      "name": "单属性技能",
+      "技能品质": 0,
+      "技能描述": "金币掉落额度提高10%",
+      "res": 1,
+      "effect": 1,
+      "desc": "无",
+      "arg1": 0,
+      "arg1_up": 0,
+      "arg2": 0,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    },
+    "1000": {
+      "id": 1000,
+      "name": "被动怪物技能1",
+      "技能品质": 1,
+      "技能描述": "造成1003%的伤害",
+      "res": 1,
+      "effect": 1,
+      "desc": "造成arg%的点击伤害",
+      "arg1": 3000,
+      "arg1_up": 300,
+      "arg2": 0,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    },
+    "1001": {
+      "id": 1001,
+      "name": "被动怪物技能2",
+      "技能品质": 1,
+      "技能描述": "造成1004%的伤害",
+      "res": 2,
+      "effect": 2,
+      "desc": "暴击率提升arg%",
+      "arg1": 30,
+      "arg1_up": 3,
+      "arg2": 10,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    },
+    "1002": {
+      "id": 1002,
+      "name": "被动怪物技能3",
+      "技能品质": 2,
+      "技能描述": "造成1005%的伤害",
+      "res": 3,
+      "effect": 3,
+      "desc": "每下点击掉落arg%的金币",
+      "arg1": 20,
+      "arg1_up": 2,
+      "arg2": 10,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    },
+    "1003": {
+      "id": 1003,
+      "name": "被动怪物技能4",
+      "技能品质": 2,
+      "技能描述": "造成1006%的伤害",
+      "res": 4,
+      "effect": 4,
+      "desc": "提升点击伤害arg%",
+      "arg1": 100,
+      "arg1_up": 10,
+      "arg2": 10,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    },
+    "1004": {
+      "id": 1004,
+      "name": "被动怪物技能5",
+      "技能品质": 3,
+      "技能描述": "造成1007%的伤害",
+      "res": 5,
+      "effect": 5,
+      "desc": "提升怪物们造成的伤害arg%",
+      "arg1": 100,
+      "arg1_up": 10,
+      "arg2": 10,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    },
+    "1005": {
+      "id": 1005,
+      "name": "被动怪物技能6",
+      "技能品质": 3,
+      "技能描述": "造成1008%的伤害",
+      "res": 6,
+      "effect": 6,
+      "desc": "每秒自动点击arg下，造成arg%的点击伤害",
+      "arg1": 3,
+      "arg1_up": 1,
+      "arg2": 50,
+      "arg2_up": 0,
+      "arg3": 10,
+      "arg3_up": 0
+    },
+    "1006": {
+      "id": 1006,
+      "name": "被动怪物技能7",
+      "技能品质": 4,
+      "技能描述": "造成1009%的伤害",
+      "res": 1,
+      "effect": 1,
+      "desc": "造成arg%的点击伤害",
+      "arg1": 0,
+      "arg1_up": 0,
+      "arg2": 0,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    },
+    "1007": {
+      "id": 1007,
+      "name": "被动怪物技能8",
+      "技能品质": 4,
+      "技能描述": "造成1010%的伤害",
+      "res": 1,
+      "effect": 1,
+      "desc": "造成arg%的点击伤害",
+      "arg1": 0,
+      "arg1_up": 0,
+      "arg2": 0,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    },
+    "1008": {
+      "id": 1008,
+      "name": "被动怪物技能9",
+      "技能品质": 5,
+      "技能描述": "造成1011%的伤害",
+      "res": 1,
+      "effect": 1,
+      "desc": "造成arg%的点击伤害",
+      "arg1": 0,
+      "arg1_up": 0,
+      "arg2": 0,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    },
+    "1009": {
+      "id": 1009,
+      "name": "被动怪物技能10",
+      "技能品质": 5,
+      "技能描述": "造成1012%的伤害",
+      "res": 1,
+      "effect": 1,
+      "desc": "造成arg%的点击伤害",
+      "arg1": 0,
+      "arg1_up": 0,
+      "arg2": 0,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    },
+    "1010": {
+      "id": 1010,
+      "name": "被动怪物技能11",
+      "技能品质": 0,
+      "技能描述": "造成1013%的伤害",
+      "res": 1,
+      "effect": 1,
+      "desc": "造成arg%的点击伤害",
+      "arg1": 0,
+      "arg1_up": 0,
+      "arg2": 0,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    },
+    "1011": {
+      "id": 1011,
+      "name": "被动怪物技能12",
+      "技能品质": 0,
+      "res": 1,
+      "effect": 1,
+      "desc": "造成arg%的点击伤害",
+      "arg1": 0,
+      "arg1_up": 0,
+      "arg2": 0,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    },
+    "1012": {
+      "id": 1012,
+      "name": "被动怪物技能13",
+      "技能品质": 0,
+      "res": 1,
+      "effect": 1,
+      "desc": "造成arg%的点击伤害",
+      "arg1": 0,
+      "arg1_up": 0,
+      "arg2": 0,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    },
+    "1013": {
+      "id": 1013,
+      "name": "被动怪物技能14",
+      "技能品质": 0,
+      "res": 1,
+      "effect": 1,
+      "desc": "造成arg%的点击伤害",
+      "arg1": 0,
+      "arg1_up": 0,
+      "arg2": 0,
+      "arg2_up": 0,
+      "arg3": 0,
+      "arg3_up": 0
+    }
+  },
+  "MonsterSkillEffect": {
+    "1": {
+      "id": 1,
+      "desc": "提升自身攻击 arg 点"
+    },
+    "2": {
+      "id": 2,
+      "desc": "提升自身攻击 arg%"
+    },
+    "3": {
+      "id": 3,
+      "desc": "提升自身暴击 arg%"
+    },
+    "4": {
+      "id": 4,
+      "desc": "提升自身暴击伤害 arg%"
+    },
+    "5": {
+      "id": 5,
+      "desc": "提升自身速度 arg 点"
+    },
+    "6": {
+      "id": 6,
+      "desc": "提升击杀英雄掉落金币 arg%"
+    }
+  },
+  "MonsterSkillLevel": {
+    "0": {
+      "lvl": 1,
+      "skill1_mon_lvl": 10,
+      "skill1_gold_cost": 1000,
+      "skill2_mon_lvl": 50,
+      "skill2_gold_cost": 5000,
+      "skill3_mon_lvl": 100,
+      "skill3_gold_cost": 10000
+    },
+    "1": {
+      "lvl": 2,
+      "skill1_mon_lvl": 20,
+      "skill1_gold_cost": 2000,
+      "skill2_mon_lvl": 100,
+      "skill2_gold_cost": 10000,
+      "skill3_mon_lvl": 200,
+      "skill3_gold_cost": 20000
+    },
+    "2": {
+      "lvl": 3,
+      "skill1_mon_lvl": 30,
+      "skill1_gold_cost": 3000,
+      "skill2_mon_lvl": 150,
+      "skill2_gold_cost": 15000,
+      "skill3_mon_lvl": 300,
+      "skill3_gold_cost": 30000
+    },
+    "3": {
+      "lvl": 4,
+      "skill1_mon_lvl": 40,
+      "skill1_gold_cost": 4000,
+      "skill2_mon_lvl": 200,
+      "skill2_gold_cost": 20000,
+      "skill3_mon_lvl": 400,
+      "skill3_gold_cost": 40000
+    },
+    "4": {
+      "lvl": 5,
+      "skill1_mon_lvl": 50,
+      "skill1_gold_cost": 5000,
+      "skill2_mon_lvl": 250,
+      "skill2_gold_cost": 25000,
+      "skill3_mon_lvl": 500,
+      "skill3_gold_cost": 50000
+    },
+    "5": {
+      "lvl": 6,
+      "skill1_mon_lvl": 60,
+      "skill1_gold_cost": 6000,
+      "skill2_mon_lvl": 300,
+      "skill2_gold_cost": 30000,
+      "skill3_mon_lvl": 600,
+      "skill3_gold_cost": 60000
+    },
+    "6": {
+      "lvl": 7,
+      "skill1_mon_lvl": 70,
+      "skill1_gold_cost": 7000,
+      "skill2_mon_lvl": 350,
+      "skill2_gold_cost": 35000,
+      "skill3_mon_lvl": 700,
+      "skill3_gold_cost": 70000
+    },
+    "7": {
+      "lvl": 8,
+      "skill1_mon_lvl": 80,
+      "skill1_gold_cost": 8000,
+      "skill2_mon_lvl": 400,
+      "skill2_gold_cost": 40000,
+      "skill3_mon_lvl": 800,
+      "skill3_gold_cost": 80000
+    },
+    "8": {
+      "lvl": 9,
+      "skill1_mon_lvl": 90,
+      "skill1_gold_cost": 9000,
+      "skill2_mon_lvl": 450,
+      "skill2_gold_cost": 45000,
+      "skill3_mon_lvl": 900,
+      "skill3_gold_cost": 90000
+    },
+    "9": {
+      "lvl": 10,
+      "skill1_mon_lvl": 100,
+      "skill1_gold_cost": 10000,
+      "skill2_mon_lvl": 500,
+      "skill2_gold_cost": 50000,
+      "skill3_mon_lvl": 1000,
+      "skill3_gold_cost": 100000
+    },
+    "10": {
+      "lvl": 11,
+      "skill1_mon_lvl": 110,
+      "skill1_gold_cost": 11000,
+      "skill2_mon_lvl": 550,
+      "skill2_gold_cost": 55000,
+      "skill3_mon_lvl": 1100,
+      "skill3_gold_cost": 110000
+    },
+    "11": {
+      "lvl": 12,
+      "skill1_mon_lvl": 120,
+      "skill1_gold_cost": 12000,
+      "skill2_mon_lvl": 600,
+      "skill2_gold_cost": 60000,
+      "skill3_mon_lvl": 1200,
+      "skill3_gold_cost": 120000
+    },
+    "12": {
+      "lvl": 13,
+      "skill1_mon_lvl": 130,
+      "skill1_gold_cost": 13000,
+      "skill2_mon_lvl": 650,
+      "skill2_gold_cost": 65000,
+      "skill3_mon_lvl": 1300,
+      "skill3_gold_cost": 130000
+    },
+    "13": {
+      "lvl": 14,
+      "skill1_mon_lvl": 140,
+      "skill1_gold_cost": 14000,
+      "skill2_mon_lvl": 700,
+      "skill2_gold_cost": 70000,
+      "skill3_mon_lvl": 1400,
+      "skill3_gold_cost": 140000
+    },
+    "14": {
+      "lvl": 15,
+      "skill1_mon_lvl": 150,
+      "skill1_gold_cost": 15000,
+      "skill2_mon_lvl": 750,
+      "skill2_gold_cost": 75000,
+      "skill3_mon_lvl": 1500,
+      "skill3_gold_cost": 150000
+    },
+    "15": {
+      "lvl": 16,
+      "skill1_mon_lvl": 160,
+      "skill1_gold_cost": 16000,
+      "skill2_mon_lvl": 800,
+      "skill2_gold_cost": 80000,
+      "skill3_mon_lvl": 1600,
+      "skill3_gold_cost": 160000
+    },
+    "16": {
+      "lvl": 17,
+      "skill1_mon_lvl": 170,
+      "skill1_gold_cost": 17000,
+      "skill2_mon_lvl": 850,
+      "skill2_gold_cost": 85000,
+      "skill3_mon_lvl": 1700,
+      "skill3_gold_cost": 170000
+    },
+    "17": {
+      "lvl": 18,
+      "skill1_mon_lvl": 180,
+      "skill1_gold_cost": 18000,
+      "skill2_mon_lvl": 900,
+      "skill2_gold_cost": 90000,
+      "skill3_mon_lvl": 1800,
+      "skill3_gold_cost": 180000
+    },
+    "18": {
+      "lvl": 19,
+      "skill1_mon_lvl": 190,
+      "skill1_gold_cost": 19000,
+      "skill2_mon_lvl": 950,
+      "skill2_gold_cost": 95000,
+      "skill3_mon_lvl": 1900,
+      "skill3_gold_cost": 190000
+    },
+    "19": {
+      "lvl": 20,
+      "skill1_mon_lvl": 200,
+      "skill1_gold_cost": 20000,
+      "skill2_mon_lvl": 1000,
+      "skill2_gold_cost": 100000,
+      "skill3_mon_lvl": 2000,
+      "skill3_gold_cost": 200000
+    },
+    "20": {
+      "lvl": 21,
+      "skill1_mon_lvl": 210,
+      "skill1_gold_cost": 21000,
+      "skill2_mon_lvl": 1050,
+      "skill2_gold_cost": 105000,
+      "skill3_mon_lvl": 2100,
+      "skill3_gold_cost": 210000
+    },
+    "21": {
+      "lvl": 22,
+      "skill1_mon_lvl": 220,
+      "skill1_gold_cost": 22000,
+      "skill2_mon_lvl": 1100,
+      "skill2_gold_cost": 110000,
+      "skill3_mon_lvl": 2200,
+      "skill3_gold_cost": 220000
+    },
+    "22": {
+      "lvl": 23,
+      "skill1_mon_lvl": 230,
+      "skill1_gold_cost": 23000,
+      "skill2_mon_lvl": 1150,
+      "skill2_gold_cost": 115000,
+      "skill3_mon_lvl": 2300,
+      "skill3_gold_cost": 230000
+    },
+    "23": {
+      "lvl": 24,
+      "skill1_mon_lvl": 240,
+      "skill1_gold_cost": 24000,
+      "skill2_mon_lvl": 1200,
+      "skill2_gold_cost": 120000,
+      "skill3_mon_lvl": 2400,
+      "skill3_gold_cost": 240000
+    },
+    "24": {
+      "lvl": 25,
+      "skill1_mon_lvl": 250,
+      "skill1_gold_cost": 25000,
+      "skill2_mon_lvl": 1250,
+      "skill2_gold_cost": 125000,
+      "skill3_mon_lvl": 2500,
+      "skill3_gold_cost": 250000
+    },
+    "25": {
+      "lvl": 26,
+      "skill1_mon_lvl": 260,
+      "skill1_gold_cost": 26000,
+      "skill2_mon_lvl": 1300,
+      "skill2_gold_cost": 130000,
+      "skill3_mon_lvl": 2600,
+      "skill3_gold_cost": 260000
+    },
+    "26": {
+      "lvl": 27,
+      "skill1_mon_lvl": 270,
+      "skill1_gold_cost": 27000,
+      "skill2_mon_lvl": 1350,
+      "skill2_gold_cost": 135000,
+      "skill3_mon_lvl": 2700,
+      "skill3_gold_cost": 270000
+    },
+    "27": {
+      "lvl": 28,
+      "skill1_mon_lvl": 280,
+      "skill1_gold_cost": 28000,
+      "skill2_mon_lvl": 1400,
+      "skill2_gold_cost": 140000,
+      "skill3_mon_lvl": 2800,
+      "skill3_gold_cost": 280000
+    },
+    "28": {
+      "lvl": 29,
+      "skill1_mon_lvl": 290,
+      "skill1_gold_cost": 29000,
+      "skill2_mon_lvl": 1450,
+      "skill2_gold_cost": 145000,
+      "skill3_mon_lvl": 2900,
+      "skill3_gold_cost": 290000
+    },
+    "29": {
+      "lvl": 30,
+      "skill1_mon_lvl": 300,
+      "skill1_gold_cost": 30000,
+      "skill2_mon_lvl": 1500,
+      "skill2_gold_cost": 150000,
+      "skill3_mon_lvl": 3000,
+      "skill3_gold_cost": 300000
+    },
+    "30": {
+      "lvl": 31,
+      "skill1_mon_lvl": 310,
+      "skill1_gold_cost": 31000,
+      "skill2_mon_lvl": 1550,
+      "skill2_gold_cost": 155000,
+      "skill3_mon_lvl": 3100,
+      "skill3_gold_cost": 310000
+    },
+    "31": {
+      "lvl": 32,
+      "skill1_mon_lvl": 320,
+      "skill1_gold_cost": 32000,
+      "skill2_mon_lvl": 1600,
+      "skill2_gold_cost": 160000,
+      "skill3_mon_lvl": 3200,
+      "skill3_gold_cost": 320000
+    },
+    "32": {
+      "lvl": 33,
+      "skill1_mon_lvl": 330,
+      "skill1_gold_cost": 33000,
+      "skill2_mon_lvl": 1650,
+      "skill2_gold_cost": 165000,
+      "skill3_mon_lvl": 3300,
+      "skill3_gold_cost": 330000
+    },
+    "33": {
+      "lvl": 34,
+      "skill1_mon_lvl": 340,
+      "skill1_gold_cost": 34000,
+      "skill2_mon_lvl": 1700,
+      "skill2_gold_cost": 170000,
+      "skill3_mon_lvl": 3400,
+      "skill3_gold_cost": 340000
+    },
+    "34": {
+      "lvl": 35,
+      "skill1_mon_lvl": 350,
+      "skill1_gold_cost": 35000,
+      "skill2_mon_lvl": 1750,
+      "skill2_gold_cost": 175000,
+      "skill3_mon_lvl": 3500,
+      "skill3_gold_cost": 350000
+    },
+    "35": {
+      "lvl": 36,
+      "skill1_mon_lvl": 360,
+      "skill1_gold_cost": 36000,
+      "skill2_mon_lvl": 1800,
+      "skill2_gold_cost": 180000,
+      "skill3_mon_lvl": 3600,
+      "skill3_gold_cost": 360000
+    },
+    "36": {
+      "lvl": 37,
+      "skill1_mon_lvl": 370,
+      "skill1_gold_cost": 37000,
+      "skill2_mon_lvl": 1850,
+      "skill2_gold_cost": 185000,
+      "skill3_mon_lvl": 3700,
+      "skill3_gold_cost": 370000
+    },
+    "37": {
+      "lvl": 38,
+      "skill1_mon_lvl": 380,
+      "skill1_gold_cost": 38000,
+      "skill2_mon_lvl": 1900,
+      "skill2_gold_cost": 190000,
+      "skill3_mon_lvl": 3800,
+      "skill3_gold_cost": 380000
+    },
+    "38": {
+      "lvl": 39,
+      "skill1_mon_lvl": 390,
+      "skill1_gold_cost": 39000,
+      "skill2_mon_lvl": 1950,
+      "skill2_gold_cost": 195000,
+      "skill3_mon_lvl": 3900,
+      "skill3_gold_cost": 390000
+    },
+    "39": {
+      "lvl": 40,
+      "skill1_mon_lvl": 400,
+      "skill1_gold_cost": 40000,
+      "skill2_mon_lvl": 2000,
+      "skill2_gold_cost": 200000,
+      "skill3_mon_lvl": 4000,
+      "skill3_gold_cost": 400000
+    },
+    "40": {
+      "lvl": 41,
+      "skill1_mon_lvl": 410,
+      "skill1_gold_cost": 41000,
+      "skill2_mon_lvl": 2050,
+      "skill2_gold_cost": 205000,
+      "skill3_mon_lvl": 4100,
+      "skill3_gold_cost": 410000
+    },
+    "41": {
+      "lvl": 42,
+      "skill1_mon_lvl": 420,
+      "skill1_gold_cost": 42000,
+      "skill2_mon_lvl": 2100,
+      "skill2_gold_cost": 210000,
+      "skill3_mon_lvl": 4200,
+      "skill3_gold_cost": 420000
+    },
+    "42": {
+      "lvl": 43,
+      "skill1_mon_lvl": 430,
+      "skill1_gold_cost": 43000,
+      "skill2_mon_lvl": 2150,
+      "skill2_gold_cost": 215000,
+      "skill3_mon_lvl": 4300,
+      "skill3_gold_cost": 430000
+    },
+    "43": {
+      "lvl": 44,
+      "skill1_mon_lvl": 440,
+      "skill1_gold_cost": 44000,
+      "skill2_mon_lvl": 2200,
+      "skill2_gold_cost": 220000,
+      "skill3_mon_lvl": 4400,
+      "skill3_gold_cost": 440000
+    },
+    "44": {
+      "lvl": 45,
+      "skill1_mon_lvl": 450,
+      "skill1_gold_cost": 45000,
+      "skill2_mon_lvl": 2250,
+      "skill2_gold_cost": 225000,
+      "skill3_mon_lvl": 4500,
+      "skill3_gold_cost": 450000
+    },
+    "45": {
+      "lvl": 46,
+      "skill1_mon_lvl": 460,
+      "skill1_gold_cost": 46000,
+      "skill2_mon_lvl": 2300,
+      "skill2_gold_cost": 230000,
+      "skill3_mon_lvl": 4600,
+      "skill3_gold_cost": 460000
+    },
+    "46": {
+      "lvl": 47,
+      "skill1_mon_lvl": 470,
+      "skill1_gold_cost": 47000,
+      "skill2_mon_lvl": 2350,
+      "skill2_gold_cost": 235000,
+      "skill3_mon_lvl": 4700,
+      "skill3_gold_cost": 470000
+    },
+    "47": {
+      "lvl": 48,
+      "skill1_mon_lvl": 480,
+      "skill1_gold_cost": 48000,
+      "skill2_mon_lvl": 2400,
+      "skill2_gold_cost": 240000,
+      "skill3_mon_lvl": 4800,
+      "skill3_gold_cost": 480000
+    },
+    "48": {
+      "lvl": 49,
+      "skill1_mon_lvl": 490,
+      "skill1_gold_cost": 49000,
+      "skill2_mon_lvl": 2450,
+      "skill2_gold_cost": 245000,
+      "skill3_mon_lvl": 4900,
+      "skill3_gold_cost": 490000
+    },
+    "49": {
+      "lvl": 50,
+      "skill1_mon_lvl": 500,
+      "skill1_gold_cost": 50000,
+      "skill2_mon_lvl": 2500,
+      "skill2_gold_cost": 250000,
+      "skill3_mon_lvl": 5000,
+      "skill3_gold_cost": 500000
+    },
+    "50": {
+      "lvl": 51,
+      "skill1_mon_lvl": 510,
+      "skill1_gold_cost": 51000,
+      "skill2_mon_lvl": 2550,
+      "skill2_gold_cost": 255000,
+      "skill3_mon_lvl": 5100,
+      "skill3_gold_cost": 510000
+    },
+    "51": {
+      "lvl": 52,
+      "skill1_mon_lvl": 520,
+      "skill1_gold_cost": 52000,
+      "skill2_mon_lvl": 2600,
+      "skill2_gold_cost": 260000,
+      "skill3_mon_lvl": 5200,
+      "skill3_gold_cost": 520000
+    },
+    "52": {
+      "lvl": 53,
+      "skill1_mon_lvl": 530,
+      "skill1_gold_cost": 53000,
+      "skill2_mon_lvl": 2650,
+      "skill2_gold_cost": 265000,
+      "skill3_mon_lvl": 5300,
+      "skill3_gold_cost": 530000
+    },
+    "53": {
+      "lvl": 54,
+      "skill1_mon_lvl": 540,
+      "skill1_gold_cost": 54000,
+      "skill2_mon_lvl": 2700,
+      "skill2_gold_cost": 270000,
+      "skill3_mon_lvl": 5400,
+      "skill3_gold_cost": 540000
+    },
+    "54": {
+      "lvl": 55,
+      "skill1_mon_lvl": 550,
+      "skill1_gold_cost": 55000,
+      "skill2_mon_lvl": 2750,
+      "skill2_gold_cost": 275000,
+      "skill3_mon_lvl": 5500,
+      "skill3_gold_cost": 550000
+    },
+    "55": {
+      "lvl": 56,
+      "skill1_mon_lvl": 560,
+      "skill1_gold_cost": 56000,
+      "skill2_mon_lvl": 2800,
+      "skill2_gold_cost": 280000,
+      "skill3_mon_lvl": 5600,
+      "skill3_gold_cost": 560000
+    },
+    "56": {
+      "lvl": 57,
+      "skill1_mon_lvl": 570,
+      "skill1_gold_cost": 57000,
+      "skill2_mon_lvl": 2850,
+      "skill2_gold_cost": 285000,
+      "skill3_mon_lvl": 5700,
+      "skill3_gold_cost": 570000
+    },
+    "57": {
+      "lvl": 58,
+      "skill1_mon_lvl": 580,
+      "skill1_gold_cost": 58000,
+      "skill2_mon_lvl": 2900,
+      "skill2_gold_cost": 290000,
+      "skill3_mon_lvl": 5800,
+      "skill3_gold_cost": 580000
+    },
+    "58": {
+      "lvl": 59,
+      "skill1_mon_lvl": 590,
+      "skill1_gold_cost": 59000,
+      "skill2_mon_lvl": 2950,
+      "skill2_gold_cost": 295000,
+      "skill3_mon_lvl": 5900,
+      "skill3_gold_cost": 590000
+    },
+    "59": {
+      "lvl": 60,
+      "skill1_mon_lvl": 600,
+      "skill1_gold_cost": 60000,
+      "skill2_mon_lvl": 3000,
+      "skill2_gold_cost": 300000,
+      "skill3_mon_lvl": 6000,
+      "skill3_gold_cost": 600000
+    },
+    "60": {
+      "lvl": 61,
+      "skill1_mon_lvl": 610,
+      "skill1_gold_cost": 61000,
+      "skill2_mon_lvl": 3050,
+      "skill2_gold_cost": 305000,
+      "skill3_mon_lvl": 6100,
+      "skill3_gold_cost": 610000
+    },
+    "61": {
+      "lvl": 62,
+      "skill1_mon_lvl": 620,
+      "skill1_gold_cost": 62000,
+      "skill2_mon_lvl": 3100,
+      "skill2_gold_cost": 310000,
+      "skill3_mon_lvl": 6200,
+      "skill3_gold_cost": 620000
+    },
+    "62": {
+      "lvl": 63,
+      "skill1_mon_lvl": 630,
+      "skill1_gold_cost": 63000,
+      "skill2_mon_lvl": 3150,
+      "skill2_gold_cost": 315000,
+      "skill3_mon_lvl": 6300,
+      "skill3_gold_cost": 630000
+    },
+    "63": {
+      "lvl": 64,
+      "skill1_mon_lvl": 640,
+      "skill1_gold_cost": 64000,
+      "skill2_mon_lvl": 3200,
+      "skill2_gold_cost": 320000,
+      "skill3_mon_lvl": 6400,
+      "skill3_gold_cost": 640000
+    },
+    "64": {
+      "lvl": 65,
+      "skill1_mon_lvl": 650,
+      "skill1_gold_cost": 65000,
+      "skill2_mon_lvl": 3250,
+      "skill2_gold_cost": 325000,
+      "skill3_mon_lvl": 6500,
+      "skill3_gold_cost": 650000
+    },
+    "65": {
+      "lvl": 66,
+      "skill1_mon_lvl": 660,
+      "skill1_gold_cost": 66000,
+      "skill2_mon_lvl": 3300,
+      "skill2_gold_cost": 330000,
+      "skill3_mon_lvl": 6600,
+      "skill3_gold_cost": 660000
+    },
+    "66": {
+      "lvl": 67,
+      "skill1_mon_lvl": 670,
+      "skill1_gold_cost": 67000,
+      "skill2_mon_lvl": 3350,
+      "skill2_gold_cost": 335000,
+      "skill3_mon_lvl": 6700,
+      "skill3_gold_cost": 670000
+    },
+    "67": {
+      "lvl": 68,
+      "skill1_mon_lvl": 680,
+      "skill1_gold_cost": 68000,
+      "skill2_mon_lvl": 3400,
+      "skill2_gold_cost": 340000,
+      "skill3_mon_lvl": 6800,
+      "skill3_gold_cost": 680000
+    },
+    "68": {
+      "lvl": 69,
+      "skill1_mon_lvl": 690,
+      "skill1_gold_cost": 69000,
+      "skill2_mon_lvl": 3450,
+      "skill2_gold_cost": 345000,
+      "skill3_mon_lvl": 6900,
+      "skill3_gold_cost": 690000
+    },
+    "69": {
+      "lvl": 70,
+      "skill1_mon_lvl": 700,
+      "skill1_gold_cost": 70000,
+      "skill2_mon_lvl": 3500,
+      "skill2_gold_cost": 350000,
+      "skill3_mon_lvl": 7000,
+      "skill3_gold_cost": 700000
+    },
+    "70": {
+      "lvl": 71,
+      "skill1_mon_lvl": 710,
+      "skill1_gold_cost": 71000,
+      "skill2_mon_lvl": 3550,
+      "skill2_gold_cost": 355000,
+      "skill3_mon_lvl": 7100,
+      "skill3_gold_cost": 710000
+    },
+    "71": {
+      "lvl": 72,
+      "skill1_mon_lvl": 720,
+      "skill1_gold_cost": 72000,
+      "skill2_mon_lvl": 3600,
+      "skill2_gold_cost": 360000,
+      "skill3_mon_lvl": 7200,
+      "skill3_gold_cost": 720000
+    },
+    "72": {
+      "lvl": 73,
+      "skill1_mon_lvl": 730,
+      "skill1_gold_cost": 73000,
+      "skill2_mon_lvl": 3650,
+      "skill2_gold_cost": 365000,
+      "skill3_mon_lvl": 7300,
+      "skill3_gold_cost": 730000
+    },
+    "73": {
+      "lvl": 74,
+      "skill1_mon_lvl": 740,
+      "skill1_gold_cost": 74000,
+      "skill2_mon_lvl": 3700,
+      "skill2_gold_cost": 370000,
+      "skill3_mon_lvl": 7400,
+      "skill3_gold_cost": 740000
+    },
+    "74": {
+      "lvl": 75,
+      "skill1_mon_lvl": 750,
+      "skill1_gold_cost": 75000,
+      "skill2_mon_lvl": 3750,
+      "skill2_gold_cost": 375000,
+      "skill3_mon_lvl": 7500,
+      "skill3_gold_cost": 750000
+    },
+    "75": {
+      "lvl": 76,
+      "skill1_mon_lvl": 760,
+      "skill1_gold_cost": 76000,
+      "skill2_mon_lvl": 3800,
+      "skill2_gold_cost": 380000,
+      "skill3_mon_lvl": 7600,
+      "skill3_gold_cost": 760000
+    },
+    "76": {
+      "lvl": 77,
+      "skill1_mon_lvl": 770,
+      "skill1_gold_cost": 77000,
+      "skill2_mon_lvl": 3850,
+      "skill2_gold_cost": 385000,
+      "skill3_mon_lvl": 7700,
+      "skill3_gold_cost": 770000
+    },
+    "77": {
+      "lvl": 78,
+      "skill1_mon_lvl": 780,
+      "skill1_gold_cost": 78000,
+      "skill2_mon_lvl": 3900,
+      "skill2_gold_cost": 390000,
+      "skill3_mon_lvl": 7800,
+      "skill3_gold_cost": 780000
+    },
+    "78": {
+      "lvl": 79,
+      "skill1_mon_lvl": 790,
+      "skill1_gold_cost": 79000,
+      "skill2_mon_lvl": 3950,
+      "skill2_gold_cost": 395000,
+      "skill3_mon_lvl": 7900,
+      "skill3_gold_cost": 790000
+    },
+    "79": {
+      "lvl": 80,
+      "skill1_mon_lvl": 800,
+      "skill1_gold_cost": 80000,
+      "skill2_mon_lvl": 4000,
+      "skill2_gold_cost": 400000,
+      "skill3_mon_lvl": 8000,
+      "skill3_gold_cost": 800000
+    },
+    "80": {
+      "lvl": 81,
+      "skill1_mon_lvl": 810,
+      "skill1_gold_cost": 81000,
+      "skill2_mon_lvl": 4050,
+      "skill2_gold_cost": 405000,
+      "skill3_mon_lvl": 8100,
+      "skill3_gold_cost": 810000
+    },
+    "81": {
+      "lvl": 82,
+      "skill1_mon_lvl": 820,
+      "skill1_gold_cost": 82000,
+      "skill2_mon_lvl": 4100,
+      "skill2_gold_cost": 410000,
+      "skill3_mon_lvl": 8200,
+      "skill3_gold_cost": 820000
+    },
+    "82": {
+      "lvl": 83,
+      "skill1_mon_lvl": 830,
+      "skill1_gold_cost": 83000,
+      "skill2_mon_lvl": 4150,
+      "skill2_gold_cost": 415000,
+      "skill3_mon_lvl": 8300,
+      "skill3_gold_cost": 830000
+    },
+    "83": {
+      "lvl": 84,
+      "skill1_mon_lvl": 840,
+      "skill1_gold_cost": 84000,
+      "skill2_mon_lvl": 4200,
+      "skill2_gold_cost": 420000,
+      "skill3_mon_lvl": 8400,
+      "skill3_gold_cost": 840000
+    },
+    "84": {
+      "lvl": 85,
+      "skill1_mon_lvl": 850,
+      "skill1_gold_cost": 85000,
+      "skill2_mon_lvl": 4250,
+      "skill2_gold_cost": 425000,
+      "skill3_mon_lvl": 8500,
+      "skill3_gold_cost": 850000
+    },
+    "85": {
+      "lvl": 86,
+      "skill1_mon_lvl": 860,
+      "skill1_gold_cost": 86000,
+      "skill2_mon_lvl": 4300,
+      "skill2_gold_cost": 430000,
+      "skill3_mon_lvl": 8600,
+      "skill3_gold_cost": 860000
+    },
+    "86": {
+      "lvl": 87,
+      "skill1_mon_lvl": 870,
+      "skill1_gold_cost": 87000,
+      "skill2_mon_lvl": 4350,
+      "skill2_gold_cost": 435000,
+      "skill3_mon_lvl": 8700,
+      "skill3_gold_cost": 870000
+    },
+    "87": {
+      "lvl": 88,
+      "skill1_mon_lvl": 880,
+      "skill1_gold_cost": 88000,
+      "skill2_mon_lvl": 4400,
+      "skill2_gold_cost": 440000,
+      "skill3_mon_lvl": 8800,
+      "skill3_gold_cost": 880000
+    },
+    "88": {
+      "lvl": 89,
+      "skill1_mon_lvl": 890,
+      "skill1_gold_cost": 89000,
+      "skill2_mon_lvl": 4450,
+      "skill2_gold_cost": 445000,
+      "skill3_mon_lvl": 8900,
+      "skill3_gold_cost": 890000
+    },
+    "89": {
+      "lvl": 90,
+      "skill1_mon_lvl": 900,
+      "skill1_gold_cost": 90000,
+      "skill2_mon_lvl": 4500,
+      "skill2_gold_cost": 450000,
+      "skill3_mon_lvl": 9000,
+      "skill3_gold_cost": 900000
+    },
+    "90": {
+      "lvl": 91,
+      "skill1_mon_lvl": 910,
+      "skill1_gold_cost": 91000,
+      "skill2_mon_lvl": 4550,
+      "skill2_gold_cost": 455000,
+      "skill3_mon_lvl": 9100,
+      "skill3_gold_cost": 910000
+    },
+    "91": {
+      "lvl": 92,
+      "skill1_mon_lvl": 920,
+      "skill1_gold_cost": 92000,
+      "skill2_mon_lvl": 4600,
+      "skill2_gold_cost": 460000,
+      "skill3_mon_lvl": 9200,
+      "skill3_gold_cost": 920000
+    },
+    "92": {
+      "lvl": 93,
+      "skill1_mon_lvl": 930,
+      "skill1_gold_cost": 93000,
+      "skill2_mon_lvl": 4650,
+      "skill2_gold_cost": 465000,
+      "skill3_mon_lvl": 9300,
+      "skill3_gold_cost": 930000
+    },
+    "93": {
+      "lvl": 94,
+      "skill1_mon_lvl": 940,
+      "skill1_gold_cost": 94000,
+      "skill2_mon_lvl": 4700,
+      "skill2_gold_cost": 470000,
+      "skill3_mon_lvl": 9400,
+      "skill3_gold_cost": 940000
+    },
+    "94": {
+      "lvl": 95,
+      "skill1_mon_lvl": 950,
+      "skill1_gold_cost": 95000,
+      "skill2_mon_lvl": 4750,
+      "skill2_gold_cost": 475000,
+      "skill3_mon_lvl": 9500,
+      "skill3_gold_cost": 950000
+    },
+    "95": {
+      "lvl": 96,
+      "skill1_mon_lvl": 960,
+      "skill1_gold_cost": 96000,
+      "skill2_mon_lvl": 4800,
+      "skill2_gold_cost": 480000,
+      "skill3_mon_lvl": 9600,
+      "skill3_gold_cost": 960000
+    },
+    "96": {
+      "lvl": 97,
+      "skill1_mon_lvl": 970,
+      "skill1_gold_cost": 97000,
+      "skill2_mon_lvl": 4850,
+      "skill2_gold_cost": 485000,
+      "skill3_mon_lvl": 9700,
+      "skill3_gold_cost": 970000
+    },
+    "97": {
+      "lvl": 98,
+      "skill1_mon_lvl": 980,
+      "skill1_gold_cost": 98000,
+      "skill2_mon_lvl": 4900,
+      "skill2_gold_cost": 490000,
+      "skill3_mon_lvl": 9800,
+      "skill3_gold_cost": 980000
+    },
+    "98": {
+      "lvl": 99,
+      "skill1_mon_lvl": 990,
+      "skill1_gold_cost": 99000,
+      "skill2_mon_lvl": 4950,
+      "skill2_gold_cost": 495000,
+      "skill3_mon_lvl": 9900,
+      "skill3_gold_cost": 990000
+    },
+    "99": {
+      "lvl": 100,
+      "skill1_mon_lvl": 1000,
+      "skill1_gold_cost": 100000,
+      "skill2_mon_lvl": 5000,
+      "skill2_gold_cost": 500000,
+      "skill3_mon_lvl": 10000,
+      "skill3_gold_cost": 1000000
+    }
+  }
+}

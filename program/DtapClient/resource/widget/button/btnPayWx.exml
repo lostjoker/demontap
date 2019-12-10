@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="btnPayWx" width="200" height="100" xmlns:e="http://ns.egret.com/eui" states="up,down,disabled" >
+	<e:Component skinName="gameBg6" width="100%" height="100%" horizontalCenter="5" verticalCenter="5" includeIn="up,disabled" />
+	<e:Image height="100%" width="100%" x.disabled="0" x.up="0" y.disabled="0" y.up="0" alpha.disabled="0.8" width.down="97%" height.down="97%" horizontalCenter.down="0" verticalCenter.down="0" scale9Grid="13,13,122,32" source="btn_green_png"/>
+	<e:Label id="labelDisplay" text="按钮文本" size="36" bold="true" stroke="1" strokeColor="0x000000" fontFamily="微软雅黑" horizontalCenter.down="0" textColor.down="0xDDDDDD" alpha.disabled="0.5" verticalCenter="-4" verticalCenter.down="-4.5" size.down="31" left="80"/>
+	<e:Image width="60" left="10" verticalCenter="0" height="60" x="10" y="10" source="pay_wx_png"/>
+</e:Skin>

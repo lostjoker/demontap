@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="dialogRank" width="720" height="1000" currentState="day" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="day,all" >
+	<e:Component id="gb" width="100%" height="100%" skinName="gameBg2"/>
+	<e:Rect width="100%" fillColor="0xB8BDD8" height="5" top="70" horizontalCenter="0"/>
+	<e:Rect fillColor="0xB8BDD8" width="100%" horizontalCenter="0" height="5" bottom="70"/>
+	<e:Label id="lbl_myrank" text="我的排名："  bottom="15" left="15" size="32" textColor="0xFCFFC1"/>
+	<e:Button id="btn_back" label="朕知道了" skinName="btnGreenBig" height="70" left="475" width="200" bottom="-15"/>
+	<e:Group top="80" width="96%" height="40" anchorOffsetX="0" horizontalCenter="0">
+		<e:Rect width="100%" height="100%" fillColor="0x797C9B" />
+		<e:Label text="高玩名" bold="true" verticalCenter="0" stroke="1" strokeColor="0x64648C" left="145"/>
+		<e:Label verticalCenter="0" left="280" stroke="1" text="性别" strokeColor="0x64648C" bold="true" x="10" y="10"/>
+		<e:Label text="排行" bold="true" verticalCenter="0" stroke="1" strokeColor="0x64648C" left="355"/>
+		<e:Label text="等级" bold="true" verticalCenter="0" strokeColor="0x64648C" stroke="1" left="430" width="150" textAlign="center" text.day="得分"/>
+	</e:Group>
+	<e:Scroller id="sc_ranks" width="95%" height="77%" top="135" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5">
+		<e:viewport>
+		<e:List id="list_ranks" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+			<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+		</e:viewport>
+	</e:Scroller>
+	<e:Label id="lbl_day" text="每 日 之 星" size="40" bold="true" textAlign="center" verticalAlign="middle" background.day="true" backgroundColor="0x797C9B" width="47%" left="20" height="55" top="5" strokeColor="0x64648C" stroke="1" background="true" backgroundColor.all="0x979CBC"/>
+	<e:Label id="lbl_all" text="总  榜" textAlign="center" bold.day="true" size="40" verticalAlign="middle" background.all="true" backgroundColor="0x797C9B" width="47%" height="55" top="5" strokeColor="0x64648C" stroke="1" right="20" background="true" bold="true" backgroundColor.day="0x979CBC"/>
+		
+</e:Skin>

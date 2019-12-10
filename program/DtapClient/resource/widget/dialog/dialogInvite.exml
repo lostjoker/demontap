@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="dialogInvite" width="780" height="375" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Component id="gb" width="100%" height="100%"  skinName="gameBg2"/>
+	<e:Rect width="100%" height="5" top="65" horizontalCenter="0" fillColor="0xB8BDD8"/>
+	<e:Label text="邀   请" horizontalCenter="0" top="10" strokeColor="0x64648C" stroke="1" size="50" bold="true" width="97%" textAlign="center" background="true" backgroundColor="0x797C9B"/>
+	<e:Button id="btn_invitewx" y="20" skinName="btnLoginWX" top="100" label="微信好友" left="20"/>
+	<e:Button id="btn_invitepyq" skinName="btnLoginWX" y="30" top="100" label="朋 友 圈" left="215" x="10"/>
+	<e:Button id="btn_inviteqq" label="QQ好友" skinName="btnLoginQQ" top="100" y="10" left="410"/>
+	<e:Button id="btn_invitefollow" y="20" top="100" label="站内好友" skinName="btnLoginMember" left="610" width="155"/>
+	<e:Button width="80" height="80" id="btn_close" top="-20" skinName="btnClose2" right="-20"/>
+</e:Skin>

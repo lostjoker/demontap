@@ -1,0 +1,14 @@
+apps:
+- name:           DtapServer
+  script:         ./dist/entry-pm2.js
+
+  # pm2 waits for 3000ms or process.send('ready') before consider the app ready.
+  wait_ready:     true
+  listen_timeout: 3000
+
+  env:
+    NODE_ENV:        alpha
+    IN_PM2:          yes
+
+    # 改为由apache提供https
+    HTTPS:           disabled

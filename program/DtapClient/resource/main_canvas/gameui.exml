@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="gameui" width="800" height="1280" currentState="fight" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="fight,dungeon,demon,market,treasure" >
+	<w:Declarations>
+	</w:Declarations>
+	<e:Group id="g_servernotice" width="100%" height="60" visible="false" includeIn="fight">
+		<e:Rect width="100%" height="100%" fillColor="0x333333" alpha="0.7" />
+		<e:Label id="lbl_servernotice" height="100%" textColor="0xffffff"  verticalAlign="middle" x="0"/>
+	</e:Group>
+	<ns1:GameFight width="100%" height="100%" includeIn="fight" id="fight"/>
+	<ns1:GameDungeon skinName="gameDungeon" width="100%" height="100%" includeIn="dungeon" id="dungeon"/>
+	<ns1:GameDemon skinName="gameDemon" width="100%" height="100%" includeIn="demon" id="demon"/>
+	<ns1:GameMarket skinName="gameMarket" width="100%" height="100%" includeIn="market" id="market"/>
+	<ns1:GameTreasure skinName="gameTreasure" width="100%" height="100%" includeIn="treasure" id="treasure"/>
+
+
+	<ns1:EgtChargePanel x="16" y="77" width="500" height="542" name="chargePanel" visible="false"/>
+	<ns1:BlockBoard id="bb" skinName="blockBoard" width="100%" height="100%" visible="false"/>
+</e:Skin>

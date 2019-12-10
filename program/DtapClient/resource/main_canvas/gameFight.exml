@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="gameFight" width="800" height="1280" currentState="skill" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*"  states="skill,monster,rob" >
+	<e:Image source="bg_color1_png" width="100%" height="100%" />
+	<e:Image source="bg_rolename_png" width="100%" height="80" scale9Grid="5,3,106,24"/>
+	<e:Image id="img_bg" width="100%" top="80" source="bg5_png" smoothing="false" height="800"/>
+	<e:Group id="g_currentdata" width="100%" height="320" top="880" includeIn="skill,rob">
+		<e:Rect fillColor="#333333" width="100%" height="100%" />
+		<e:Label id="lblDemonDmg" text="魔王伤害: 999.99e999" left="50" top="50" />
+		<e:Label id="lblTotalDmg" text="总伤害: 999.99e999" right="50" top="50" />
+		<e:Label id="lblMp" text="法力值: 999.99e999" left="50" top="100" />
+		<e:Label id="lblMonsterDmg" text="怪物伤害: 999.99e999" right="50" top="100" />
+		<e:Group id="g_activeskill" width="100%" bottom="0">
+			<e:Button id="btn_activeskill1" name="btn_activeskill1" label="1" skinName="btnActiveSkill" width="125" height="125" left="0"/>
+			<e:Button id="btn_activeskill2" name="btn_activeskill2" label="2" skinName="btnActiveSkill" width="125" height="125" left="135"/>
+			<e:Button id="btn_activeskill3" name="btn_activeskill3" label="3" skinName="btnActiveSkill" width="125" height="125" left="270"/>
+			<e:Button id="btn_activeskill4" name="btn_activeskill4" label="4" skinName="btnActiveSkill" width="125" height="125" left="405"/>
+			<e:Button id="btn_activeskill5" name="btn_activeskill5" label="5" skinName="btnActiveSkill" width="125" height="125" left="540"/>
+			<e:Button id="btn_activeskill6" name="btn_activeskill6" label="6" skinName="btnActiveSkill" width="125" height="125" left="675"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="g_currentmonster" width="100%" height="320" top="880" includeIn="monster" >
+		<e:Rect width="100%" height="100%"  fillColor="#333333"/>
+		<e:Scroller id="scroller_monster" width="100%" scrollPolicyH="auto" height="100%">
+			<e:Group id="g_mscroller" width="100%" height="100%">
+				<e:DataGroup id="g_monster" left="0" height="100%">
+					<e:layout>
+						<e:HorizontalLayout gap="5" verticalAlign="middle" paddingRight="20" horizontalAlign="left"/>
+					</e:layout>
+				</e:DataGroup>
+				<e:Button id="btn_moreMonsters" skinName="btnGreenBig" label="打开扭蛋\n获取怪物" width="200" height="200"  x="225" y="50"/>
+				<e:layout>
+					<e:HorizontalLayout verticalAlign="middle" gap="10" horizontalAlign="left" paddingLeft="15"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+	<e:Label id="lbl_stage" width="400" size="40" bold="true" horizontalCenter="-20" top="15" height="45" textAlign="center" verticalAlign="middle"  text="战斗区域"/>
+	<e:Image id="img_enemy" scaleX="6" scaleY="6" smoothing="false" verticalCenter="-100" horizontalCenter="0" source=""/>
+	<e:Image id="img_gold" source="icon_coin_png" width="40" height="40" verticalCenter="-458" horizontalCenter="-120" />
+	<e:Label id="lbl_gold" text="999.99e999" width="275" size="36" horizontalCenter="50.5" top="160" height="45" textAlign="center" verticalAlign="middle" stroke="1" bold="true"/>
+	<e:Label id="lbl_enemyinfo" verticalAlign="middle" text="炎龙骑士团III HP:99.99AA" bold="true" width="480" height="45" top="80" horizontalCenter="0" textAlign="center" size="36"/>
+	<ns1:GameProgressBar id="gpb_hp" skinName="gameProgressBar" width="470" height="20" horizontalCenter="0" top="130" />
+	<ns1:GameProgressBar id="gpb_remaintime" skinName="gameProgressBar" width="470" height="10" horizontalCenter="0" top="150" includeIn="rob"/>
+	<e:Group id="g_servernotice" width="100%" height="60" visible="false">
+		<e:Rect width="100%" height="100%" fillColor="0x333333" alpha="0.7" />
+		<e:Label id="lbl_servernotice" height="100%" textColor="0xffffff"  verticalAlign="middle" x="0"/>
+	</e:Group>
+	<e:BitmapLabel x="300" y="625" font="dmg_fnt" text="9999" visible="false"/>
+	<e:Group id="g_scatter" width="100%" height="75%" touchEnabled="false" top="80" >
+		<e:Rect id="rect_matching" width="360" height="70" includeIn="rob" horizontalCenter="0" verticalCenter="0" fillColor="0x594c4c"/>
+		<e:Label text="正在匹配掠夺玩家……" includeIn="rob" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<ns1:MainBtnGroup skinName="mainBtnGroup" bottom="0" id="mainBtnGroup" />
+	<ns1:BlockBoard id="bb" skinName="blockBoard" width="100%" height="100%" visible="false" />
+	<ns1:EgtLabel width="174" height="47" x="484" y="11" anchorOffsetX="0" anchorOffsetY="0" x.skill="580" y.skill="12" width.skill="211" height.skill="54"/>
+	<e:Rect height="80" includeIn="rob" width="100%" y="0" x="0" fillColor="0x0097ff"/>
+	<e:Button id="btn_giveupRob" label="放弃掠夺" includeIn="rob" horizontalCenter="0" skinName="btnBlackBig" bottom="0" height="80" width="100%"/>
+	<e:Label id="lbl_robInfo" text="你正在掠夺超级无敌大魔王lostjoker的领地！时限内击败守卫即可夺得丰厚宝藏！" includeIn="rob" anchorOffsetX="0" width="602" anchorOffsetY="0" height="66" left="5" top="5"/>
+	<e:Label id="lbl_remaintime" text="99.9" includeIn="rob" top="130" left="95" italic="true"/>
+	<e:Button id="btn_startrob" label="开始掠夺" horizontalCenter="3" bottom="560" width="40%" height="80" skinName="btnBlueBig" includeIn="rob"/>
+	<e:Button id="btn_changerob" label="重新匹配" horizontalCenter="3" bottom="446" width="40%" height="80" skinName="btnBlueBig" includeIn="rob"/>
+</e:Skin>

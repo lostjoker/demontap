@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="cbRewardUs" xmlns:e="http://ns.egret.com/eui" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" height="50">
+	<e:Group width="100%" height="100%">
+		<e:Image width="50" height="50" source="icon_rewardus_cb0_png" verticalCenter="0"/>
+		<e:Image width="50" height="50" source="blank_png" 
+				source.upAndSelected="icon_rewardus_cb1_png"
+				source.downAndSelected="icon_rewardus_cb1_png"
+				source.disabledAndSelected="icon_rewardus_cb1_png" alpha.disabledAndSelected="0.5" alpha.downAndSelected="0.7" verticalCenter="0"/>
+		<e:Label id="labelDisplay" left="50" height="50" textColor="0xffffff"
+		         textAlign="center" size="30" verticalAlign="middle" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

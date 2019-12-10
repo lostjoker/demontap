@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="btnGroupFight" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="normal,extend"  width="160" height="320" height.normal="80">
+	<e:Button id="btn_tab2fight" label="战  斗" skinName="btnBlackBig" height="80" width="100%" bottom="0"/>
+	<e:Button id="btn_showskills" label="技  能" skinName="btnBlackBig" height="80" width="100%" bottom="80" includeIn="extend"/>
+	<e:Button id="btn_showmonsters" label="怪  物" skinName="btnBlackBig" height="80" width="100%" bottom="160" includeIn="extend"/>
+	<e:Button id="btn_robplayer" label="掠  夺" skinName="btnBlackBig" height="80" width="100%" bottom="240" includeIn="extend"/>
+</e:Skin>

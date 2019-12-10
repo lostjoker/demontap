@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="dialogChangePwd" width="450" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Component id="gb" width="100%" height="100%"  skinName="gameBg4"/>
+	<e:Label id="lbl_dialog" text="魔法师们说你的密码可能不给力，请重新设置并牢记吧" width="90%" horizontalCenter="0" verticalAlign="middle" textColor="0xFFFFFF" strokeColor="0x64648C" stroke="1" background="false" textAlign="center" top="15"/>
+	<e:EditableText id="et_newpwd" width="250" height="50" textAlign="center" background="true" backgroundColor="0x797C9B" border="true" borderColor="0xffffff" verticalAlign="middle" textColor="0xFFFFFF" top="95" left="140"/>
+	<e:EditableText id="et_newpwdrep" textColor="0xFFFFFF" borderColor="0xFFFFFF" border="true" background="true" verticalAlign="middle" backgroundColor="0x797C9B" top="155" textAlign="center" width="250" height="50" y="10" left="140"/>
+	<e:Button id="btn_yes" label="确  认" width="180" height="60" horizontalCenter="0" skinName="btnGreenBig" y="215"/>
+	<e:Label text="新的" left="60" top="105"/>
+	<e:Label left="60" top="165" text="重复" x="10" y="10"/>
+</e:Skin>

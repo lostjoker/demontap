@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="gameTown" width="800" height="1280" currentState="reg" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  states="login,regauth,reg" >
+	<e:Image source="bg_color1_png" width="100%" height="100%"/>
+	<e:Label text="Demon Tap" size="80" bold="true" horizontalCenter="5" top="85" includeIn="login,reg" textColor="0x000000"/>
+	<e:Label text="Demon Tap" size="80" bold="true" horizontalCenter="-5" top="75" includeIn="login,reg"/>
+	<e:Label text="注 册 中..." size="80" bold="true" horizontalCenter="5" top="85" includeIn="regauth" textColor="0x000000"/>
+	<e:Label text="注 册 中..." size="80" bold="true" horizontalCenter="-5" top="75" includeIn="regauth"/>
+
+
+	<e:Image id="img_name" top="600" width="65" height="62" top.reg="440" source="icon_account_png" left="33"/>
+	<e:Component skinName="gameBg9" width="70%" height="105" top="580" top.reg="420"  left="120"/>
+	<e:EditableText id="et_name" width="70%" height="105" top="580" textAlign="center" verticalAlign="middle" size="70" top.reg="420" textColor="0xFFFFFF" left="120" text="角色名" text.login="" text.reg="" text.regauth="魔王名" prompt.login="魔王名" promptColor.login="0xe5d0d0" prompt.reg="魔王名" promptColor.reg="0xffffff"/>
+	<e:Image id="img_phone"  top="700" width="65" height="62" top.reg="700" includeIn="reg" source="icon_phone_png" left="33" visible="false"/>
+	<e:Component skinName="gameBg9" width="70%" height="105" horizontalCenter="0" top="730" top.reg="550" includeIn="login,reg"  horizontalCenter.reg="0"/>
+	<e:EditableText id="et_pwd" height="105" top="730" textAlign="center" width="70%" size="70" includeIn="login,reg" top.reg="550" displayAsPassword.reg="true" displayAsPassword="true" textColor="0xFFFFFF" verticalAlign="middle"  left="120" left.reg="120" text="密码" text.login="" prompt.login="密码" promptColor.login="0xe8d0d0" text.reg="" prompt.reg="密码" promptColor.reg="0xffffff"/>
+	<e:Image id="img_pwd"  top="755" width="65" height="62" top.reg="570" includeIn="login,reg" source="icon_pwd_png" left="33" left.reg="33"/>
+	<e:Component skinName="gameBg9" width="70%" height="105" top="680"  includeIn="reg" left="120" visible="false"/>
+	<e:EditableText id="et_phone" top="680" textAlign="center" includeIn="reg" width="70%" height="105" size="70" verticalAlign="middle" textColor="0xFFFFFF" left="120" maxChars="20" text="" prompt="手机号" promptColor="0xffffff" visible="false"/>
+	<e:Image id="img_code" top="875" width="65" height="62" includeIn="reg" source="icon_vaildcode_png" left="33" visible="false"/>
+	<e:Component skinName="gameBg9" width="40%" height="105" top="850"  includeIn="reg" left="120" visible="false"/>
+	<e:EditableText id="et_code" top="850" textAlign="center" width="40%" height="105" size="70" verticalAlign="middle" includeIn="reg" textColor="0xFFFFFF" left="120" text="" prompt="验证码" promptColor="0xffffff" visible="false"/>
+	<e:Label text="大陆地区以外的手机，输入&quot;+&quot;开头的国际手机号" multiline="true" anchorOffsetY="0" textColor="0xFEFEFE" top="800" left="150" size="24" includeIn="reg" visible="false"/>
+	<e:Button id="btn_readylogin" width="70%" label="登  录" height="105" top="880" skinName="btnText" includeIn="login" left="120"/>
+	<e:Button id="btn_reg" width="70%" label="注  册" height="105" top="1032" skinName="btnText" includeIn="login" left="120"/>
+	<e:Button id="btn_readyreg" top="880" width="70%" label="注  册" height="105" skinName="btnText" includeIn="regauth,reg" top.reg="980" left="120" left.reg="120"/>
+	<e:Button id="btn_getcode" skinName="btnText" left="480" top="850" width="25%" label="验  证" includeIn="reg" height="105" visible="false"/>
+	<e:Button id="btn_return" top="1110" includeIn="regauth,reg" width="70%" label="返  回" height="105" skinName="btnText" left="120" left.reg="120" />
+
+
+
+	<ns1:BlockBoard id="bb" skinName="blockBoard" width="100%" height="100%" visible="false" />
+</e:Skin>

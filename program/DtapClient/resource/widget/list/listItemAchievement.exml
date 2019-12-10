@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="listItemAchievement" width="440" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="r_bg" width="100%" fillAlpha="1" strokeWeight="3" height="100%" strokeColor="0xB8BDD8" fillColor="0x8285A3"/>
+	<e:Rect fillColor="0xB8BDD8" width="5" height="100%" left="150" />
+	<e:Label id="lbl_name" width="150" height="100%" text="{data.name}" size="20" verticalAlign="middle" verticalCenter="0" textAlign="center"/>
+	<e:Label id="lbl_desc" width="280" textAlign="center" size="20" text="{data.desc}" verticalCenter="0" right="5" height="100%" verticalAlign="middle"/>
+	<e:Image id="img_statue" source="icon_cb1_png" verticalCenter="0.5" visible="true" right="10"/>
+</e:Skin>

@@ -1,0 +1,25 @@
+---
+- hosts: jsy1
+  remote_user: ubuntu
+  become: yes
+  become_user: root
+  gather_facts: no
+  tasks:
+    - name: Synchronization of src on the control machine to dest on the remote hosts
+      synchronize:
+        src: ../../
+        dest: /data/noderoot/DtapServer/
+        delete: no
+        recursive: yes
+    - name: Install npm packages
+      command:
+        cmd: npm i
+        chdir: /data/noderoot/DtapServer/
+    - name: Compile Typescript
+      command:
+        cmd: tsc
+        chdir: /data/noderoot/DtapServer/
+    - name: Start Server
+      command:
+        cmd: pm2 startOrGracefulReload --update-env pm2.yml
+        chdir: /data/noderoot/DtapServer/

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="rightBar" width="140" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<!--
+	<e:Button id="btn_members" width="25%" height="100%" x="0" y="0" skinName="btnPlayersInTable" visible="false"/>
+	-->
+	<e:Button id="btn_signin" width="80" height="80" y="0" skinName="btnsignin" x="0" visible="false" />
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="msgHintCenter" width="500" height="55" xmlns:e="http://ns.egret.com/eui">
+	<e:Label id="lbl_msg" width="100%" height="100%" text="提示文本" textAlign="center" verticalAlign="middle" background="true" backgroundColor="0x333333" size="24" border="true" borderColor="0xffffff" fontFamily="微软雅黑"/>
+</e:Skin>

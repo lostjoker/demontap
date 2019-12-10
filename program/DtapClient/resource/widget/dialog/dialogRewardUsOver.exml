@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="dialogRewardUsOver" width="500" height="200" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Component width="100%" height="100%"  skinName="gameBg8"/>
+	<e:Button id="btn_sure" horizontalCenter="32" x="20" bottom="-20" width="250" label="开心每一天" height="75" y="10" skinName="btnBlueBig"/>
+	<e:Label text="谢谢你的支持与鼓励" width="80%" horizontalCenter="37" lineSpacing="5" top="20" textColor="0xFFFFFF" size="40" textAlign="center" bold="true"/>
+	<e:Label width="60%" text="（今晚终于有鸡吃啦~)" size="20" lineSpacing="5" textColor="0xFFFFFF" textAlign="center" horizontalCenter="32" top="80"/>
+	<e:Image source="npc1_png" bottom="0" touchEnabled="false" x="-63" width="192" height="218"/>
+	<e:Image source="icon_rewardus_cb1_png" top="70" horizontalCenter="173"/>
+</e:Skin>

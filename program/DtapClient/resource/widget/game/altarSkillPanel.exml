@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="altarSkillPanel" width="800" height="1000" currentState="tab1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="tab1,tab2,tab3" >
+    <e:Group id="g_tab1" width="100%" height="100%" includeIn="tab1">
+        <e:Button id="btn_altarskill1" skinName="btnActiveSkill" width="125" height="125" horizontalCenter="-249.5" top="80"/>
+        <e:Button id="btn_altarskill2" skinName="btnActiveSkill" width="125" height="125" horizontalCenter="-249.5" top="330"/>
+        <e:Button id="btn_altarskill3" skinName="btnActiveSkill" width="125" height="125" horizontalCenter="0.5" top="580"/>
+        <e:Button id="btn_altarskill4" skinName="btnActiveSkill" width="125" height="125" horizontalCenter="-249.5" top="830"/>
+        <e:Button id="btn_altarskill5" skinName="btnActiveSkill" width="125" height="125" horizontalCenter="250.5" top="830"/>
+    </e:Group>
+    <e:Group id="g_tab2" width="100%" height="100%" includeIn="tab2">
+        <e:Button id="btn_altarskill6" skinName="btnActiveSkill" width="125" height="125" horizontalCenter="0.5" top="80"/>
+        <e:Button id="btn_altarskill7" skinName="btnActiveSkill" width="125" height="125" horizontalCenter="0.5" top="330"/>
+        <e:Button id="btn_altarskill8" skinName="btnActiveSkill" width="125" height="125" horizontalCenter="0.5" top="580"/>
+        <e:Button id="btn_altarskill9" skinName="btnActiveSkill" width="125" height="125" horizontalCenter="-249.5" top="830"/>
+        <e:Button id="btn_altarskill10" skinName="btnActiveSkill" width="125" height="125" horizontalCenter="248.5" top="831"/>
+    </e:Group>
+    <e:Group id="g_tab3" width="100%" height="100%" includeIn="tab3">
+        <e:Button id="btn_altarskill11" skinName="btnActiveSkill" width="125" height="125" horizontalCenter="250.5" top="80"/>
+        <e:Button id="btn_altarskill12" skinName="btnActiveSkill" width="125" height="125" horizontalCenter="0.5" top="330"/>
+        <e:Button id="btn_altarskill13" skinName="btnActiveSkill" width="125" height="125" horizontalCenter="250.5" top="580"/>
+        <e:Button id="btn_altarskill14" skinName="btnActiveSkill" width="125" height="125" horizontalCenter="-249.5" top="580"/>
+        <e:Button id="btn_altarskill15" skinName="btnActiveSkill" width="125" height="125" horizontalCenter="250.5" top="830"/>
+    </e:Group>
+	<e:Button id="btn_tab1" label="恶魔学识" x="0" y="-50" skinName="btnBlueBig" width="250" height="80" enabled.tab1="false"/>
+	<e:Button id="btn_tab2" label="随从天赋" x="250" y="-50" skinName="btnBlueBig" width="250" height="80" enabled.tab2="false"/>
+	<e:Button id="btn_tab3" label="地城建设" x="500" y="-50" skinName="btnBlueBig" width="250" height="80" enabled.tab3="false"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="listItemSocial" width="560" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect  strokeWeight="3" strokeColor="0xB8BDD8" width="100%" height="100%"  fillAlpha="1" fillColor="0x8285A3"/>
+	<e:Label id="lbl_msg" verticalCenter="0" left="30" text="{data.msg}" width="70%"/>
+	<e:Button id="btn_join" label="加  入" skinName="btnGreen" verticalCenter="0" right="10" height="40"/>
+	<e:Button id="btn_delete" skinName="btnClose2" width="50" height="50" left="-15" top="-10"/>
+</e:Skin>

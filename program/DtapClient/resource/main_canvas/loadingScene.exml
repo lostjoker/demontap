@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="loadingScene" width="800" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" top="0" right="0" bottom="0"/>
+	<e:Label id="lblText" text="正在加载数据……" horizontalCenter="0" verticalCenter="0" size="60"/>
+</e:Skin>

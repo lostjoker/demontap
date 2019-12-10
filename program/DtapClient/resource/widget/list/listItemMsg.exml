@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="listItemMsg" width="620" height="25" currentState="default" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Label text="{data.msg}" fontFamily="微软雅黑" borderColor="0xDDDDDD" border="false" size="18" background="false" verticalCenter="0" verticalAlign="middle" backgroundColor="0x666666" width="100%" height="100%" wordWrap="true" id="lbl_msg"/>
+</e:Skin>

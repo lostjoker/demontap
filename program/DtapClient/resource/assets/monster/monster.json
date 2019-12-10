@@ -1,0 +1,4 @@
+{"file":"monster.png","frames":{
+"monster2_png":{"x":86,"y":0,"w":36,"h":47,"offX":1,"offY":1,"sourceW":40,"sourceH":48},
+"monster3_png":{"x":0,"y":0,"w":84,"h":58,"offX":0,"offY":6,"sourceW":88,"sourceH":64},
+"monster1_png":{"x":0,"y":60,"w":62,"h":59,"offX":1,"offY":5,"sourceW":64,"sourceH":64}}}

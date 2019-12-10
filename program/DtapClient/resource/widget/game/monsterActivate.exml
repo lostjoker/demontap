@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="monsterActivate" width="200" height="300" currentState="normal" xmlns:e="http://ns.egret.com/eui"  xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="normal,gotten" >
+	<e:Image id="img_monster" width="200" height="200"/>
+	<ns1:GameProgressBar id="gpb_count" skinName="gameProgressBar" width="100%" height="40"  bottom="59" x="-1"/>
+	<e:Button id="btn_lvlup" label="激  活" horizontalCenter="0" width="100%" bottom="0" height="60" skinName="btnGreenBig" label.gotten="已 激 活" currentState.gotten="disabled"/>
+</e:Skin>

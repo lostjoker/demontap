@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="gameMarket" width="800" height="1280" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*"   states="normal,sold" >
+	<e:Image source="bg_color1_png" width="100%" height="100%" />
+	<e:Image source="bg_rolename_png" width="100%" height="80" scale9Grid="5,3,106,24"/>
+	<e:Image id="img_bg" width="100%" height="800" top="80" source="bg3_png"/>
+	<e:Label id="lbl_stage" size="40" bold="true" horizontalCenter="0" top="15" height="45" textAlign="center" verticalAlign="middle" text="自 由 市 场"  text.sold="商 品 列 表"/>
+	<e:Image id="img_gold" source="icon_coin_png" width="40" height="40" verticalCenter="-525" horizontalCenter="-120" />
+	<e:Label id="lbl_gold" text="999.99e999" width="275" size="36" horizontalCenter="50.5" top="100" height="45" textAlign="center" verticalAlign="middle" stroke="1" bold="true" />
+	<e:Scroller width="100%" scrollPolicyV="auto" horizontalCenter="0" top="200" height="70%" includeIn="normal">
+		<e:Group id="g_market">
+			<e:Button id="btn_market0" skinName="btnBlackBig" label="地城之心集市" width="100%" horizontalCenter="0" top="0" height="150"/>
+			<e:Button id="btn_market1" skinName="btnBlackBig" label="初级黑市（首次达到20区后开启）\n200宝石直接解锁" width="100%" top="150" height="150" horizontalCenter="0"/>
+			<e:Button id="btn_market2" skinName="btnBlackBig" label="高级黑市（首次达到50区后开启）\n500宝石直接解锁" width="100%" top="300" height="150" horizontalCenter="0"/>
+			<e:Button id="btn_market3" skinName="btnBlackBig" label="专业黑市（首次达到100区后开启）\n1000宝石直接解锁" width="100%" top="450" height="150" horizontalCenter="0"/>
+			<e:Button id="btn_market4" skinName="btnBlackBig" label="魔法黑市（首次达到200区后开启）\n2000宝石直接解锁" width="100%" height="150" top="600" horizontalCenter="0"/>
+			<e:Button id="btn_market5" skinName="btnBlackBig" label="掠夺专用商会" width="100%" height="150" top="750" horizontalCenter="0" x="10" y="10"/>	
+		</e:Group>
+	</e:Scroller>
+	<e:Scroller width="100%" scrollPolicyV="auto" horizontalCenter="0" top="200" height="70%" includeIn="sold">
+		<e:DataGroup id="g_sold">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="top" gap="10"/>
+			</e:layout>
+			
+		</e:DataGroup>
+	</e:Scroller>
+	<e:Button id="btn_exitshop" label="关  闭" skinName="btnBlueBig"  horizontalCenter="0" bottom="85" width="400" height="90" includeIn="sold"/>
+	<ns1:MainBtnGroup skinName="mainBtnGroup" bottom="0" />
+	<ns1:BlockBoard id="bb" skinName="blockBoard" width="100%" height="100%" visible="false" />
+</e:Skin>

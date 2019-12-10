@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="blockBoard" width="300" height="100" xmlns:e="http://ns.egret.com/eui">
+	<e:Rect width="100%" height="100%" alpha="0.3" fillColor="0x333333"/>
+	<e:Label id="lbl_loading" text="LOADING..." verticalCenter="0" horizontalCenter="0" size="50" width="100%" textAlign="center" stroke="3" textColor="0xFFE100" visible="false" />
+</e:Skin>

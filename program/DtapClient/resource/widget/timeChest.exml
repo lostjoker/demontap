@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="timeChest" width="60" height="56" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image height="100%" width="100%" source="icon_chest_png"/>
+	<e:Label id="lbl_count" text="00/00" size="22" right="0" bottom="0" stroke="1"/>
+	<e:Label id="lbl_time" stroke="1" size="18" top="56" horizontalCenter="0" width="100%" textAlign="center"/>
+</e:Skin>

@@ -1,0 +1,36 @@
+stages:
+- test
+test:
+  stage: test
+  image: node:latest
+  services:
+  - name:  donilan/mysql-utf8mb4
+    alias: mysql
+  - name:  bitnami/redis:latest
+    alias: redis
+  variables:
+    NODE_ENV:            gitlab_test
+    # Configure mysql environment variables (https://hub.docker.com/_/mysql/)
+    MYSQL_DATABASE:      gumd_dev
+    MYSQL_ROOT_PASSWORD: lostjoker
+    REDIS_PASSWORD:      lostjoker
+  script:
+  - npm i && npm test
+  retry: 2
+  cache:
+    paths:
+    - node_modules/
+  tags:
+  - qc-docker2
+#deploy:
+#  stage: deploy
+#  script:
+#  - bash .gitlab-deploy.sh
+#  retry: 2
+#  only:
+#  - production
+#  tags:
+#  - qc1
+#  environment:
+#    name: production
+#    url:  https://gs.newgmud.cn/user/touch

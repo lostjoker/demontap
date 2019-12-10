@@ -1,0 +1,10 @@
+---
+- hosts: qc1
+  gather_facts: no
+  tasks:
+    - name: Synchronization of src on the control machine to dest on the remote hosts
+      synchronize:
+        src: ../bin-release/web/latest/
+        dest: /data/wwwroot/dtap.newgmud.cn
+        delete: yes
+        recursive: yes

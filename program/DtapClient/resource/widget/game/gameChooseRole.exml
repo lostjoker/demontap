@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="gameChooseRole" width="500" height="400" xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="220" touchEnabled="false" height="240" id="img_cardbg" y="10" x="135" source="bg_card_unknow_png"/>
+	<e:Image id="img_role" source="merlin_001_png" height="200" width="200" y="45" x="145"/>
+	<e:Label id="lbl_tips" text="提示" horizontalCenter="0" top="280" textAlign="center" width="100%"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="bagItem" width="120" height="120" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="normal,equip" >
+	<e:Rect width="100%" fillColor="0x8285A3" fillAlpha="1" strokeWeight="3" height="100%" strokeColor="0xB8BDD8"/>
+	<e:Image id="img_res" height="90%" width="90%" verticalCenter="0" horizontalCenter="0"/>
+	<e:Label id="lbl_count" text="000" right="0" bottom="0" stroke="1" includeIn="normal"/>
+</e:Skin>

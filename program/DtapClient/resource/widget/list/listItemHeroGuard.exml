@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="listItemHeroGuard" width="750" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="100%" fillAlpha="1" strokeWeight="3" height="100%" strokeColor="0xB8BDD8" fillColor="0x8285A3"/>
+	<e:Image id="img_res" source="hero1_png" scaleX="3" scaleY="3" smoothing="false" x="0" y="0"/>
+	<e:Label id="lbl_name" textAlign="center" text="{data.name}" left="150" top="10"/>
+	<e:Label id="lbl_desc" left="150" top="50" text="{data.desc}" width="60%" height="60"/>
+	<e:Button id="btn_guard" label="守 城" verticalCenter="0" height="100" width="120" right="15" skinName="btnGreenBig"/>
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="gameBg6" width="150" height="150" xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="100%" height="100%" source="bg_color9_png" alpha="0.8" scale9Grid="13,13,122,32"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+{"file":"skill.png","frames":{
+"skill6_png":{"x":0,"y":51,"w":21,"h":22,"offX":0,"offY":0,"sourceW":21,"sourceH":22},
+"skill1_png":{"x":23,"y":51,"w":21,"h":21,"offX":0,"offY":0,"sourceW":21,"sourceH":21},
+"skill2_png":{"x":26,"y":25,"w":22,"h":24,"offX":0,"offY":0,"sourceW":22,"sourceH":24},
+"skill3_png":{"x":26,"y":0,"w":24,"h":23,"offX":0,"offY":0,"sourceW":24,"sourceH":23},
+"skill4_png":{"x":0,"y":26,"w":21,"h":23,"offX":0,"offY":0,"sourceW":21,"sourceH":23},
+"skill5_png":{"x":0,"y":0,"w":24,"h":24,"offX":0,"offY":0,"sourceW":24,"sourceH":24}}}

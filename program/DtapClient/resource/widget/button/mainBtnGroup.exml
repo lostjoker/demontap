@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mainBtnGroup" width="800" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<ns1:BtnGroupDemon id="btnGroupDemon" skinName="btnGroupDemon" x="160" currentState="normal" bottom="0"/>
+	<ns1:BtnGroupFight id="btnGroupFight" skinName="btnGroupFight" x="320" currentState="normal" bottom="0"/>
+	<e:Button id="btn_tab_dungeon" width="160" label="地  城" height="80" bottom="0" skinName="btnBlackBig" x="0"/>
+	<e:Button id="btn_tab_market" width="160" label="市  场" height="80" bottom="0" skinName="btnBlackBig" x="480"/>
+	<e:Button id="btn_tab_treasure" width="160" label="宝  藏" height="80" bottom="0" skinName="btnBlackBig" x="640"/>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="dialog" width="550" height="250" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="normal,yesno" >
+	<e:Component id="gb" width="100%" height="100%" skinName="gameBg4"/>
+	<e:Label id="lbl_title" text="标题" width="89%" horizontalCenter="0" textAlign="center" textColor="0xFFFFFF" strokeColor="0x64648C" stroke="1" top="20"/>
+	<e:Image id="img_res" source="" top="60" horizontalCenter="0" />
+	<e:Label id="lbl_content" text="对白" width="90%" horizontalCenter="0.5" textAlign="center" textColor="0xFFFFFF" strokeColor="0x64648C" stroke="1" top="60"/>
+	<e:Button id="btn_yes" label="确  认" width="160" height="70" horizontalCenter="117" bottom="-25" skinName="btnGreenBig" horizontalCenter.normal="0"/>
+	<e:Button id="btn_no" label="取  消" width="160" height="70" horizontalCenter="-117" bottom="-25" skinName="btnBlueBig" includeIn="yesno"/>
+</e:Skin>

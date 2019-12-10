@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="listItemSold" width="750" height="100" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="normal,soldout" >
+	<e:Rect id="r_bg" width="100%" fillAlpha="1" strokeWeight="3" height="100%" strokeColor="0xB8BDD8" fillColor="0x8285A3"/>
+	<e:Group id="g_face" width="80" height="80" scrollEnabled="true" verticalCenter="0" left="5" >
+		<e:Image id="img_res"  verticalCenter="0" left="5" width="80" height="80" source="item111_png"/>		
+	</e:Group>
+	<e:Label id="lbl_name" textAlign="center" width="210" verticalCenter="0" text="{data.name}" x="0" verticalAlign="middle" fontFamily="华文细黑" height="50" left="95"/>
+	<e:Label id="lbl_price" width="200" verticalCenter="0" verticalAlign="middle" textAlign="center" fontFamily="华文细黑" left="315" height="50" text="{data.price}"/>
+	<e:Label id="lbl_count" width="100" verticalCenter="0" verticalAlign="middle" textAlign="center" fontFamily="华文细黑" left="525" height="50" text="{data.count}"/>
+	<e:Button id="btn_buy" label="购  买" verticalCenter="0" skinName="btnGreen" width="100" height="80" right="15" skinName.soldout="btnBlue" label.soldout="售  罄" currentState.soldout="disabled"/>
+</e:Skin>

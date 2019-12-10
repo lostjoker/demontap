@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="btnGroupDemon" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="normal,extend"  width="160" height="320" height.normal="80">
+	<e:Button id="btn_tab2demon" label="魔  王" skinName="btnBlackBig" height="80" width="100%" bottom="0"/>
+	<e:Button id="btn_showattr" label="属  性" skinName="btnBlackBig" height="80" width="100%" bottom="80" includeIn="extend"/>
+	<e:Button id="btn_showbreak" label="突  变" skinName="btnBlackBig" height="80" width="100%" bottom="160" includeIn="extend"/>
+	<e:Button id="btn_showevo" label="进  化" skinName="btnBlackBig" height="80" width="100%" bottom="240" includeIn="extend"/>
+</e:Skin>

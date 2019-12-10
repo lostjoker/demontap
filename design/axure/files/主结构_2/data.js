@@ -1,0 +1,198 @@
+﻿$axure.loadCurrentPage({
+  "url":"主结构_2.html",
+  "generationDate":new Date(1509955837730.4),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"dfb2924b75a646a39b2b0e1137604e5e",
+    "type":"Axure:Page",
+    "name":"主结构",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"e473a882cca7466db98f2197748aafe0",
+          "label":"",
+          "type":"flowShape",
+          "styleType":"flowShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":137.5,
+              "y":190},
+            "size":{
+              "width":50,
+              "height":80}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"843f9e82b55a48ec9e8443067432045c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":137.5,
+                  "y":190},
+                "size":{
+                  "width":50,
+                  "height":80}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/主结构_2/u0.png"}},
+{
+          "id":"fde7c999269b4d6eab3d291345fc6115",
+          "label":"",
+          "type":"flowShape",
+          "styleType":"flowShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":137.5,
+              "y":20},
+            "size":{
+              "width":50,
+              "height":80}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c7ca2016991a40c5ae1b302d4121edf9",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":137.5,
+                  "y":20},
+                "size":{
+                  "width":50,
+                  "height":80}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/主结构_2/u0.png"}},
+{
+          "id":"cd42c66f60734c55aad8b64c5faa306f",
+          "label":"",
+          "type":"connector",
+          "styleType":"connector",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontSize":"20px",
+            "fontWeight":"700",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF009900,
+              "opacity":1},
+            "location":{
+              "x":138,
+              "y":60},
+            "borderWidth":"2"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c95e3ba9cdb549b89f0df2183bb22da7",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Negreta', 'Arial'",
+                "fontSize":"20px",
+                "fontWeight":"700",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF009900,
+                  "opacity":1},
+                "location":{
+                  "x":138,
+                  "y":60},
+                "borderWidth":"2"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"e9200484733345ec91674a72a4815b99",
+          "label":"",
+          "type":"connector",
+          "styleType":"connector",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontSize":"20px",
+            "fontWeight":"700",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":188,
+              "y":230},
+            "borderWidth":"2"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2ddcf2813c4b41c4b431f1e85922585f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Negreta', 'Arial'",
+                "fontSize":"20px",
+                "fontWeight":"700",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":188,
+                  "y":230},
+                "borderWidth":"2"},
+              "adaptiveStyles":{
+}}]}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "e473a882cca7466db98f2197748aafe0":{
+      "scriptId":"u0"},
+    "843f9e82b55a48ec9e8443067432045c":{
+      "scriptId":"u1"},
+    "fde7c999269b4d6eab3d291345fc6115":{
+      "scriptId":"u2"},
+    "c7ca2016991a40c5ae1b302d4121edf9":{
+      "scriptId":"u3"},
+    "cd42c66f60734c55aad8b64c5faa306f":{
+      "scriptId":"u4"},
+    "c95e3ba9cdb549b89f0df2183bb22da7":{
+      "scriptId":"u5"},
+    "e9200484733345ec91674a72a4815b99":{
+      "scriptId":"u6"},
+    "2ddcf2813c4b41c4b431f1e85922585f":{
+      "scriptId":"u7"}}});

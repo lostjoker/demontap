@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="listItemRank" width="700" height="90" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Rect id="r_bg" width="100%" fillAlpha="1" strokeWeight="3" height="100%" strokeColor="0xB8BDD8" fillColor="0x8285A3"/>
+	<e:Group id="g_face" width="80" height="80" scrollEnabled="true" verticalCenter="0" left="5" >
+		<e:Image id="img_face" source="icon_qq_png" width="100%" height="100%" />		
+	</e:Group>
+	<e:Label id="lbl_playername" textAlign="center" width="210" verticalCenter="0" text="{data.name}" x="0" verticalAlign="middle" fontFamily="华文细黑" height="50" left="80"/>
+	<e:Label id="lbl_rankpoint" width="180" verticalCenter="0" verticalAlign="middle" textAlign="center" fontFamily="华文细黑" left="480" height="50" anchorOffsetX="0" text="{data.rankpoint}"/>
+	<e:Label id="lbl_rank" width="40" verticalAlign="middle" textAlign="center" fontFamily="华文细黑" left="0" height="40" text="{data.rank}" top="0"/>
+	<e:Label id="lbl_levelname" textAlign="center" fontFamily="华文细黑" text="等级别名" background="true" backgroundColor="0x000000" stroke="1" strokeColor="0x000000" border="true" borderColor="0xffffff" size="28" verticalAlign="middle" width="150" height="50" left="301" verticalCenter="0"/>
+
+	<e:Image source="icon_male_png" verticalCenter="0" id="img_sex" left="300"/>
+</e:Skin>
