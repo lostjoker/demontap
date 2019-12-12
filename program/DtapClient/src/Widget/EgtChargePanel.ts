@@ -78,16 +78,16 @@ class EgtChargePanel extends eui.Component implements eui.UIComponent {
 
         const ethChargeAddr = Player.me.ethChargeAddr
         contract.transfer(ethChargeAddr, web3.toWei(value, 'ether'), e => {
-            if (!e) {
-                Tools.Hint('转账成功后请等待区块确认！')
-            }
+            // if (!e) {
+            //     Tools.Hint('转账成功后请等待区块确认！')
+            // }
         })
     }
 
     @tapListener('btnCopy')
     copyAddress() {
         if (dtap.copyText(Player.me.ethChargeAddr)) {
-            Tools.Hint('地址已复制到剪贴板！')
+            Tools.HintByLanguage('UI/hint_copy_succ')
         }
     }
 
@@ -102,18 +102,18 @@ class EgtChargePanel extends eui.Component implements eui.UIComponent {
      */
     async metamaskError(): Promise<string | null> {
         if (typeof web3 === 'undefined') {
-            return Promise.resolve('请登录Metamask!')
+            return Promise.resolve(GameData.getText('UI/hint_pleaseLoginMetamask'))
         }
-
-        if (null === web3.version.network) {
-            return Promise.resolve('请登录Metamask后刷新页面!')
-        }
+        //
+        // if (null === web3.version.network) {
+        //     return Promise.resolve('请登录Metamask后刷新页面!')
+        // }
 
         return new Promise<string | null>(resolve => {
             web3.version.getNetwork((error, result) => {
                 if (error) {
                     console.log(error)
-                    resolve('请登录Metamask!')
+                    resolve(GameData.getText('UI/hint_pleaseLoginMetamask'))
                     return
                 }
 

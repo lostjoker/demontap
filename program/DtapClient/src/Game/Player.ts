@@ -4,6 +4,9 @@
  * 游戏中的玩家
  */
 class Player {
+    public get cash() {
+        return this.gold / 10000 + this.egtCash
+    }
     public static token: string = null
     public static me: Player = null
 
@@ -337,19 +340,6 @@ class Player {
         },
     }
 
-    // /**
-    //  * 初始化怪物数据
-    //  */
-    // public initMonsterList(monsters): void {
-    //     if (!monsters)
-    //         return;
-    //     this.monsterlist = [];
-    //     for (let i = 0; i < monsters.length; ++i) {
-    //         this.monsterlist[i] = new Monster(monsters[i]);
-    //     }
-    // }
-    egtCash: number = 0
-
     /**
      * 生成随机头像
      */
@@ -375,8 +365,9 @@ class Player {
      */
     public static StatueCount(players: Player[], statue: number): number {
         let count = 0
+        // tslint:disable-next-line:prefer-for-of
         for (let i = 0; i < players.length; ++i) {
-            if (players[i].statue == statue) {
+            if (players[i].statue === statue) {
                 ++count
             }
         }
@@ -387,13 +378,27 @@ class Player {
      * 根据玩家名返回玩家对象
      */
     public static GetPlayerByName(players: Player[], name: string): Player {
+        // tslint:disable-next-line:prefer-for-of
         for (let i = 0; i < players.length; ++i) {
-            if (players[i].name == name) {
+            if (players[i].name === name) {
                 return players[i]
             }
         }
         return null
     }
+
+    // /**
+    //  * 初始化怪物数据
+    //  */
+    // public initMonsterList(monsters): void {
+    //     if (!monsters)
+    //         return;
+    //     this.monsterlist = [];
+    //     for (let i = 0; i < monsters.length; ++i) {
+    //         this.monsterlist[i] = new Monster(monsters[i]);
+    //     }
+    // }
+    egtCash: number = 0
 
     // 金钱变化量
     public goldEarned = 0

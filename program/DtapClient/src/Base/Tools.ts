@@ -33,6 +33,21 @@ class Tools {
     }
 
     /**
+     * 浮出提示
+     */
+    public static HintByLanguage(
+        msg: string,
+        args: any[] = [],
+        parent: eui.Component = GameUI.Instance,
+        color: number = Const.GAME_COLOR.BLACK,
+        time: number = Const.HINT_TIME.DEFAULT,
+    ): void {
+        const mhc: MsgHintCenter = new MsgHintCenter(color, time)
+        parent.addChild(mhc)
+        mhc.show(GameData.getText(msg, ...args))
+    }
+
+    /**
      * 输出游戏日志
      */
     public static GameLog(

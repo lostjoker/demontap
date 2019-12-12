@@ -21,20 +21,20 @@ class MainBtnGroup extends eui.Component {
 
     @tapListener('btn_tab_dungeon')
     changeTabDungeon() {
-        Tools.Hint('尚未开放')
+        Tools.HintByLanguage('UI/hint_na')
 
         // GameUI.Instance.currentState = GameUI.STATUE.DUNGEON
     }
 
     @tapListener('btn_tab_market')
     changeTabMarket() {
-        Tools.Hint('尚未开放')
+        Tools.HintByLanguage('UI/hint_na')
         // GameUI.Instance.currentState = GameUI.STATUE.MARKET
     }
 
     @tapListener('btn_tab_treasure')
     changeTabTreasure() {
-        Tools.Hint('尚未开放')
+        Tools.HintByLanguage('UI/hint_na')
         // GameUI.Instance.currentState = GameUI.STATUE.TREASURE
     }
 }

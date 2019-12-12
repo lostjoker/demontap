@@ -21,26 +21,24 @@ interface XlsxFileConfig {
     }>
 }
 
+const languageSheetOption = { keyColumn: 'key', include: ['translation'] }
+
 const sheetsOfLanguage = [
     {
         name: 'UI',
-        keyColumn: 'key',
-        include: ['translation'],
+        ...languageSheetOption,
     },
     {
         name: 'MonsterName',
-        keyColumn: 'key',
-        include: ['translation'],
+        ...languageSheetOption,
     },
     {
         name: 'HeroName',
-        keyColumn: 'key',
-        include: ['translation'],
+        ...languageSheetOption,
     },
     {
         name: 'AreaName',
-        keyColumn: 'key',
-        include: ['translation'],
+        ...languageSheetOption,
     },
 ]
 

@@ -12,7 +12,6 @@
 	<ns1:GameMarket skinName="gameMarket" width="100%" height="100%" includeIn="market" id="market"/>
 	<ns1:GameTreasure skinName="gameTreasure" width="100%" height="100%" includeIn="treasure" id="treasure"/>
 
-
-	<ns1:EgtChargePanel x="16" y="77" width="500" height="542" name="chargePanel" visible="false"/>
+	<ns1:EgtChargePanel x="42" y="316.5" width="716" height="683" name="chargePanel" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
 	<ns1:BlockBoard id="bb" skinName="blockBoard" width="100%" height="100%" visible="false"/>
 </e:Skin>

@@ -26,19 +26,15 @@ export default class GachaController {
         user.playerData = player
 
         let goldcost = 1000
-        let egtCost = 0
 
         if (gachaType === 'egt') {
-            goldcost = 0
-            egtCost = 1
+            goldcost = 1000
         }
 
-        if (player.gold < goldcost) {
-            throw new GmudException('金钱不足')
-        }
+        const cashCost = goldcost / 10000
 
-        if (player.egtCash < egtCost) {
-            throw new GmudException('EGT不足')
+        if (player.cash < cashCost) {
+            throw new GmudException(this.gamedata.getText('UI/hint_not_enough_egt'))
         }
 
         const monsterData = this.gamedata.monsterData.Monster
@@ -65,30 +61,27 @@ export default class GachaController {
 
         player.gold -= goldcost
 
-        if (egtCost > 0) {
-            await this.userService.addEgt(user, -egtCost)
-            user.egtCash -= egtCost
-            player.egtCash -= egtCost
-        }
-
         let soul = 0
         let msg = ''
 
         const playerMonster = player.monsters.find(it => it.id === monster.id)
+        const monsterName = this.gamedata.getText('MonsterName/' + playerMonster.id)
 
         if (monster.gold_gacha_whole > Math.random() * 100) {
             // 获得完整怪
             if (!playerMonster.activated) {
                 playerMonster.activated = true
-                msg = `你获得了【${playerMonster.name}】`
+                msg = this.gamedata.getText('UI/hint_monster_got', monsterName)
             } else {
                 soul = monster.gold_gacha_max + 2
-                msg = `你获得了【${playerMonster.name}】（已自动分解为${soul}个灵魂）`
+                msg = this.gamedata.getText('UI/hint_monster_got_1', monsterName, soul)
+                // msg = `你获得了【${playerMonster.name}】（已自动分解为${soul}个灵魂）`
             }
         } else {
             // 获得灵魂碎片数量
             soul = randInt(monster.gold_gacha_min, monster.gold_gacha_max)
-            msg = `你获得了${soul}个【${playerMonster.name}】灵魂`
+            msg = this.gamedata.getText('UI/hint_soul_got', soul, monsterName)
+            // msg = `你获得了${soul}个【${playerMonster.name}】灵魂`
         }
 
         player.giveMonsterSoul(monster.id, soul)
@@ -115,14 +108,14 @@ export default class GachaController {
             throw new GmudException('数据错误！')
         }
 
-        const playerMonster = player.monsters.find(it => it.id == id)
+        const playerMonster = player.monsters.find(it => it.id === id)
 
         if (playerMonster.activated) {
             throw new GmudException('已激活过！')
         }
 
         if (playerMonster.soulCount < monsterData.compose) {
-            throw new GmudException('灵魂不足！')
+            throw new GmudException(this.gamedata.getText('UI/hint_soul_not_enough'))
         }
 
         playerMonster.activated = true

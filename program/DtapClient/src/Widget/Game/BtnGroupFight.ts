@@ -30,7 +30,7 @@ class BtnGroupFight extends eui.Component {
         GameUI.Instance.validateNow()
         this.validateNow()
 
-        Tools.Hint('尚未开放')
+        Tools.HintByLanguage('UI/hint_na')
 
         // const result = await Dialog.Show({
         //     content: Lang.TEXT.ROB_TIPS,

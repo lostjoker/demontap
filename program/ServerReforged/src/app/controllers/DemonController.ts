@@ -3,10 +3,11 @@ import { UserFromToken } from '../../util/NestUtil'
 import User from '../models/User'
 import Player from '../game/Player'
 import { GameService } from '../services/modules/GameService'
+import GamedataService from '../services/core/GamedataService'
 
 @Controller('demon')
 export default class DemonController {
-    constructor(private readonly game: GameService) {}
+    constructor(private readonly game: GameService, private readonly gamedata: GamedataService) {}
 
     /**
      * 【请求】升级恶魔
@@ -21,7 +22,8 @@ export default class DemonController {
         player = await this.game.syncPlayer(player, clientPlayer)
 
         const goldCost = player.demon.level[uptype] * 10
-        if (player.gold >= goldCost) {
+        const cashCost = goldCost / 10000
+        if (player.cash >= cashCost) {
             player.gold -= goldCost
             player.demon.level[uptype] += 1
 
@@ -33,7 +35,7 @@ export default class DemonController {
                 player,
             }
         } else {
-            throw new ForbiddenException('金钱不足')
+            throw new ForbiddenException(this.gamedata.getText('UI/hint_not_enough_egt'))
         }
     }
 }

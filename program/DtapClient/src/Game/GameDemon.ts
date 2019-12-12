@@ -8,7 +8,7 @@ class GameDemon extends eui.Component {
     @byLanguage()
     lbl_demon_desc
 
-    public lbl_coin: eui.Label
+    // public lbl_coin: eui.Label
     public btn_lvl: eui.Button
     public btn_atk: eui.Button
     public btn_cri: eui.Button
@@ -50,25 +50,25 @@ class GameDemon extends eui.Component {
 
     @eventListener(dtap.EVENT_PLAYER_UPDATED, '@gameui')
     public updatePlayer() {
-        this.lbl_coin.text = GameData.getText('UI/lbl_coin', Tools.C_Num(Player.me.gold))
+        // this.lbl_coin.text = GameData.getText('UI/lbl_coin', Tools.C_Num(Player.me.gold))
         this.btn_lvl.labelDisplay.text = GameData.getText('UI/btn_lvl', Player.me.demon.level.lvl)
         this.btn_atk.labelDisplay.text = GameData.getText(
             'UI/btn_atk',
             Player.me.demon.level.atk,
             Player.me.demon.value.atk,
-            Player.me.demon.level.atk * 10,
+            (Player.me.demon.level.atk * 10) / 10000,
         )
         this.btn_cri.labelDisplay.text = GameData.getText(
             'UI/btn_cri',
             Player.me.demon.level.cri,
             Player.me.demon.value.cri,
-            Player.me.demon.level.cri * 10,
+            (Player.me.demon.level.cri * 10) / 10000,
         )
         this.btn_spd.labelDisplay.text = GameData.getText(
             'UI/btn_spd',
             Player.me.demon.level.spd,
             Player.me.demon.value.spd,
-            Player.me.demon.level.atk * 10,
+            (Player.me.demon.level.atk * 10) / 10000,
         )
     }
 
@@ -76,11 +76,6 @@ class GameDemon extends eui.Component {
      * 魔王升级
      */
     private async upgrade(uptype: string) {
-        if (!NetWork.isOnline()) {
-            await Dialog.Show('网络已断开！')
-            return
-        }
-
         const player = Player.me
         const res = await NetWork.requestWithToken(
             'demon/upDemonLevel',
@@ -100,7 +95,7 @@ class GameDemon extends eui.Component {
             await player.updateLocal()
             // GameUI.Instance.updatePlayer()
             await Player.me.syncWithServer()
-            Tools.Hint(`升级成功，消耗了${goldCost}金币`, this)
+            Tools.HintByLanguage('UI/hint_upgrade_succ')
         } else {
             Tools.Hint(res.msg, this)
         }

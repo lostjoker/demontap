@@ -304,8 +304,8 @@ class GameTown extends eui.Component {
 
         this.currentState = GameTown.STATUE.LOGIN
 
-        if (this.oldPlayer && this.oldPlayer.name) {
-            this.et_name.text = this.oldPlayer.name
+        if (this.oldPlayer) {
+            this.et_name.text = this.oldPlayer.name || ''
             if (this.oldToken) {
                 this.readyLogin().then()
             }

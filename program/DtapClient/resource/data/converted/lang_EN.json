@@ -10,31 +10,31 @@
       "translation": "Market"
     },
     "btn_tab_treasure": {
-      "translation": "Inventory"
+      "translation": "Treasure"
     },
     "btn_tab2demon": {
       "translation": "Demon"
     },
     "btn_showattr": {
-      "translation": "Attributes"
+      "translation": "Attribute"
     },
     "btn_showbreak": {
       "translation": "Break"
     },
     "btn_showevo": {
-      "translation": "Evo"
+      "translation": "Evolve"
     },
     "lbl_stage": {
-      "translation": "HandsomeDemon"
+      "translation": "Handsome Demon"
     },
     "btn_tab2fight": {
       "translation": "Fight"
     },
     "btn_showskills": {
-      "translation": "Skills"
+      "translation": "Skill"
     },
     "btn_showmonsters": {
-      "translation": "Monsters"
+      "translation": "Monster"
     },
     "btn_robplayer": {
       "translation": "Rob"
@@ -43,7 +43,7 @@
       "translation": "Coin: {0}"
     },
     "btn_lvl": {
-      "translation": "DemonLv.{0}"
+      "translation": "Demon Lv.{0}"
     },
     "btn_atk": {
       "translation": "ATK lv.{0} ATK {1} \\n Upgrade cost: {2}"
@@ -55,10 +55,13 @@
       "translation": "SPD lv.{0} SPD {1} \\n Upgrade cost: {2}"
     },
     "lbl_demon_desc": {
-      "translation": "Demon is Very Strong"
+      "translation": "The endless hatred between the warrior and the devil has paid enough price to the world. They have gradually forgotten what makes them strong."
+    },
+    "dialog_offlineIncome": {
+      "translation": "You got {0}EGT during offline."
     },
     "btn_reg": {
-      "translation": "Reg"
+      "translation": "Sign up"
     },
     "btn_readylogin": {
       "translation": "Login"
@@ -67,7 +70,7 @@
       "translation": "Reg"
     },
     "btn_return": {
-      "translation": "Login"
+      "translation": "Sign up"
     },
     "et_name": {
       "translation": "Username"
@@ -91,46 +94,46 @@
       "translation": "MP: {0}"
     },
     "lblCharge1": {
-      "translation": "Your charge addr is:"
+      "translation": "Your charge address is:"
     },
     "lblCharge2": {
-      "translation": "transfer any amount of EGT to the addr OR press buttons below to charge with Metamask."
+      "translation": "Transfer any number of EGT to the recharge address(min. 0.00001) or click the button below to invoke Metamask."
     },
     "btnCopy": {
-      "translation": "Click to copy"
+      "translation": "Copy"
     },
     "btnCharge6": {
-      "translation": "Charge 6 EGT"
+      "translation": "6 EGT"
     },
     "btnCharge12": {
-      "translation": "Charge 12 EGT"
+      "translation": "12 EGT"
     },
     "btnCharge30": {
-      "translation": "Charge 30 EGT"
+      "translation": "30 EGT"
     },
     "btnCharge192": {
-      "translation": "Charge 192 EGT"
+      "translation": "192 EGT"
     },
     "btnCharge368": {
-      "translation": "Charge 368 EGT"
+      "translation": "368 EGT"
     },
     "btnCharge648": {
-      "translation": "Charge 648 EGT"
+      "translation": "648 EGT"
     },
     "btn_moreMonsters": {
       "translation": "Open Gacha \\n Get Monster"
     },
     "btn_gacha0": {
-      "translation": "Roll a small one"
+      "translation": "Small"
     },
     "btn_gacha1": {
-      "translation": "Roll a advanced one"
+      "translation": "Advanced"
     },
     "lblGachaTitle": {
       "translation": "Monster Gacha"
     },
     "lblGachaDesc": {
-      "translation": "What do you got huh"
+      "translation": "Hi, did you lose the golden egg or the silver one?"
     },
     "btn_ok": {
       "translation": "Okey"
@@ -140,47 +143,83 @@
     },
     "btnActivate.gotten": {
       "translation": "Activated"
+    },
+    "hint_na": {
+      "translation": "Not Open Yet "
+    },
+    "hint_pleaseLoginMetamask": {
+      "translation": "Metamask is required"
+    },
+    "hint_not_enough_egt": {
+      "translation": "need more EGT"
+    },
+    "hint_copy_succ": {
+      "translation": "The charge address has been copied to your clipboard"
+    },
+    "hint_upgrade_succ": {
+      "translation": "Upgrade Complete"
+    },
+    "hint_confirm_gacha_small": {
+      "translation": "Are you sure?"
+    },
+    "hint_confirm_gacha_big": {
+      "translation": "Are you sure?"
+    },
+    "hint_monster_got": {
+      "translation": "You got {0}"
+    },
+    "hint_monster_got_1": {
+      "translation": "You got {0} ( resolved to {1} shards )"
+    },
+    "hint_soul_got": {
+      "translation": "you got {1} shards *{0}"
+    },
+    "hint_soul_not_enough": {
+      "translation": "you need more shards"
+    },
+    "hint_skill_locked": {
+      "translation": "Not Unlocked Yet"
     }
   },
   "MonsterName": {
     "0": {
-      "translation": "ARandomMonster0"
+      "translation": "A Random Monster0"
     },
     "1": {
-      "translation": "ARandomMonster1"
+      "translation": "A Random Monster1"
     },
     "2": {
-      "translation": "ARandomMonster2"
+      "translation": "A Random Monster2"
     },
     "3": {
-      "translation": "ARandomMonster3"
+      "translation": "A Random Monster3"
     },
     "4": {
-      "translation": "ARandomMonster4"
+      "translation": "A Random Monster4"
     },
     "5": {
-      "translation": "ARandomMonster5"
+      "translation": "A Random Monster5"
     },
     "6": {
-      "translation": "ARandomMonster6"
+      "translation": "A Random Monster6"
     },
     "1001": {
-      "translation": "ARandomMonster7"
+      "translation": "Bone Knight"
     },
     "1002": {
-      "translation": "ARandomMonster8"
+      "translation": "Little Evil"
     },
     "1003": {
-      "translation": "ARandomMonster9"
+      "translation": "Horn Evil"
     },
     "1004": {
-      "translation": "ARandomMonster10"
+      "translation": "Succubus"
     },
     "1005": {
-      "translation": "ARandomMonster11"
+      "translation": "Evil Guard"
     },
     "1006": {
-      "translation": "ARandomMonster12"
+      "translation": "Hell Fire"
     }
   },
   "HeroName": {
@@ -224,37 +263,37 @@
       "translation": "ARandomHero12"
     },
     "1007": {
-      "translation": "ARandomHero13"
+      "translation": "Spellbinder"
     },
     "1008": {
-      "translation": "ARandomHero14"
+      "translation": "Snake"
     },
     "1009": {
-      "translation": "ARandomHero15"
+      "translation": "Shadowless"
     },
     "1010": {
-      "translation": "ARandomHero16"
+      "translation": "Violet Apprentice"
     },
     "1011": {
-      "translation": "ARandomHero17"
+      "translation": "Elf"
     },
     "1012": {
-      "translation": "ARandomHero18"
+      "translation": "Active Dummy"
     },
     "1013": {
-      "translation": "ARandomHero19"
+      "translation": "Mana Wyrm"
     },
     "1014": {
-      "translation": "ARandomHero20"
+      "translation": "Dust Demon"
     },
     "1017": {
-      "translation": "ARandomHero21"
+      "translation": "Shield Bearer"
     },
     "1018": {
-      "translation": "ARandomHero22"
+      "translation": "Abusive Sergeant"
     },
     "1019": {
-      "translation": "ARandomHero23"
+      "translation": "Worgen Infiltrator"
     },
     "1020": {
       "translation": "ARandomHero24"
@@ -302,10 +341,10 @@
       "translation": "ARandomHero38"
     },
     "1035": {
-      "translation": "ARandomHero39"
+      "translation": "Audience"
     },
     "1036": {
-      "translation": "ARandomHero40"
+      "translation": "Pit Snake"
     },
     "1037": {
       "translation": "ARandomHero41"
@@ -2557,64 +2596,64 @@
   },
   "AreaName": {
     "0": {
-      "translation": "ABeautifulArea0"
+      "translation": "Area0"
     },
     "1": {
-      "translation": "ABeautifulArea1"
+      "translation": "Area1"
     },
     "2": {
-      "translation": "ABeautifulArea2"
+      "translation": "Area2"
     },
     "3": {
-      "translation": "ABeautifulArea3"
+      "translation": "Area3"
     },
     "4": {
-      "translation": "ABeautifulArea4"
+      "translation": "Area4"
     },
     "5": {
-      "translation": "ABeautifulArea5"
+      "translation": "Area5"
     },
     "100": {
-      "translation": "ABeautifulArea6"
+      "translation": "A small village"
     },
     "101": {
-      "translation": "ABeautifulArea7"
+      "translation": "Outskirts I"
     },
     "102": {
-      "translation": "ABeautifulArea8"
+      "translation": "Outskirts II"
     },
     "103": {
-      "translation": "ABeautifulArea9"
+      "translation": "Town I"
     },
     "104": {
-      "translation": "ABeautifulArea10"
+      "translation": "Town II"
     },
     "105": {
-      "translation": "ABeautifulArea11"
+      "translation": "Prairie I"
     },
     "106": {
-      "translation": "ABeautifulArea12"
+      "translation": "Prairie II"
     },
     "107": {
-      "translation": "ABeautifulArea13"
+      "translation": "Prairie III"
     },
     "108": {
-      "translation": "ABeautifulArea14"
+      "translation": "Forest I"
     },
     "109": {
-      "translation": "ABeautifulArea15"
+      "translation": "Forest II"
     },
     "110": {
-      "translation": "ABeautifulArea16"
+      "translation": "Forest III"
     },
     "111": {
-      "translation": "ABeautifulArea17"
+      "translation": "City path I"
     },
     "112": {
-      "translation": "ABeautifulArea18"
+      "translation": "City path II"
     },
     "113": {
-      "translation": "ABeautifulArea19"
+      "translation": "City path III"
     }
   }
 }

@@ -16,6 +16,10 @@ export default class Player {
         return this.area
     }
 
+    public get cash(): number {
+        return this.gold / 10000 + this.egtCash
+    }
+
     /**
      * 创建新的玩家，并加入到数据库中。
      * @param obj

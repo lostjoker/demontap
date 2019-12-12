@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="EgtChagePanel" width="500" height="542" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+<e:Skin class="EgtChagePanel" width="716" height="683" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
 	<e:Rect top="0" left="0" bottom="0" right="0" fillColor="0x87b9ff" fillAlpha="0.7"/>
-	<e:Button id="btnCopy" label="点击复制充值地址" x="14" y="68" skinName="btnBlue" anchorOffsetX="0" width="218"/>
+	<e:Button id="btnCopy" label="点击复制充值地址" x="207" y="92" skinName="btnBlue" anchorOffsetX="0" width="293" anchorOffsetY="0" height="86"/>
 	<e:Label id="lblCharge1" text="你的充值地址为：" x="0" y="0"/>
 	<e:Label id="lblChargeAddr" text="0x2d2968cdf264Ebf75D27174E306170A77B655537" x="2" size="18" top="34"/>
-	<e:Label id="lblCharge2" text="将任意数值的以太主网EGT转入充值地址以充值（最小0.00001）或点击下方按钮调用Metamask充值" x="14" y="133" anchorOffsetX="0" width="464"/>
-	<e:Button id="btnCharge192" label="充值192EGT" x="267" y="329.5" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84"/>
-	<e:Button id="btnCharge12" label="充值12EGT" x="267" y="235" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84"/>
-	<e:Button id="btnCharge30" label="充值30EGT" y="332.5" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84" left="36"/>
-	<e:Button id="btnCharge6" label="充值6EGT" y="235" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84" left="36"/>
-	<e:Button id="btnCharge648" label="充值648EGT" y="424" left="267" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84"/>
-	<e:Button id="btnCharge368" label="充值368EGT" y="430" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84" left="36"/>
+	<e:Label id="lblCharge2" text="将任意数值的以太主网EGT转入充值地址以充值（最小0.00001）或点击下方按钮调用Metamask充值" x="128" y="270" anchorOffsetX="0" width="464"/>
+	<e:Button id="btnCharge192" label="充值192EGT" x="39" y="574" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84"/>
+	<e:Button id="btnCharge12" label="充值12EGT" x="273.5" y="448" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84"/>
+	<e:Button id="btnCharge30" label="充值30EGT" y="448" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84" x="508"/>
+	<e:Button id="btnCharge6" label="充值6EGT" y="448" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84" x="39"/>
+	<e:Button id="btnCharge648" label="充值648EGT" y="574" left="508" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84"/>
+	<e:Button id="btnCharge368" label="充值368EGT" y="574" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84" left="274"/>
 </e:Skin>

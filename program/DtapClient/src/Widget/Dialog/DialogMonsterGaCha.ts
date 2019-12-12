@@ -13,6 +13,9 @@ class DialogMonsterGaCha extends eui.Component {
     @byLanguage()
     lblGachaDesc
 
+    @byLanguage()
+    btn_ok
+
     public gameui: eui.Component
     bb: BlockBoard
     sc_monster: eui.Scroller
@@ -29,12 +32,12 @@ class DialogMonsterGaCha extends eui.Component {
      */
     @tapListener('btn_gacha0')
     async gacha0() {
-        if (Player.me.gold < 1000) {
-            await Dialog.Show('你的金币不足！')
+        if (Player.me.cash < 0.1) {
+            await Dialog.Show(GameData.getText('UI/hint_not_enough_egt'))
             return
         }
 
-        await this.gacha('确定要消耗金币开一个银蛋吗？', { gachaType: 'gold' })
+        await this.gacha('hint_confirm_gacha_small', { gachaType: 'gold' })
     }
 
     /**
@@ -42,12 +45,12 @@ class DialogMonsterGaCha extends eui.Component {
      */
     @tapListener('btn_gacha1')
     async gacha1() {
-        if (Player.me.egtCash < 1) {
-            await Dialog.Show('你的EGT不足！')
+        if (Player.me.cash < 1) {
+            await Dialog.Show(GameData.getText('UI/hint_not_enough_egt'))
             return
         }
 
-        await this.gacha('确定要消耗EGT开一个金蛋吗？', { gachaType: 'egt' })
+        await this.gacha('hint_confirm_gacha_big', { gachaType: 'egt' })
     }
 
     /**
@@ -101,7 +104,7 @@ class DialogMonsterGaCha extends eui.Component {
     }
 
     private async gacha(msg: string, data: { gachaType: string }) {
-        const dr = await Dialog.Show(msg)
+        const dr = await Dialog.Show(GameData.getText(`UI/${msg}`))
         if (dr === DialogResult.YES) {
             GameUI.Instance.bb.show()
 

@@ -129,7 +129,7 @@ class GameUI extends eui.Component {
         // 显示离线收益
         if (this.offlineData && this.offlineData.getgold) {
             Dialog.Show({
-                content: `【离线收益】你在离线期间杀了${this.offlineData.enemydefeats}个英雄，获得${this.offlineData.getgold}金钱。`,
+                content: GameData.getText('UI/dialog_offlineIncome', this.offlineData.getgold),
                 parent: this,
             }).then(() => {
                 /* 忽略结果 */

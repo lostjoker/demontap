@@ -38,8 +38,8 @@ class GameFight extends eui.Component {
     img_enemy: eui.Image
     lbl_enemyinfo: eui.Label
     lbl_damage: eui.Label
-    img_gold: eui.Image
-    lbl_gold: eui.Label
+    // img_gold: eui.Image
+    // lbl_gold: eui.Label
     g_scatter: eui.Group
     g_currentmonster: eui.Group
     scroller_monster: eui.Scroller
@@ -215,7 +215,7 @@ class GameFight extends eui.Component {
     tapSkill(e: egret.TouchEvent): void {
         const whichskill = parseInt(e.target.name.replace('btn_activeskill', ''))
         if (Player.me.getSkillLvl(whichskill) <= 0) {
-            Tools.Hint('技能未解锁', this)
+            Tools.HintByLanguage('UI/hint_skill_locked')
             e.stopPropagation()
             return
         }
@@ -353,11 +353,11 @@ class GameFight extends eui.Component {
     /**
      * 向服务端同步验证数据
      */
-    @egretTimer({
-        name: 'timer_syn',
-        delay: Const.TIMER_INTERVAL.SYN_CIRCLE,
-        autoStart: true,
-    })
+    // @egretTimer({
+    //     name: 'timer_syn',
+    //     delay: Const.TIMER_INTERVAL.SYN_CIRCLE,
+    //     autoStart: true,
+    // })
     async synEmit() {
         if (this.robbing) {
             // 掠夺中暂不同步
@@ -426,8 +426,8 @@ class GameFight extends eui.Component {
             Player.me.earnGold(goldget)
             const sc = new Scatter(this.g_scatter, goldget)
             sc.start()
-            const zoom = new ZoomInOut(this.img_gold)
-            zoom.start()
+            // const zoom = new ZoomInOut(this.img_gold)
+            // zoom.start()
             // Tools.Hint("获得金币: " + goldget, this);
             this.updateGoldDisplay()
             const herodata = {
@@ -444,6 +444,8 @@ class GameFight extends eui.Component {
                 this.img_bg.source = this.currentArea.res
             }
             this.updateStageLabel()
+
+            this.synEmit().then()
         }
 
         const bl_dmg: eui.BitmapLabel = new eui.BitmapLabel()
@@ -511,7 +513,7 @@ class GameFight extends eui.Component {
     }
 
     private updateGoldDisplay() {
-        this.lbl_gold.text = GameData.getText('UI/lbl_gold', Tools.C_Num(Player.me.gold))
+        // this.lbl_gold.text = GameData.getText('UI/lbl_gold', Tools.C_Num(Player.me.gold))
     }
 
     /**
@@ -571,7 +573,7 @@ class MonsterThumbRenderer extends eui.ItemRenderer {
 
     @tapListener('btn_lvlup')
     async lvlup() {
-        Tools.Hint('尚未开放！')
+        Tools.HintByLanguage('UI/hint_na')
         //
     }
 
