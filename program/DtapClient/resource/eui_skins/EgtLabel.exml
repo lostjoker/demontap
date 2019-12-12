@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="EgtLabelSkin" width="178" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+<e:Skin class="EgtLabelSkin" width="275" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
 	<w:Config id="16ecc3547e0" ></w:Config>
 	<e:Rect top="0" bottom="0" right="0" left="0" fillColor="0x00deff" fillAlpha="0.1"/>
-	<e:Image width="36" height="36" source="egt_png" verticalCenter="0" left="5"/>
-	<e:Label id="lblEgtCount" text="0" left="69" verticalCenter="0" textColor="0x000000"/>
+	<e:Image width="50" height="50" source="egt_png" left="5" verticalCenter="0"/>
+	<e:Label id="lblEgtCount" text="0" left="69" verticalCenter="0" textColor="0xffffff" size="50"/>
 	<e:Button id="btnCharge" label="+" anchorOffsetX="0" width="32" anchorOffsetY="0" height="32" verticalCenter="0" right="10" skinName="btnBlue" visible="false"/>
 </e:Skin>
