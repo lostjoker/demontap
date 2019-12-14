@@ -107,6 +107,7 @@ export default class UserController {
             offlineData = game.calcOfflineData(res.player)
             if (offlineData && offlineData.getgold) {
                 res.player.gold += offlineData.getgold
+                offlineData.getgold /= 10000
             }
             res.user.playerData = res.player
             await res.user.save()

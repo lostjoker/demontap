@@ -38,7 +38,7 @@ export class GameService {
         if (enemydefeats <= 0) {
             return {}
         }
-        const getgold = enemydefeats * enemy.gold
+        const getgold = Math.max(enemydefeats * enemy.gold, 9999)
         return {
             enemydefeats,
             getgold,

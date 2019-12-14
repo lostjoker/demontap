@@ -22,6 +22,6 @@ class EgtLabel extends eui.Component implements eui.UIComponent {
 
     @eventListener(dtap.EVENT_PLAYER_UPDATED, '@gameui')
     private onUpdateData() {
-        this.lblEgtCount.text = Player.me.cash + ''
+        this.lblEgtCount.text = Player.me.cash.toFixed(4)
     }
 }
