@@ -2,267 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a1255a1-91fd-41a5-8d62-dff889475b80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../design/axure/data/document.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/data/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/主框架/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/主框架/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/主结构/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/主结构/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/主结构_1/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/主结构_1/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/主结构_2/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/主结构_2/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/主结构_3/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/主结构_3/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/增值扩充服务收费项目/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/增值扩充服务收费项目/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/店铺/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/店铺/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/怪物/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/怪物/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/掠夺/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/掠夺/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/收益渠道/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/收益渠道/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/祭坛/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/祭坛/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/英雄/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/英雄/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/资源主要产耗、用途/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/资源主要产耗、用途/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/魔王/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/files/魔王/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u26_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u26_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u28_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u30_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u32_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u34_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u44_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u46_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u46_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u48.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u68.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u70.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u72.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主框架/u76.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构/u12_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构/u14_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构/u14_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构/u14_seg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构/u16_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构/u16_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构/u16_seg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构/u18_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构/u18_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构/u18_seg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构/u20_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构/u20_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构/u20_seg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构/u22_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构/u22_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构/u22_seg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构/u24_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构/u24_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构_1/u12_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构_1/u4_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构_1/u4_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构_1/u4_seg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构_1/u8_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构_1/u8_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构_1/u8_seg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构_2/u0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构_2/u4_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构_2/u4_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构_2/u4_seg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构_2/u6_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构_2/u6_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/主结构_2/u6_seg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/增值扩充服务收费项目/u2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/店铺/u10_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/店铺/u10_seg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/店铺/u10_seg3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/怪物/u0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/怪物/u16_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/怪物/u20_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/怪物/u20_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/怪物/u20_seg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/怪物/u22_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/怪物/u24.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/怪物/u26.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/怪物/u28.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/怪物/u34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/怪物/u36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/怪物/u38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/怪物/u40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/掠夺/u14.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/掠夺/u16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/掠夺/u18.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/掠夺/u2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/掠夺/u30_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/收益渠道/u4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/收益渠道/u8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/祭坛/u12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/祭坛/u14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/祭坛/u16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/祭坛/u18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/祭坛/u20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/祭坛/u22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/祭坛/u24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/祭坛/u30_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/祭坛/u8_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/英雄/u20_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/英雄/u20_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/英雄/u38_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/英雄/u38_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/英雄/u38_seg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/英雄/u40_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/英雄/u42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/英雄/u44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/英雄/u46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/英雄/u4_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/英雄/u6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/资源主要产耗、用途/u0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/资源主要产耗、用途/u10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/资源主要产耗、用途/u12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/资源主要产耗、用途/u26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/资源主要产耗、用途/u28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/资源主要产耗、用途/u30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/资源主要产耗、用途/u48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/资源主要产耗、用途/u6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/资源主要产耗、用途/u60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u26_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u28_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u28_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u28_seg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u36_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u36_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u36_seg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u42.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u44.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u46.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u62_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u64_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u64_seg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u64_seg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u64_seg3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u66_seg0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/images/魔王/u8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/plugins/page_notes/page_notes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/plugins/page_notes/styles/page_notes.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/plugins/sitemap/sitemap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/plugins/sitemap/styles/images/079_page_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/plugins/sitemap/styles/images/086_case_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/plugins/sitemap/styles/images/225_responsive_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/plugins/sitemap/styles/images/228_togglenotes_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/plugins/sitemap/styles/images/229_variables_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/plugins/sitemap/styles/images/231_event_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/plugins/sitemap/styles/images/232_search_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/plugins/sitemap/styles/images/233_hyperlink_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/plugins/sitemap/styles/images/235_folderclosed_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/plugins/sitemap/styles/images/236_folderopen_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/plugins/sitemap/styles/images/adaptivecheck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/plugins/sitemap/styles/images/images.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/plugins/sitemap/styles/images/minus.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/plugins/sitemap/styles/images/plus.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/plugins/sitemap/styles/sitemap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/Other.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/chrome/allow_access.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/chrome/axure-chrome-extension.crx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/chrome/axure_logo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/chrome/axure_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/chrome/chrome.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/chrome/extensions_menu.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/chrome/splitter.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/chrome/splitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/axure_rp_page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/images/images.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/images/newwindow.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/images/note.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/images/ui-bg_glass_75_ffffff_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/images/ui-bg_inset-soft_95_fef1ec_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/images/ui-icons_222222_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/images/ui-icons_454545_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/images/ui-icons_888888_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/jquery-ui-themes.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/expand.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/images/259_close_12rollover1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/images/259_close_12rollover2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/images/260_collapse_12rollover1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/images/260_collapse_12rollover2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/images/261_expand_12rollover1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/images/261_expand_12rollover2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/images/images.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/images/transparent.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/reload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/action.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/adaptive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/annotation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/axQuery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/axQuery.std.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/doc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/drag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/events.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/expr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/flyout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/geometry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/globals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/ie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/init.temp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/legacy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/move.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/repeater.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/sto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/tree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/utils.temp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/variables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/viewer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axure/visibility.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/axutils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/jquery-ui-1.8.10.custom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/messagecenter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/player/axplayer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/resources/scripts/player/splitter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/start.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/start_c_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/主框架.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/主结构.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/主结构_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/主结构_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/主结构_3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/增值扩充服务收费项目.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/店铺.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/怪物.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/掠夺.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/收益渠道.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/祭坛.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/英雄.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/资源主要产耗、用途.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/axure/魔王.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../design/s设计框架和文档.rp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -273,10 +13,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="405">
+                <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1383" />
@@ -304,7 +60,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../README.md" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -332,14 +88,16 @@
       <updated>1576325975501</updated>
       <workItem from="1576325977848" duration="16000" />
       <workItem from="1576326007054" duration="4000" />
+      <workItem from="1576326112852" duration="1501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20000" />
+    <option name="totallyTimeSpent" value="1521000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17557861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -362,5 +120,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="405">
+            <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
