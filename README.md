@@ -58,6 +58,9 @@
 
 宝藏：大收集系统，你可以获得很多稀有的数据加成的宝物，在魔王之间互相流转，ERC721和1155的体系可以很便捷的在一些诸如OpenSea那样的网站上快速流转，曝光！
 
+![game1](https://raw.githubusercontent.com/lostjoker/demontap/0d7235e08b6c7bfd87c1bd6c5dc4bcf3c29f97aa/design/j%E6%88%AA%E5%9B%BE/game8.png)
+（参考表现）
+
 同时，我们也正在不断努力改善美术表现中，也正在匹配合适的资源支持中
 
 
