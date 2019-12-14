@@ -8,7 +8,6 @@ import * as log4js from 'log4js'
 import { randInt } from '../../util/CommonUtil'
 import _ from 'lodash'
 import { UserService } from '../services/modules/UserService'
-import { AwaitLock } from '../services/util/AwaitLock'
 
 @Controller('gacha')
 export default class GachaController {
@@ -25,13 +24,11 @@ export default class GachaController {
         const player = this.game.generatePlayerData(user)
         user.playerData = player
 
-        let goldcost = 1000
+        let cashCost = 1000
 
         if (gachaType === 'egt') {
-            goldcost = 1000
+            cashCost = 10000
         }
-
-        const cashCost = goldcost / 10000
 
         if (player.cash < cashCost) {
             throw new GmudException(this.gamedata.getText('UI/hint_not_enough_egt'))
@@ -59,7 +56,7 @@ export default class GachaController {
 
         const monster = monsterPool[i]
 
-        player.gold -= goldcost
+        player.addCash(-cashCost)
 
         let soul = 0
         let msg = ''

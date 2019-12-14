@@ -67,10 +67,10 @@
       "translation": "Login"
     },
     "btn_readyreg": {
-      "translation": "Reg"
+      "translation": "Sign up"
     },
     "btn_return": {
-      "translation": "Sign up"
+      "translation": "Return"
     },
     "et_name": {
       "translation": "Username"
@@ -145,19 +145,19 @@
       "translation": "Activated"
     },
     "hint_na": {
-      "translation": "Not Open Yet "
+      "translation": "TBC"
     },
     "hint_pleaseLoginMetamask": {
       "translation": "Metamask is required"
     },
     "hint_not_enough_egt": {
-      "translation": "need more EGT"
+      "translation": "Insufficient EGT"
     },
     "hint_copy_succ": {
-      "translation": "The charge address has been copied to your clipboard"
+      "translation": "Copied"
     },
     "hint_upgrade_succ": {
-      "translation": "Upgrade Complete"
+      "translation": "Upgrade Completed"
     },
     "hint_confirm_gacha_small": {
       "translation": "Are you sure?"
@@ -169,16 +169,16 @@
       "translation": "You got {0}"
     },
     "hint_monster_got_1": {
-      "translation": "You got {0} ( resolved to {1} shards )"
+      "translation": "You got {0} ( resolved to {1} soul )"
     },
     "hint_soul_got": {
-      "translation": "you got {1} shards *{0}"
+      "translation": "you got {1} soul *{0}"
     },
     "hint_soul_not_enough": {
-      "translation": "you need more shards"
+      "translation": "Insufficient soul"
     },
     "hint_skill_locked": {
-      "translation": "Not Unlocked Yet"
+      "translation": "Unlocked"
     }
   },
   "MonsterName": {

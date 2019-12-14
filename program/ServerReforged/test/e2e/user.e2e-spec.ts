@@ -7,7 +7,7 @@ import 'reflect-metadata'
 import { StatusCode } from '../../src/core/GmudException'
 import '../support/TestSupport'
 import { postForRes, TestContext } from '../support/TestSupport'
-import { MysqlService } from '../../src/app/services/db/MysqlProvider'
+import { MysqlService } from '../../src/app/services/db/MysqlService'
 import { RedisService } from '../../src/app/services/db/RedisService'
 
 const expect = chai.expect

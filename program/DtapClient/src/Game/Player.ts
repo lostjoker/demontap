@@ -600,10 +600,10 @@ class Player {
 
             this.updateMonsterList(data.monsters)
             this.updateInventory(data.inventory)
+        }
 
-            if (GameUI.Instance) {
-                GameUI.Instance.updatePlayer()
-            }
+        if (GameUI.Instance) {
+            GameUI.Instance.updatePlayer()
         }
     }
 

@@ -45,6 +45,30 @@ class GameUI extends eui.Component {
     }
 
     /**
+     * 向服务端同步验证数据
+     */
+    @egretTimer({
+        name: 'timer_syn',
+        delay: 5000,
+        autoStart: true,
+    })
+    async synEmit() {
+        const res = await NetWork.requestWithToken('demon/poll')
+
+        if (res.ok) {
+            const data = res.data as any[]
+            for (const message of data) {
+                if (message.type === 'charge') {
+                    Player.me.egtCash = message.newEgt
+                    Player.me.update()
+
+                    Tools.Hint(`You have charged ${message.value} EGT`)
+                }
+            }
+        }
+    }
+
+    /**
      * 创建全服消息显示
      */
     public updateServerNotice(data): void {

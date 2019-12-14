@@ -60,7 +60,9 @@ class BtnGroupDemon extends eui.Component {
         GameUI.Instance.currentState = GameUI.STATUE.DEMON
         this.currentState = this.STATUES.NORMAL
         GameUI.Instance.demon.currentState = 'attr'
-        GameUI.Instance.demon.updatePlayer()
+        // GameUI.Instance.demon.updatePlayer()
+
+        setTimeout(() => GameUI.Instance.updatePlayer(), 100)
 
         // if (this.currentState == this.STATUES.NORMAL) {
         //     this.currentState = this.STATUES.EXTEND

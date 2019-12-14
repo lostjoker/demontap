@@ -6,9 +6,9 @@
 	<e:Label id="lblChargeAddr" text="0x2d2968cdf264Ebf75D27174E306170A77B655537" size="25" top="75" horizontalCenter="0"/>
 	<e:Label id="lblCharge2" text="将任意数值的以太主网EGT转入充值地址以充值（最小0.00001）或点击下方按钮调用Metamask充值" anchorOffsetX="0" top="270" size="35" left="35" right="35"/>
 	<e:Button id="btnCharge192" label="充值192EGT" x="39" y="574" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84"/>
-	<e:Button id="btnCharge12" label="充值12EGT" x="273.5" y="448" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84"/>
-	<e:Button id="btnCharge30" label="充值30EGT" y="448" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84" x="508"/>
-	<e:Button id="btnCharge6" label="充值6EGT" y="448" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84" x="39"/>
+	<e:Button id="btnCharge12" label="充值12EGT" x="273.5" y="448" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84" visible="false"/>
+	<e:Button id="btnCharge30" label="充值30EGT" y="448" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84" x="508" visible="false"/>
+	<e:Button id="btnCharge6" label="充值6EGT" y="448" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84" x="39" visible="false"/>
 	<e:Button id="btnCharge648" label="充值648EGT" y="574" left="508" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84"/>
 	<e:Button id="btnCharge368" label="充值368EGT" y="574" skinName="btnBlue" anchorOffsetX="0" width="168" anchorOffsetY="0" height="84" left="274"/>
 </e:Skin>

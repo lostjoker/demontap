@@ -7,13 +7,13 @@
 	<e:Button id="btn_ok" label="好哒！" skinName="btnBlackBig" horizontalCenter="0" bottom="-20" width="50%" height="80"/>
 	<e:Button id="btn_gacha0" label="转个小的" top="150" horizontalCenter="-150" skinName="btnBlueRoundBig"/>
 	<e:Button id="btn_gacha1" label="转个高级" top="150" horizontalCenter="150" skinName="btnGreenRoundBig"/>
-	<e:Image width="20" height="20" x="473" y="282" source="egt_png"/>
-	<e:Label text="1" x="501.5" y="277"/>
+	<e:Image width="20" height="20" x="454" y="282" source="egt_png"/>
+	<e:Label text="10000" x="476" y="277"/>
 	<e:Scroller id="sc_monster" width="100%" scrollPolicyV="auto" height="55%" top="375">
 		<e:Group id="g_monster">
 		</e:Group>
 	</e:Scroller>
 	<e:Button id="btn_close" top="5" skinName="btnText" width="70" height="70" label="X" right="10"/>
 	<e:Image width="20" height="20" x="169" y="282" source="egt_png"/>
-	<e:Label text="0.1" x="189" y="277"/>
+	<e:Label text="1000" x="189" y="277"/>
 </e:Skin>

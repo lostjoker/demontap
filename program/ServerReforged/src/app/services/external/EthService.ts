@@ -7,6 +7,7 @@ import AxiosRequestService from './AxiosRequestService'
 import User from '../../models/User'
 import { UserService } from '../modules/UserService'
 import { ConfigService } from '../config/ConfigService'
+import PushService from '../core/PushService'
 
 type ChainData = {
     ethScan: string
@@ -52,6 +53,7 @@ export default class EthService implements OnModuleInit {
         private readonly redis: RedisService,
         private readonly axios: AxiosRequestService,
         private readonly config: ConfigService,
+        private readonly pushService: PushService,
 
         @Inject(forwardRef(() => UserService))
         private readonly userService: UserService,
@@ -98,7 +100,7 @@ export default class EthService implements OnModuleInit {
                 if (res?.data?.status === '1') {
                     const result = res.data.result
                     for (const tx of result) {
-                        if (Number(tx.confirmations) > 10) {
+                        if (Number(tx.confirmations) > 1) {
                             const key = `${tx.blockNumber}_${tx.hash}_${tx.from}_${tx.to}`
 
                             if (!(await this.redis.sismember('eth:s_confirmedTx', key))) {
@@ -120,6 +122,16 @@ export default class EthService implements OnModuleInit {
                                     await this.userService.addEgt(user, value)
 
                                     this.logger.info(`用户${user.id}充值了${value} EGT`)
+
+                                    await user.reload()
+
+                                    this.pushService
+                                        .push(user, {
+                                            type: 'charge',
+                                            value,
+                                            newEgt: Number(user.egtCash),
+                                        })
+                                        .then()
                                 } else {
                                     this.logger.debug(`未找到充值地址为${tx.to}的用户`)
                                 }

@@ -187,6 +187,10 @@ export default class Player {
         record.soulCount += count
     }
 
+    addCash(value: number) {
+        this.gold += value * 10000
+    }
+
     /**
      * 初始化物品栏
      * @param data 物品栏数据

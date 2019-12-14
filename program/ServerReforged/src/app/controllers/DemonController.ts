@@ -4,10 +4,15 @@ import User from '../models/User'
 import Player from '../game/Player'
 import { GameService } from '../services/modules/GameService'
 import GamedataService from '../services/core/GamedataService'
+import PushService from '../services/core/PushService'
 
 @Controller('demon')
 export default class DemonController {
-    constructor(private readonly game: GameService, private readonly gamedata: GamedataService) {}
+    constructor(
+        private readonly game: GameService,
+        private readonly gamedata: GamedataService,
+        private readonly pushService: PushService,
+    ) {}
 
     /**
      * 【请求】升级恶魔
@@ -37,5 +42,10 @@ export default class DemonController {
         } else {
             throw new ForbiddenException(this.gamedata.getText('UI/hint_not_enough_egt'))
         }
+    }
+
+    @Post('poll')
+    async poll(@UserFromToken() user: User) {
+        return this.pushService.poll(user)
     }
 }

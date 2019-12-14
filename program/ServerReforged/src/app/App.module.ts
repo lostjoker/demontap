@@ -3,7 +3,7 @@ import UserController from './controllers/UserController'
 import { UserService } from './services/modules/UserService'
 import { RedisService } from './services/db/RedisService'
 import { ConfigService } from './services/config/ConfigService'
-import { MysqlService } from './services/db/MysqlProvider'
+import { MysqlService } from './services/db/MysqlService'
 import { ModuleMetadata } from '@nestjs/common/interfaces'
 import { AdminService } from './services/modules/AdminService'
 import GamedataService from './services/core/GamedataService'
@@ -13,6 +13,7 @@ import EthService from './services/external/EthService'
 import AxiosRequestService from './services/external/AxiosRequestService'
 import StageController from './controllers/StageController'
 import GachaController from './controllers/GachaController'
+import PushService from './services/core/PushService'
 
 export const AppModuleMetadata: ModuleMetadata = {
     // imports: [HttpModule],
@@ -27,6 +28,7 @@ export const AppModuleMetadata: ModuleMetadata = {
         GameService,
         EthService,
         AxiosRequestService,
+        PushService,
     ],
     exports: [
         RedisService,
