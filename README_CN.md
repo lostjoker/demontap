@@ -2,7 +2,7 @@
 
 恶魔点击是一款放置类点击游戏，围绕轻度爽快的体验，深度的养成系统，贸易市场，资产确权等链圈适配属性量身定制的CryptoGame
 
-你可以通过访问：http://dtap.newgmud.cn/ 来访问测试版本的DemonTap
+你可以通过访问：http://neona.t1t1t.cn/egret/index.html 来访问测试版本的DemonTap
 
 注册进入游戏后，服务器会默认分配给你一个指定的充值EGT钱包地址（点击上方EGT图标即可），充值正式的EGT即可到账
 
@@ -69,5 +69,5 @@
 ## 轻松爽快的游戏模式，谁都可以上手！大魔王逆袭！！勇者别嚣张！
 
 
-http://dtap.newgmud.cn/
+http://neona.t1t1t.cn/egret/index.html
 
