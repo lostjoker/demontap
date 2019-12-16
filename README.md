@@ -1,41 +1,43 @@
 # DemonTap
 
-恶魔点击是一款放置类点击游戏，围绕轻度爽快的体验，深度的养成系统，贸易市场，资产确权等链圈适配属性量身定制的CryptoGame
+DevilTap is a clicker crypto game with blockchain features such as a cool experience, a deep development system, a trading market, and asset confirmation.
 
-你可以通过访问：http://dtap.newgmud.cn/ 来访问测试版本的DemonTap
 
-注册进入游戏后，服务器会默认分配给你一个指定的充值EGT钱包地址（点击上方EGT图标即可），充值正式的EGT即可到账
+Testnet address：http://dtap.newgmud.cn/ 
+
+After registering, the server will assign you a designated recharge EGT wallet address by default (just click the EGT icon above), then you could recharge EGT.
+
 
 ![game1](https://raw.githubusercontent.com/lostjoker/demontap/55153318e0541d01a89a3fad9142f9e3422917b7/design/j%E6%88%AA%E5%9B%BE/game4.png)
 
 ![game1](https://raw.githubusercontent.com/lostjoker/demontap/55153318e0541d01a89a3fad9142f9e3422917b7/design/j%E6%88%AA%E5%9B%BE/game5.png)
 
 
-游戏背景：
+Game background:
 
-魔王的世界总是被勇者，英雄们侵略很是苦恼，魔王的世界也不容易。
+The demon in this world is always being attacked by heros and they are upset and hard.
 
-终于，魔王和怪物们联合起来，去世界扫荡英雄了！
+Finally, the demon king and the monsters unite and go to sweep the heroes!
 
-一个新奇视角的游戏故事背景！
+A fresh game background starts!
 
 
 ![game1](https://raw.githubusercontent.com/lostjoker/demontap/ce28df190b3e28c0ab23e7c00444d8af833803e3/design/j%E6%88%AA%E5%9B%BE/game1.png)
 
 
 
-# 游戏模式：
+# Gameplay：
 
 
-玩家挂机自动或主动点击产生收益，随着越往后的关卡，英雄越强大（后续会加入各式各样的英雄抵抗技能）
+Player automatically or actively clicks to generate revenue, the hero will become more powerful as the level progresses (all kinds of hero resistance skills will be added later)
 
-你控制的是大魔王，大魔王通过升级自身属性，来强化点击威力。
+You control the demon king and he enhances the power by upgrading his attributes.
 
 
 ![game1](https://raw.githubusercontent.com/lostjoker/demontap/ce28df190b3e28c0ab23e7c00444d8af833803e3/design/j%E6%88%AA%E5%9B%BE/game2.png)
 
 
-作为大魔王，你可以招募各式各样的怪物们，来辅助强化你的战斗效果，辅助提高收益（怪物们通过扭蛋Gacha抽取，数据不同）
+As a demon king, you can recruit all kinds of monsters to help strengthen your battle effects and increase the revenue (monsters are extracted through Gacha)
 
 ![game1](https://raw.githubusercontent.com/lostjoker/demontap/0600f14ee3678355c72c5fefb78acf9bcb765deb/design/j%E6%88%AA%E5%9B%BE/game6.png)
 
@@ -43,31 +45,27 @@
 ![game1](https://raw.githubusercontent.com/lostjoker/demontap/0600f14ee3678355c72c5fefb78acf9bcb765deb/design/j%E6%88%AA%E5%9B%BE/game7.png)
 
 
-随着游戏深入，魔王会获得各式各样的技能，来加速消灭勇者们。
+As the game progresses, the demon king will acquire a variety of skills to accelerate the elimination of the heros.
 
 
 
+# What's more：
 
-# 游戏扩展：
+Grab: As the demon king, you can also grab the resources from other demon kings (asynchronous PVP).
 
-掠夺：作为魔王也可以去抢占其他魔王的资源，异步的PVP。
+Market: The monsters of the Demon King can trade with each other among players, and the scarcity of monsters is different.
 
-市场：魔王麾下的怪物可以在玩家之间互相贸易，不同品级的怪物稀缺性不同。
+Prison: You can capture heroes as guards of your position to obstruct other demon kings from stealing your assets.
 
-囚笼：可以俘虏英雄，作为你魔王阵地的守卫，来阻挠其他魔王觊觎你的财富，前来掠夺。
-
-宝藏：大收集系统，你可以获得很多稀有的数据加成的宝物，在魔王之间互相流转，ERC721和1155的体系可以很便捷的在一些诸如OpenSea那样的网站上快速流转，曝光！
-
+Treasure: The collection system allows you to get a lot of rare data-plus treasures, which can be transferred between players. The systems of ERC721 and 1155 assets can be easily transferred and exposed on websites such as OpenSea!
 ![game1](https://raw.githubusercontent.com/lostjoker/demontap/0d7235e08b6c7bfd87c1bd6c5dc4bcf3c29f97aa/design/j%E6%88%AA%E5%9B%BE/game8.png)
-（参考表现）
+（FYI）
 
-同时，我们也正在不断努力改善美术表现中，也正在匹配合适的资源支持中
+At the same time, we are constantly striving to improve the performance of art, and we are matching the appropriate resources to support it!
 
+# Why are you waiting?
 
-# 还在等什么？
-
-## 轻松爽快的游戏模式，谁都可以上手！大魔王逆袭！！勇者别嚣张！
-
+## Easy and cool gameplay for everyone! Your weakness will inflate heros' arrogance! 
 
 http://dtap.newgmud.cn/
 
