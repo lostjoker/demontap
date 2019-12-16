@@ -1,6 +1,6 @@
 # DemonTap
 
-DevilTap is a clicker crypto game with blockchain features such as a cool experience, a deep development system, a trading market, and asset confirmation.
+DemonTap is a clicker crypto game with blockchain features such as a cool experience, a deep development system, a trading market, and asset confirmation.
 
 
 Testnet address：http://neona.t1t1t.cn/egret/index.html
