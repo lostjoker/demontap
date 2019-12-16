@@ -119,7 +119,11 @@ class Dialog extends eui.Component {
     lbl_title: eui.Label
     img_res: eui.Image
     lbl_content: eui.Label
+
+    @byLanguage()
     btn_yes: eui.Button
+
+    @byLanguage()
     btn_no: eui.Button
 
     constructor(

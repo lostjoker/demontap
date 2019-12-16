@@ -1,5 +1,5 @@
 ---
-- hosts: jsy1
+- hosts: qc2
   remote_user: ubuntu
   become: yes
   become_user: root
@@ -13,7 +13,7 @@
         recursive: yes
     - name: Install npm packages
       command:
-        cmd: npm i
+        cmd: sudo -H npm i
         chdir: /data/noderoot/DtapServer/
     - name: Compile Typescript
       command:

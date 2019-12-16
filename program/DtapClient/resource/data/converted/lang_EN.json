@@ -179,6 +179,12 @@
     },
     "hint_skill_locked": {
       "translation": "Unlocked"
+    },
+    "btn_yes": {
+      "translation": "OK"
+    },
+    "btn_no": {
+      "translation": "Cancel"
     }
   },
   "MonsterName": {

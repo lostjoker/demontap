@@ -59,6 +59,34 @@ class EgtChargePanel extends eui.Component implements eui.UIComponent {
             return
         }
 
+        try {
+            const accounts = await ethereum.send('eth_requestAccounts')
+            // You now have an array of accounts!
+            // Currently only ever one:
+            // ['0xFDEa65C8e26263F6d9A1B5de9555D2931A33b825']
+
+            const contract = web3.eth.contract(ERC20ABI).at(Config.ERC20_ADDR)
+
+            const ethChargeAddr = Player.me.ethChargeAddr
+            contract.transfer(
+                ethChargeAddr,
+                web3.toWei(value, 'ether'),
+                { from: accounts[0] },
+                e => {
+                    // if (!e) {
+                    //     Tools.Hint('转账成功后请等待区块确认！')
+                    // }
+                },
+            )
+        } catch (error) {
+            if (error.code === 4001) {
+                // EIP 1193 userRejectedRequest error
+                Tools.HintByLanguage('UI/hint_pleaseLoginMetamask')
+            } else {
+                console.error(error)
+            }
+        }
+
         // // Connect to the network
         // const provider = new ethers.providers.Web3Provider(ethereum)
         //
@@ -73,15 +101,6 @@ class EgtChargePanel extends eui.Component implements eui.UIComponent {
 
         // tslint:disable-next-line:no-string-literal
         // const web3 = new Web3(window['ethereum'])
-
-        const contract = web3.eth.contract(ERC20ABI).at(Config.ERC20_ADDR)
-
-        const ethChargeAddr = Player.me.ethChargeAddr
-        contract.transfer(ethChargeAddr, web3.toWei(value, 'ether'), e => {
-            // if (!e) {
-            //     Tools.Hint('转账成功后请等待区块确认！')
-            // }
-        })
     }
 
     @tapListener('btnCopy')
@@ -101,7 +120,7 @@ class EgtChargePanel extends eui.Component implements eui.UIComponent {
      * @returns 如果没错返回null，否则返回错误信息
      */
     async metamaskError(): Promise<string | null> {
-        if (typeof web3 === 'undefined') {
+        if (typeof web3 === 'undefined' || typeof ethereum === 'undefined') {
             return Promise.resolve(GameData.getText('UI/hint_pleaseLoginMetamask'))
         }
         //
