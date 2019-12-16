@@ -3,7 +3,7 @@
 DevilTap is a clicker crypto game with blockchain features such as a cool experience, a deep development system, a trading market, and asset confirmation.
 
 
-Testnet address：http://dtap.newgmud.cn/ 
+Testnet address：http://neona.t1t1t.cn/egret/index.html
 
 After registering, the server will assign you a designated recharge EGT wallet address by default (just click the EGT icon above), then you could recharge EGT.
 
@@ -67,5 +67,5 @@ At the same time, we are constantly striving to improve the performance of art, 
 
 ## Easy and cool gameplay for everyone! Your weakness will inflate heros' arrogance! 
 
-http://dtap.newgmud.cn/
+http://neona.t1t1t.cn/egret/index.html
 
