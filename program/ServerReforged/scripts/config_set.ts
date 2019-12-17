@@ -11,14 +11,14 @@ const conf = new ConfigService(envName)
 ;(async () => {
     let serverHost = ''
     if (conf.envName === 'development') {
-        serverHost = await internalIp.v4()
+        serverHost = `http://${await internalIp.v4()}:8453`
     } else {
         serverHost = conf.envConfig.SERVER_ADDR
     }
 
     const s = `// 自动生成的配置
 namespace Config {
-    export const SERVER_ADDR = 'http://${serverHost}:8453'
+    export const SERVER_ADDR = '${serverHost}'
     export const ERC20_ADDR = '${conf.ETHConfig.erc20Addr}'
 }
 `

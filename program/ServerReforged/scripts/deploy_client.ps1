@@ -13,7 +13,7 @@ egret publish --version latest
 
 #wsl ansible-playbook ./scripts/deploy_client.yml
 
-wsl ~/.local/bin/coscmd delete -r /egret/
+wsl ~/.local/bin/coscmd delete -r /egret/ -f
 wsl ~/.local/bin/coscmd upload -r ./bin-release/web/latest/ egret
 
 Set-Location $loc

@@ -1,5 +1,5 @@
 ---
-- hosts: qc2
+- hosts: qc1
   remote_user: ubuntu
   become: yes
   become_user: root

@@ -7,8 +7,7 @@ apps:
   listen_timeout: 3000
 
   env:
-    NODE_ENV:        alpha
+    NODE_ENV:        alpha1
     IN_PM2:          yes
-
-    # 改为由apache提供https
+    PORT:            8453
     HTTPS:           disabled
